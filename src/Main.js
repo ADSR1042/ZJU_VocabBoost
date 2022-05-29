@@ -4,55 +4,58 @@ import { Button, Drawer, Space } from "antd";
 import { Radio } from "antd";
 import { useState } from "react";
 import { UnorderedListOutlined } from "@ant-design/icons";
-import { Checkbox, Row, Col, Switch, Progress } from "antd";
+import { Checkbox, Row, Col, Switch, Progress, Input } from "antd";
+import data from "./newdata"
 const { Content, Footer } = Layout;
+let answer = '';
 let unit = [
   {
     label: "Unit1",
-    value: "Unit1",
+    value: "1",
   },
   {
     label: "Unit2",
-    value: "Unit2",
+    value: "2",
   },
   {
     label: "Unit3",
-    value: "Unit3",
+    value: "3",
   },
   {
     label: "Unit4",
-    value: "Unit4",
+    value: "4",
   },
   {
     label: "Unit5",
-    value: "Unit5",
+    value: "5",
   },
   {
     label: "Unit6",
-    value: "Unit6",
+    value: "6",
   },
   {
     label: "Unit7",
-    value: "Unit7",
+    value: "7",
   },
   {
     label: "Unit8",
-    value: "Unit8",
+    value: "8",
   },
 ];
 const mode = [
   { label: "顺序模式", value: "0" },
   { label: "随机模式", value: "1" },
 ];
+let unitable = [true,true,true,true,true,true,true,true];
 //------------------checkbox------------------
-const onChange = (checkedValues) => {
+const CheckChange = (checkedValues) => {
   console.log("checked = ", checkedValues);
 };
 //------------------checkbox------------------
 
 function Main(props) {
   //------------------Drawer------------------
-  const [Drawervisible, setVisible] = useState(false);
+  const [Drawervisible, setVisible] = useState(true);
   const showDrawer = () => {
     setVisible(true);
   };
@@ -83,6 +86,7 @@ function Main(props) {
     console.log(Switchvalue2);
   };
   //------------------Switch------------------
+
   //------------------Progress------------------
   const [Progressvalue, setProgressValue] = useState(10);
   //------------------Progress------------------
@@ -110,7 +114,6 @@ function Main(props) {
           maskClosable={false}
           extra={
             <Space>
-              <Button onClick={onClose}>取消</Button>
               <Button type="primary" onClick={onClose}>
                 确定
               </Button>
@@ -134,16 +137,16 @@ function Main(props) {
                 <Checkbox.Group
                   options={unit}
                   defaultValue={[
-                    "Unit1",
-                    "Unit2",
-                    "Unit3",
-                    "Unit4",
-                    "Unit5",
-                    "Unit6",
-                    "Unit7",
-                    "Unit8",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
                   ]}
-                  onChange={onChange}
+                  onChange={CheckChange}
                 />
               </Col>
             </Row>
@@ -165,15 +168,30 @@ function Main(props) {
           }}
         >
           <div className="site-layout-content">
-            <div style={{textAlign : "left"}}>
-                <div>这里有内容</div>
-                <div>这里还有内容</div>
-                <div>这里还是有内容</div>
-                <div>这里居然还有内容</div>
-                <div>这里真的有内容吗</div>
-                <div>这里好像有一点内容</div>
+            <div style={{ textAlign: "left" }}>
+            <div>{data[1][1].word}</div>
+              <div>这里有内容</div>
+              <div>这里还有内容</div>
+              <div>这里还是有内容</div>
+              <div>这里居然还有内容</div>
+              <div>这里真的有内容吗</div>
+              <div>这里好像有一点内容</div>
             </div>
-              <Progress percent={Progressvalue} style = {{position:"relative",bottom :"-380px"}}></Progress>
+            <div style={{display:"flex" ,justifyContent:"center"}}>
+              <Input
+                placeholder="type your answer here"
+                size="large"
+                style={{ width: "500px", margin: "50px" }}
+                onPressEnter={(e) => {console.log(e);e.target.value = ''}}
+                onChange={(e) => {answer = e.target.value;console.log(answer)}}
+                autoFocus
+              />
+            </div>
+
+            <Progress
+              percent={Progressvalue}
+              style={{ position: "relative", top: "240px" }}
+            ></Progress>
           </div>
         </Content>
         <Footer
