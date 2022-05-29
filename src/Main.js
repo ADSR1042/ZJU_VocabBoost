@@ -4,55 +4,74 @@ import { Button, Drawer, Space } from "antd";
 import { Radio } from "antd";
 import { useState } from "react";
 import { UnorderedListOutlined } from "@ant-design/icons";
-import { Checkbox, Row, Col, Switch, Progress, Input } from "antd";
-import data from "./newdata"
+import { Checkbox, Row, Col, Switch, Progress, Input, Modal } from "antd";
+import data from "./newdata";
 const { Content, Footer } = Layout;
-let answer = '';
+let mode = 0;
+let answertoshow = "123";
+let cx1 = " ";
+let meaning1 = " ";
+let meaning2 = " ";
+let answer = " ";
+let isrunning = false;
 let unit = [
   {
     label: "Unit1",
-    value: "1",
+    value: "0",
   },
   {
     label: "Unit2",
-    value: "2",
+    value: "1",
   },
   {
     label: "Unit3",
-    value: "3",
+    value: "2",
   },
   {
     label: "Unit4",
-    value: "4",
+    value: "3",
   },
   {
     label: "Unit5",
-    value: "5",
+    value: "4",
   },
   {
     label: "Unit6",
-    value: "6",
+    value: "5",
   },
   {
     label: "Unit7",
-    value: "7",
+    value: "6",
   },
   {
     label: "Unit8",
-    value: "8",
+    value: "7",
   },
 ];
-const mode = [
+const Mode = [
   { label: "顺序模式", value: "0" },
   { label: "随机模式", value: "1" },
 ];
-let unitable = [true,true,true,true,true,true,true,true];
+let unitable = [true, true, true, true, true, true, true, true];
 //------------------checkbox------------------
 const CheckChange = (checkedValues) => {
+  let i = 0;
   console.log("checked = ", checkedValues);
+  for (i = 0; i < 8; i++) {
+    unitable[i] = false;
+  }
+  for (i = 0; i < checkedValues.length; i++) {
+    // console.log(checkedValues[i]);
+    unitable[parseInt(checkedValues[i])] = true;
+  }
+  console.log(unitable);
 };
 //------------------checkbox------------------
 
+//------------------logic------------------
+function logic() {}
+function GetUnit() {}
+//------------------logic------------------
 function Main(props) {
   //------------------Drawer------------------
   const [Drawervisible, setVisible] = useState(true);
@@ -90,8 +109,28 @@ function Main(props) {
   //------------------Progress------------------
   const [Progressvalue, setProgressValue] = useState(10);
   //------------------Progress------------------
+  //------------------Modal------------------
+  const [isModalVisible, setIsModalVisible] = useState(true);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+  //------------------Modal------------------
   return (
     <div className="site-page-header-ghost-wrapper">
+        <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+      </Modal>
       <Layout className="layout">
         <PageHeader
           className="site-page-header"
@@ -126,7 +165,7 @@ function Main(props) {
               <Radio.Group
                 onChange={onChangeRadio}
                 value={Radiovalue}
-                options={mode}
+                options={Mode}
                 optionType="button"
                 buttonStyle="solid"
               />
@@ -136,16 +175,7 @@ function Main(props) {
               <Col span={3}>
                 <Checkbox.Group
                   options={unit}
-                  defaultValue={[
-                    "1",
-                    "2",
-                    "3",
-                    "4",
-                    "5",
-                    "6",
-                    "7",
-                    "8",
-                  ]}
+                  defaultValue={["0", "1", "2", "3", "4", "5", "6", "7"]}
                   onChange={CheckChange}
                 />
               </Col>
@@ -169,28 +199,37 @@ function Main(props) {
         >
           <div className="site-layout-content">
             <div style={{ textAlign: "left" }}>
-            <div>{data[1][1].word}</div>
-              <div>这里有内容</div>
-              <div>这里还有内容</div>
-              <div>这里还是有内容</div>
-              <div>这里居然还有内容</div>
-              <div>这里真的有内容吗</div>
-              <div>这里好像有一点内容</div>
+              <div>{data[1][1].word}</div>
+              <h3>
+                <big>
+                  <b>{cx1}</b>
+                </big>
+              </h3>
+              <h3>{meaning1}</h3>
+              <h3>{meaning2}</h3>
+              <h2>{answertoshow}</h2>
             </div>
-            <div style={{display:"flex" ,justifyContent:"center"}}>
+            <div style={{ display: "flex", justifyContent: "center" }}>
               <Input
                 placeholder="type your answer here"
                 size="large"
                 style={{ width: "500px", margin: "50px" }}
-                onPressEnter={(e) => {console.log(e);e.target.value = ''}}
-                onChange={(e) => {answer = e.target.value;console.log(answer)}}
+                onPressEnter={(e) => {
+                  console.log(e);
+                  e.target.value = "";
+                //   showModal();
+                }}
+                onChange={(e) => {
+                  answer = e.target.value;
+                  console.log(answer);
+                }}
                 autoFocus
               />
             </div>
 
             <Progress
               percent={Progressvalue}
-              style={{ position: "relative", top: "240px" }}
+              style={{ position: "sticky", top: "740px" }}
             ></Progress>
           </div>
         </Content>
