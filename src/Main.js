@@ -33,10 +33,12 @@ const AlertHideCSS = {
 let mode = 0;
 let inputanswer = " ";
 let ischecked = false;
-let unitnow = 0;
+let unitnow = -1;
 let wordnow = 0;
 let firstletter = false;
 let needclear = false; //是否需要清空输入框
+let init = false;
+let process = 0;
 let unit = [
   {
     label: "Unit1",
@@ -102,12 +104,32 @@ function nextunit(unitnow) {
   return 8;
 }
 function answercheck() {
-  if (inputanswer === data[unitnow][wordnow].word) {
+  console.log(inputanswer);
+  console.log(data[unitnow][wordnow].word);
+  if (inputanswer.trim() === data[unitnow][wordnow].word) {
     return true;
   }
   return false;
 }
 
+function ProcessCalculate() {
+  let i = 0;
+  let process = 0;
+  let aim = 0;
+  // console.log(unitable);
+  for (i = 0; i < 8; i++) {
+    if (unitable[i] === true) {
+      aim += data[i].length;
+    }
+  }
+  for (i = 0; i < unitnow; i++) {
+    if (unitable[i] === true) {
+      process += data[i].length;
+    }
+  }
+  process = process + wordnow + 1;
+  return (process / aim) * 100;
+}
 //------------------logic------------------
 function Main(props) {
   //------------------Drawer------------------
@@ -124,30 +146,28 @@ function Main(props) {
   const [Radiovalue, setRadioValue] = useState("0");
   const onChangeRadio = ({ target: { value } }) => {
     console.log("radio1 checked", value);
-    setRadioValue(value);
-    mode = value;
+    if (value === "0") {
+      setRadioValue(value);
+      mode = value;
+    } else {
+      alert("咕咕咕咕");
+      alert("小王已经累的不行了");
+      alert("下次一定");
+    }
   };
   //------------------Radio------------------
 
   //------------------Switch------------------
-  const [Switchvalue1, setSwitchValue1] = useState(true);
   const onChangeSwitch1 = (checked) => {
-    console.log("switch1 checked", checked);
-    setSwitchValue1(!checked);
+    // console.log("switch1 checked", checked);
     firstletter = checked;
-    console.log(firstletter);
-    console.log(Switchvalue1);
+    console.log("首字母检验" + firstletter);
   };
-  const [Switchvalue2, setSwitchValue2] = useState(true);
-  const onChangeSwitch2 = (checked) => {
-    console.log("switch2 checked", checked);
-    setSwitchValue2(!checked);
-    console.log(Switchvalue2);
-  };
+
   //------------------Switch------------------
 
   //------------------Progress------------------
-  const [Progressvalue, setProgressValue] = useState(30);
+  const [Progressvalue, setProgressValue] = useState(process);
   //------------------Progress------------------
   //------------------Modal------------------
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -177,10 +197,10 @@ function Main(props) {
   //------------------Input------------------
 
   //------------------other------------------
-  const [cx1, setCx1] = useState("这个是单词词性");
-  const [cx2, setCx2] = useState("这个是单词词性");
-  const [meaning1, setMeaning1] = useState("这是单词释义1");
-    const [meaning2, setMeaning2] = useState("这是单词释义2");
+  const [cx1, setCx1] = useState("选中输入框后敲击回车开始检测");
+  const [cx2, setCx2] = useState("");
+  const [meaning1, setMeaning1] = useState("");
+  const [meaning2, setMeaning2] = useState("");
 
   function logic() {
     if (mode === 0) {
@@ -188,11 +208,23 @@ function Main(props) {
       console.log("顺序模式");
       console.log("unitnow = " + unitnow);
       console.log("wordnow = " + wordnow);
+      if (init === false) {
+        unitnow = nextunit(unitnow);
+        wordnow = 0;
+        setCx1(data[unitnow][wordnow].cx1);
+        setCx2(data[unitnow][wordnow].cx2);
+        setMeaning1(data[unitnow][wordnow].meaning1);
+        setMeaning2(data[unitnow][wordnow].meaning2);
+        init = true;
+        if (firstletter === true)
+          setSearchVaule(data[unitnow][wordnow].word[0]);
+        return;
+      }
       if (
-        inputanswer === " " ||
+        inputanswer.trim() === "" ||
         (firstletter === true &&
-          inputanswer.length === 1 &&
-          inputanswer === data[unitnow][wordnow].word[0])
+          inputanswer.trim().length === 1 &&
+          inputanswer.trim() === data[unitnow][wordnow].word[0])
       ) {
         console.log("不需要检查");
         //不需要检查答案
@@ -203,7 +235,7 @@ function Main(props) {
           wordnow = 0;
           unitnow = nextunit(unitnow);
           if (unitnow === 8) {
-            // showModal();
+            showModal();
           }
         } else {
           wordnow++;
@@ -218,17 +250,26 @@ function Main(props) {
           setAlertState("success");
           setAlertMessage("回答正确");
           console.log("答案正确");
+          needclear = false;
         } else {
           //答案错误
           ischecked = true;
           console.log("答案错误");
           setAlertVisible(AlertShowCSS);
           setAlertState("error");
-          setAlertMessage("回答错误" + data[unitnow][wordnow].word);
+          setAlertMessage(
+            <span>
+              答案错误 正确答案是{" "}
+              <span style={{ fontSize: "larger", fontWeight: "500" }}>
+                {data[unitnow][wordnow].word}
+              </span>
+            </span>
+          );
+          needclear = false;
         }
       } else {
         console.log("已经检查过了");
-  
+
         ischecked = false;
         needclear = true;
         setAlertVisible(AlertHideCSS);
@@ -242,11 +283,14 @@ function Main(props) {
           wordnow++;
         }
       }
+    } else if (mode === 1) {
     }
     setCx1(data[unitnow][wordnow].cx1);
     setCx2(data[unitnow][wordnow].cx2);
     setMeaning1(data[unitnow][wordnow].meaning1);
     setMeaning2(data[unitnow][wordnow].meaning2);
+    process = ProcessCalculate();
+    setProgressValue(process.toFixed(1));
   }
 
   return (
@@ -314,12 +358,7 @@ function Main(props) {
 
             <Space size={"large"}>
               <div>首字母显示</div>
-              <Switch defaultChecked onChange={onChangeSwitch1} />
-            </Space>
-
-            <Space size={"large"}>
-              <div>进度条显示</div>
-              <Switch defaultChecked onChange={onChangeSwitch2} />
+              <Switch onChange={onChangeSwitch1} />
             </Space>
           </Space>
         </Drawer>
@@ -348,23 +387,22 @@ function Main(props) {
                 placeholder="type your answer here"
                 size="large"
                 style={{
-                  width: "500px",
+                  width: "50%",
                   margin: "50px",
                   top: "450px",
                   position: "absolute",
                 }}
                 value={searchVaule}
                 onPressEnter={(e) => {
+                  inputanswer = e.target.value;
                   logic();
                   if (needclear === true) {
-                    if(firstletter === true)
-                        setSearchVaule(data[unitnow][wordnow].word[0]);
-                    else
-                        setSearchVaule(" ");
+                    if (firstletter === true)
+                      setSearchVaule(data[unitnow][wordnow].word[0]);
+                    else setSearchVaule("");
                   }
                 }}
                 onChange={(e) => {
-                  inputanswer = e.target.value;
                   setSearchVaule(e.target.value);
                   console.log(inputanswer);
                 }}
@@ -378,10 +416,12 @@ function Main(props) {
                 style={AlertVisible}
               />
             </div>
-            <Progress
-              percent={Progressvalue}
-              style={{ position: "sticky", top: "740px" }}
-            ></Progress>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Progress
+                percent={Progressvalue}
+                style={{ position: "absolute", top: "670px", width: "80%" }}
+              ></Progress>
+            </div>
           </div>
         </Content>
         <Footer
