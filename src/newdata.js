@@ -1,5 +1,5 @@
 let data = [];
-data[1] = [
+data[0] = [
   {
     word: "commencement",
     pro: "/kəˈmensmənt/",
@@ -771,7 +771,7 @@ data[1] = [
     eg2: "",
   },
 ];
-data[2] = [
+data[1] = [
   {
     word: "casual",
     pro: "/'kæʒuəl/",
@@ -1620,7 +1620,7 @@ data[2] = [
     eg2: "",
   },
 ];
-data[3] = [
+data[2] = [
   {
     word: "insightful",
     pro: "/ˈɪnsaɪtfl/",
@@ -2352,7 +2352,7 @@ data[3] = [
     eg2: "",
   },
 ];
-data[4] = [
+data[3] = [
   {
     word: "freediving",
     pro: "/ˈfriːˌdaɪvɪŋ/",
@@ -3293,7 +3293,7 @@ data[4] = [
     eg2: "",
   },
 ];
-data[5] = [
+data[4] = [
   {
     word: "epic",
     pro: "/ˈepɪk/",
@@ -4253,7 +4253,7 @@ data[5] = [
     eg2: "",
   },
 ];
-data[6] = [
+data[5] = [
   {
     word: "disclose",
     pro: "/dɪsˈkləʊz/ ",
@@ -5042,7 +5042,7 @@ data[6] = [
     eg2: "",
   },
 ];
-data[7] = [
+data[6] = [
   {
     word: "sphere",
     pro: "/sfɪə/",
@@ -5849,7 +5849,7 @@ data[7] = [
     eg2: "",
   },
 ];
-data[8] = [
+data[7] = [
   {
     word: "afflict",
     pro: "/əˈflɪkt/",
@@ -7106,5 +7106,15 @@ data[8] = [
     meaning2: "2) toward the inside or center of sth. 向内的；向中心的",
     eg2: "e.g. The car was not severely damaged — only the middle of the car door was bent inward.",
   },
-];
+]
+data[8]=[{
+    word: "",
+    pro: "",
+    cx1: "",
+    meaning1:"",
+    eg1: "",
+    cx2: "",
+    meaning2: "",
+    eg2: "",
+}];
 export default data;

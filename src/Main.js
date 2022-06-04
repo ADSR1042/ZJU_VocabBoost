@@ -4,16 +4,43 @@ import { Button, Drawer, Space } from "antd";
 import { Radio } from "antd";
 import { useState } from "react";
 import { UnorderedListOutlined } from "@ant-design/icons";
-import { Checkbox, Row, Col, Switch, Progress, Input, Modal } from "antd";
+import {
+  Checkbox,
+  Row,
+  Col,
+  Switch,
+  Progress,
+  Input,
+  Modal,
+  Alert,
+} from "antd";
 import data from "./newdata";
 const { Content, Footer } = Layout;
+const AlertShowCSS = {
+    top: "570px",
+    width: "50%",
+    margin: "auto",
+    visibility: "visible",
+    position: "absolute",
+  }
+const AlertHideCSS = {
+    top: "570px",
+    width: "50%",
+    margin: "auto",
+    visibility: "hidden",
+    position: "absolute",
+}
 let mode = 0;
 let answertoshow = "123";
-let cx1 = " ";
-let meaning1 = " ";
-let meaning2 = " ";
-let answer = " ";
-let isrunning = false;
+let cx1 = "这个是单词词性";
+let meaning1 = "这是单词释义1";
+let meaning2 = "这是单词释义2";
+let inputanswer = " ";
+let ischecked = false;
+let unitnow = 0;
+let wordnow = 0;
+let firstletter = false;
+let needclear = false;//是否需要清空输入框
 let unit = [
   {
     label: "Unit1",
@@ -69,8 +96,22 @@ const CheckChange = (checkedValues) => {
 //------------------checkbox------------------
 
 //------------------logic------------------
-function logic() {}
-function GetUnit() {}
+function nextunit(unitnow) {
+  let i = 0;
+  for (i = unit; i < 8; i++) {
+    if (unitable[i] === true) {
+      return i;
+    }
+    return 8;
+  }
+}
+function answercheck() {
+  if (inputanswer === data[unitnow][wordnow].word) {
+    return true;
+  }
+  return false;
+}
+
 //------------------logic------------------
 function Main(props) {
   //------------------Drawer------------------
@@ -88,6 +129,7 @@ function Main(props) {
   const onChangeRadio = ({ target: { value } }) => {
     console.log("radio1 checked", value);
     setRadioValue(value);
+    mode = value;
   };
   //------------------Radio------------------
 
@@ -96,6 +138,8 @@ function Main(props) {
   const onChangeSwitch1 = (checked) => {
     console.log("switch1 checked", checked);
     setSwitchValue1(!checked);
+    firstletter = checked;
+    console.log(firstletter);
     console.log(Switchvalue1);
   };
   const [Switchvalue2, setSwitchValue2] = useState(true);
@@ -107,10 +151,10 @@ function Main(props) {
   //------------------Switch------------------
 
   //------------------Progress------------------
-  const [Progressvalue, setProgressValue] = useState(10);
+  const [Progressvalue, setProgressValue] = useState(30);
   //------------------Progress------------------
   //------------------Modal------------------
-  const [isModalVisible, setIsModalVisible] = useState(true);
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
     setIsModalVisible(true);
@@ -124,13 +168,86 @@ function Main(props) {
     setIsModalVisible(false);
   };
   //------------------Modal------------------
+
+  //------------------Alert------------------
+    const [AlertVisible, setAlertVisible] = useState(AlertHideCSS);
+    const [AlertState, setAlertState] = useState("success");
+    const [AlertMessage, setAlertMessage] = useState("回答正确");
+//------------------Alert------------------  
+  function logic(e) {
+    if (mode === 0) {
+      //顺序模式
+      console.log("顺序模式");
+      console.log(unitnow);
+      console.log(wordnow);
+      if (
+        inputanswer === " " ||
+        (firstletter === true &&
+          inputanswer.length === 1 &&
+          inputanswer === data[unitnow][wordnow].word[0])
+      ) {
+          console.log("不需要检查");
+        //不需要检查答案
+        // e.target.value = "";
+        needclear = true;
+        setAlertVisible(AlertHideCSS);
+        ischecked = false;
+        if (wordnow === data[unitnow].length - 1) {
+          wordnow = 0;
+          unitnow = nextunit(unitnow);
+          if (unitnow === 8) {
+            unitnow = 0;
+            showModal();
+          }
+        } else {
+          wordnow++;
+        }
+      } else if (ischecked === false) {
+        //需要检查答案
+        console.log("需要检查答案");
+        if (answercheck() === true) {
+            //答案正确
+          ischecked = true;
+            // setAlertVisible("visible");
+            setAlertVisible(AlertShowCSS);
+            setAlertState("success");
+            setAlertMessage("回答正确");
+          console.log("答案正确");
+        } else {
+            //答案错误
+            ischecked = true;
+            // UpdateAlert(false);
+            console.log("答案错误");
+            // setAlertVisible("visible");
+            setAlertVisible(AlertShowCSS);
+            setAlertState("error");
+            setAlertMessage("回答错误"+data[unitnow][wordnow].word);
+        //   showModal();
+        }
+      }
+      else{
+          //已经检查过答案
+          //下一个词
+        //   e.target.value = "";
+        needclear = true;
+          setAlertVisible(AlertHideCSS);
+        if (wordnow === data[unitnow].length - 1) {
+            wordnow = 0;
+            unitnow = nextunit(unitnow);
+            if (unitnow === 8) {
+              unitnow = 0;
+              showModal();
+            }
+          } else {
+            wordnow++;
+          }
+      }
+    }
+    console.log("needclear = ", needclear);
+  }
+
   return (
     <div className="site-page-header-ghost-wrapper">
-        <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-      </Modal>
       <Layout className="layout">
         <PageHeader
           className="site-page-header"
@@ -145,6 +262,17 @@ function Main(props) {
             ></Button>,
           ]}
         />
+        <Modal
+          title="提示"
+          visible={isModalVisible}
+          onOk={handleOk}
+          onCancel={handleCancel}
+        >
+          <p>已经没有更多的单词啦！</p>
+          <p>很不错啦 继续加油哦~</p>
+          {/* <p>Some contents...</p> */}
+          {/* <p>Some contents...</p> */}
+        </Modal>
         <Drawer
           title="设置"
           placement="right"
@@ -199,9 +327,10 @@ function Main(props) {
         >
           <div className="site-layout-content">
             <div style={{ textAlign: "left" }}>
-              <div>{data[1][1].word}</div>
+              {/* <div>{data[1][1].word}</div> */}
               <h3>
                 <big>
+                  欢迎使用大英四默写器
                   <b>{cx1}</b>
                 </big>
               </h3>
@@ -213,20 +342,35 @@ function Main(props) {
               <Input
                 placeholder="type your answer here"
                 size="large"
-                style={{ width: "500px", margin: "50px" }}
+                style={{
+                  width: "500px",
+                  margin: "50px",
+                  top: "450px",
+                  position: "absolute",
+                }}
                 onPressEnter={(e) => {
-                  console.log(e);
-                  e.target.value = "";
-                //   showModal();
+                   logic(e);
+                   if(needclear === true){
+                       console.log("needclear = true");
+                       console.log(e.target);
+                        e.target.value = "";
+                   }
+                   
                 }}
                 onChange={(e) => {
-                  answer = e.target.value;
-                  console.log(answer);
+                  inputanswer = e.target.value;
+                  console.log(inputanswer);
                 }}
                 autoFocus
               />
             </div>
-
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Alert
+                message={AlertMessage}
+                type={AlertState}
+                style={AlertVisible}
+              />
+            </div>
             <Progress
               percent={Progressvalue}
               style={{ position: "sticky", top: "740px" }}
