@@ -17,30 +17,26 @@ import {
 import data from "./newdata";
 const { Content, Footer } = Layout;
 const AlertShowCSS = {
-    top: "570px",
-    width: "50%",
-    margin: "auto",
-    visibility: "visible",
-    position: "absolute",
-  }
+  top: "570px",
+  width: "50%",
+  margin: "auto",
+  visibility: "visible",
+  position: "absolute",
+};
 const AlertHideCSS = {
-    top: "570px",
-    width: "50%",
-    margin: "auto",
-    visibility: "hidden",
-    position: "absolute",
-}
+  top: "570px",
+  width: "50%",
+  margin: "auto",
+  visibility: "hidden",
+  position: "absolute",
+};
 let mode = 0;
-let answertoshow = "123";
-let cx1 = "这个是单词词性";
-let meaning1 = "这是单词释义1";
-let meaning2 = "这是单词释义2";
 let inputanswer = " ";
 let ischecked = false;
 let unitnow = 0;
 let wordnow = 0;
 let firstletter = false;
-let needclear = false;//是否需要清空输入框
+let needclear = false; //是否需要清空输入框
 let unit = [
   {
     label: "Unit1",
@@ -98,12 +94,12 @@ const CheckChange = (checkedValues) => {
 //------------------logic------------------
 function nextunit(unitnow) {
   let i = 0;
-  for (i = unit; i < 8; i++) {
+  for (i = unitnow + 1; i < 8; i++) {
     if (unitable[i] === true) {
       return i;
     }
-    return 8;
   }
+  return 8;
 }
 function answercheck() {
   if (inputanswer === data[unitnow][wordnow].word) {
@@ -170,25 +166,36 @@ function Main(props) {
   //------------------Modal------------------
 
   //------------------Alert------------------
-    const [AlertVisible, setAlertVisible] = useState(AlertHideCSS);
-    const [AlertState, setAlertState] = useState("success");
-    const [AlertMessage, setAlertMessage] = useState("回答正确");
-//------------------Alert------------------  
-  function logic(e) {
+  const [AlertVisible, setAlertVisible] = useState(AlertHideCSS);
+  const [AlertState, setAlertState] = useState("success");
+  const [AlertMessage, setAlertMessage] = useState("回答正确");
+  //------------------Alert------------------
+
+  //------------------Input------------------
+  const [searchVaule, setSearchVaule] = useState("");
+
+  //------------------Input------------------
+
+  //------------------other------------------
+  const [cx1, setCx1] = useState("这个是单词词性");
+  const [cx2, setCx2] = useState("这个是单词词性");
+  const [meaning1, setMeaning1] = useState("这是单词释义1");
+    const [meaning2, setMeaning2] = useState("这是单词释义2");
+
+  function logic() {
     if (mode === 0) {
       //顺序模式
       console.log("顺序模式");
-      console.log(unitnow);
-      console.log(wordnow);
+      console.log("unitnow = " + unitnow);
+      console.log("wordnow = " + wordnow);
       if (
         inputanswer === " " ||
         (firstletter === true &&
           inputanswer.length === 1 &&
           inputanswer === data[unitnow][wordnow].word[0])
       ) {
-          console.log("不需要检查");
+        console.log("不需要检查");
         //不需要检查答案
-        // e.target.value = "";
         needclear = true;
         setAlertVisible(AlertHideCSS);
         ischecked = false;
@@ -196,8 +203,7 @@ function Main(props) {
           wordnow = 0;
           unitnow = nextunit(unitnow);
           if (unitnow === 8) {
-            unitnow = 0;
-            showModal();
+            // showModal();
           }
         } else {
           wordnow++;
@@ -206,44 +212,41 @@ function Main(props) {
         //需要检查答案
         console.log("需要检查答案");
         if (answercheck() === true) {
-            //答案正确
+          //答案正确
           ischecked = true;
-            // setAlertVisible("visible");
-            setAlertVisible(AlertShowCSS);
-            setAlertState("success");
-            setAlertMessage("回答正确");
+          setAlertVisible(AlertShowCSS);
+          setAlertState("success");
+          setAlertMessage("回答正确");
           console.log("答案正确");
         } else {
-            //答案错误
-            ischecked = true;
-            // UpdateAlert(false);
-            console.log("答案错误");
-            // setAlertVisible("visible");
-            setAlertVisible(AlertShowCSS);
-            setAlertState("error");
-            setAlertMessage("回答错误"+data[unitnow][wordnow].word);
-        //   showModal();
+          //答案错误
+          ischecked = true;
+          console.log("答案错误");
+          setAlertVisible(AlertShowCSS);
+          setAlertState("error");
+          setAlertMessage("回答错误" + data[unitnow][wordnow].word);
+        }
+      } else {
+        console.log("已经检查过了");
+  
+        ischecked = false;
+        needclear = true;
+        setAlertVisible(AlertHideCSS);
+        if (wordnow === data[unitnow].length - 1) {
+          wordnow = 0;
+          unitnow = nextunit(unitnow);
+          if (unitnow === 8) {
+            showModal();
+          }
+        } else {
+          wordnow++;
         }
       }
-      else{
-          //已经检查过答案
-          //下一个词
-        //   e.target.value = "";
-        needclear = true;
-          setAlertVisible(AlertHideCSS);
-        if (wordnow === data[unitnow].length - 1) {
-            wordnow = 0;
-            unitnow = nextunit(unitnow);
-            if (unitnow === 8) {
-              unitnow = 0;
-              showModal();
-            }
-          } else {
-            wordnow++;
-          }
-      }
     }
-    console.log("needclear = ", needclear);
+    setCx1(data[unitnow][wordnow].cx1);
+    setCx2(data[unitnow][wordnow].cx2);
+    setMeaning1(data[unitnow][wordnow].meaning1);
+    setMeaning2(data[unitnow][wordnow].meaning2);
   }
 
   return (
@@ -327,16 +330,18 @@ function Main(props) {
         >
           <div className="site-layout-content">
             <div style={{ textAlign: "left" }}>
-              {/* <div>{data[1][1].word}</div> */}
               <h3>
                 <big>
-                  欢迎使用大英四默写器
                   <b>{cx1}</b>
                 </big>
               </h3>
               <h3>{meaning1}</h3>
+              <h3>
+                <big>
+                  <b>{cx2}</b>
+                </big>
+              </h3>
               <h3>{meaning2}</h3>
-              <h2>{answertoshow}</h2>
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Input
@@ -348,17 +353,19 @@ function Main(props) {
                   top: "450px",
                   position: "absolute",
                 }}
+                value={searchVaule}
                 onPressEnter={(e) => {
-                   logic(e);
-                   if(needclear === true){
-                       console.log("needclear = true");
-                       console.log(e.target);
-                        e.target.value = "";
-                   }
-                   
+                  logic();
+                  if (needclear === true) {
+                    if(firstletter === true)
+                        setSearchVaule(data[unitnow][wordnow].word[0]);
+                    else
+                        setSearchVaule(" ");
+                  }
                 }}
                 onChange={(e) => {
                   inputanswer = e.target.value;
+                  setSearchVaule(e.target.value);
                   console.log(inputanswer);
                 }}
                 autoFocus
