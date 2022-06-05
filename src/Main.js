@@ -73,6 +73,7 @@ let unit = [
     value: "7",
   },
 ];
+let randomrecord = [];
 const Mode = [
   { label: "顺序模式", value: "0" },
   { label: "随机模式", value: "1" },
@@ -130,6 +131,30 @@ function ProcessCalculate() {
   process = process + wordnow + 1;
   return (process / aim) * 100;
 }
+
+function nextrandom(){
+    // let i = 0;
+    //check if all words has been chosen
+    let all = 0;
+    for(let i = 0; i < 8; i++){
+        if(unitable[i] === true){
+            all += data[i].length;
+        }
+    }
+    if(all === randomrecord.length){
+        return {unit:8,word:0};
+    }
+    let randomunit = Math.floor(Math.random() * 8);
+    let randomword = Math.floor(Math.random() * data[randomunit].length);
+    while(randomrecord.includes(randomunit+"-"+randomword)){
+        random = Math.floor(Math.random() * 8);
+        randomword = Math.floor(Math.random() * data[randomunit].length);
+    }
+    randomrecord.push(randomunit+"-"+randomword);
+    return {unit:randomunit,word:randomword};
+    // return randomunit+"-"+randomword;
+    // return ;
+}
 //------------------logic------------------
 function Main(props) {
   //------------------Drawer------------------
@@ -150,9 +175,11 @@ function Main(props) {
       setRadioValue(value);
       mode = value;
     } else {
-      alert("咕咕咕咕");
-      alert("小王已经累的不行了");
-      alert("下次一定");
+    //   alert("咕咕咕咕");
+    //   alert("小王已经累的不行了");
+    //   alert("下次一定");
+    setRadioValue(value);
+    mode = value;
     }
   };
   //------------------Radio------------------
@@ -203,6 +230,7 @@ function Main(props) {
   const [meaning2, setMeaning2] = useState("");
 
   function logic() {
+      let tmp = {};
     if (mode === 0) {
       //顺序模式
       console.log("顺序模式");
@@ -284,6 +312,80 @@ function Main(props) {
         }
       }
     } else if (mode === 1) {
+        //随机模式
+      console.log("随机模式");
+      if (init === false) {
+        tmp = nextrandom();
+        unitnow = tmp.unit;
+        wordnow = tmp.word;                
+        setCx1(data[unitnow][wordnow].cx1);
+        setCx2(data[unitnow][wordnow].cx2);
+        setMeaning1(data[unitnow][wordnow].meaning1);
+        setMeaning2(data[unitnow][wordnow].meaning2);
+        init = true;
+        if (firstletter === true)
+          setSearchVaule(data[unitnow][wordnow].word[0]);
+        return;
+      }
+      if (
+        inputanswer.trim() === "" ||
+        (firstletter === true &&
+          inputanswer.trim().length === 1 &&
+          inputanswer.trim() === data[unitnow][wordnow].word[0])
+      ) {
+        console.log("不需要检查");
+        //不需要检查答案
+        needclear = true;
+        setAlertVisible(AlertHideCSS);
+        ischecked = false;
+        tmp = nextrandom();
+        unitnow = tmp.unit;
+        wordnow = tmp.word;
+        if(unitnow === 8){
+          showModal();
+        }
+        //todo
+      } else if (ischecked === false) {
+        //需要检查答案
+        console.log("需要检查答案");
+        if (answercheck() === true) {
+          //答案正确
+          ischecked = true;
+          setAlertVisible(AlertShowCSS);
+          setAlertState("success");
+          setAlertMessage("回答正确");
+          console.log("答案正确");
+          needclear = false;
+        } else {
+          //答案错误
+          ischecked = true;
+          console.log("答案错误");
+          setAlertVisible(AlertShowCSS);
+          setAlertState("error");
+          setAlertMessage(
+            <span>
+              答案错误 正确答案是{" "}
+              <span style={{ fontSize: "larger", fontWeight: "500" }}>
+                {data[unitnow][wordnow].word}
+              </span>
+            </span>
+          );
+          needclear = false;
+        }
+      } else {
+        console.log("已经检查过了");
+
+        ischecked = false;
+        needclear = true;
+        setAlertVisible(AlertHideCSS);
+        tmp = nextrandom();
+        unitnow = tmp.unit;
+        wordnow = tmp.word;
+        if(unitnow === 8){
+            showModal();
+        }
+
+      }
     }
     setCx1(data[unitnow][wordnow].cx1);
     setCx2(data[unitnow][wordnow].cx2);
