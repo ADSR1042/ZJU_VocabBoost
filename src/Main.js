@@ -117,44 +117,53 @@ function ProcessCalculate() {
   let i = 0;
   let process = 0;
   let aim = 0;
-  // console.log(unitable);
   for (i = 0; i < 8; i++) {
     if (unitable[i] === true) {
       aim += data[i].length;
     }
   }
-  for (i = 0; i < unitnow; i++) {
-    if (unitable[i] === true) {
-      process += data[i].length;
+  if (mode === 0) {
+    // console.log(unitable);
+    for (i = 0; i < unitnow; i++) {
+      if (unitable[i] === true) {
+        process += data[i].length;
+      }
     }
+    process = process + wordnow + 1;
+    if (aim === 0) return 0;
+    return (process / aim) * 100;
+  } else if (mode === 1) {
+    process = randomrecord.length;
+    if (aim === 0) return 0;
+    return (process / aim) * 100;
   }
-  process = process + wordnow + 1;
-  return (process / aim) * 100;
 }
 
-function nextrandom(){
-    // let i = 0;
-    //check if all words has been chosen
-    let all = 0;
-    for(let i = 0; i < 8; i++){
-        if(unitable[i] === true){
-            all += data[i].length;
-        }
+function nextrandom() {
+  // let i = 0;
+  //check if all words has been chosen
+  let all = 0;
+  for (let i = 0; i < 8; i++) {
+    if (unitable[i] === true) {
+      all += data[i].length;
     }
-    if(all === randomrecord.length){
-        return {unit:8,word:0};
-    }
-    let randomunit = Math.floor(Math.random() * 8);
-    let randomword = Math.floor(Math.random() * data[randomunit].length);
-    while(randomrecord.includes(randomunit+"-"+randomword)){
-        random = Math.floor(Math.random() * 8);
-        randomword = Math.floor(Math.random() * data[randomunit].length);
-    }
-    randomrecord.push(randomunit+"-"+randomword);
-    return {unit:randomunit,word:randomword};
-    // return randomunit+"-"+randomword;
-    // return ;
+  }
+  if (all === randomrecord.length) {
+    return { unit: 8, word: 0 };
+  }
+  let randomunit = Math.floor(Math.random() * 8);
+  let randomword = Math.floor(Math.random() * data[randomunit].length);
+  while (randomrecord.includes(randomunit + "-" + randomword)) {
+    randomunit = Math.floor(Math.random() * 8);
+    randomword = Math.floor(Math.random() * data[randomunit].length);
+  }
+  randomrecord.push(randomunit + "-" + randomword);
+  console.log(randomrecord);
+  return { unit: randomunit, word: randomword };
+  // return randomunit+"-"+randomword;
+  // return ;
 }
+
 //------------------logic------------------
 function Main(props) {
   //------------------Drawer------------------
@@ -173,13 +182,13 @@ function Main(props) {
     console.log("radio1 checked", value);
     if (value === "0") {
       setRadioValue(value);
-      mode = value;
+      mode = Number(value);
     } else {
-    //   alert("咕咕咕咕");
-    //   alert("小王已经累的不行了");
-    //   alert("下次一定");
-    setRadioValue(value);
-    mode = value;
+      //   alert("咕咕咕咕");
+      //   alert("小王已经累的不行了");
+      //   alert("下次一定");
+      setRadioValue(value);
+      mode = Number(value);
     }
   };
   //------------------Radio------------------
@@ -205,10 +214,12 @@ function Main(props) {
 
   const handleOk = () => {
     setIsModalVisible(false);
+    resetall();
   };
 
   const handleCancel = () => {
     setIsModalVisible(false);
+    resetall();
   };
   //------------------Modal------------------
 
@@ -230,7 +241,8 @@ function Main(props) {
   const [meaning2, setMeaning2] = useState("");
 
   function logic() {
-      let tmp = {};
+    console.log("主逻辑判断");
+    let tmp = {};
     if (mode === 0) {
       //顺序模式
       console.log("顺序模式");
@@ -312,12 +324,12 @@ function Main(props) {
         }
       }
     } else if (mode === 1) {
-        //随机模式
+      //随机模式
       console.log("随机模式");
       if (init === false) {
         tmp = nextrandom();
         unitnow = tmp.unit;
-        wordnow = tmp.word;                
+        wordnow = tmp.word;
         setCx1(data[unitnow][wordnow].cx1);
         setCx2(data[unitnow][wordnow].cx2);
         setMeaning1(data[unitnow][wordnow].meaning1);
@@ -341,7 +353,7 @@ function Main(props) {
         tmp = nextrandom();
         unitnow = tmp.unit;
         wordnow = tmp.word;
-        if(unitnow === 8){
+        if (unitnow === 8) {
           showModal();
         }
         //todo
@@ -381,10 +393,9 @@ function Main(props) {
         tmp = nextrandom();
         unitnow = tmp.unit;
         wordnow = tmp.word;
-        if(unitnow === 8){
-            showModal();
+        if (unitnow === 8) {
+          showModal();
         }
-
       }
     }
     setCx1(data[unitnow][wordnow].cx1);
@@ -393,6 +404,25 @@ function Main(props) {
     setMeaning2(data[unitnow][wordnow].meaning2);
     process = ProcessCalculate();
     setProgressValue(process.toFixed(1));
+  }
+  function resetall() {
+    unitnow = -1;
+    wordnow = 0;
+    firstletter = false;
+    needclear = false;
+    inputanswer = " ";
+    ischecked = false;
+    randomrecord = [];
+    setAlertVisible(AlertHideCSS);
+    setAlertState("success");
+    setAlertMessage("");
+    setCx1("选中输入框后按下回车进行检测");
+    setCx2("");
+    setMeaning1("");
+    setMeaning2("");
+    setProgressValue(0);
+    setSearchVaule("");
+    showDrawer();
   }
 
   return (
@@ -419,7 +449,7 @@ function Main(props) {
         >
           <p>已经没有更多的单词啦！</p>
           <p>很不错啦 继续加油哦~</p>
-          {/* <p>Some contents...</p> */}
+          <p>点击确定或开始将会重新开始检测</p>
           {/* <p>Some contents...</p> */}
         </Modal>
         <Drawer
@@ -490,8 +520,7 @@ function Main(props) {
                 size="large"
                 style={{
                   width: "50%",
-                  margin: "50px",
-                  top: "450px",
+                  top: "500px",
                   position: "absolute",
                 }}
                 value={searchVaule}
