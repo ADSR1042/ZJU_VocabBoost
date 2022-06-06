@@ -79,20 +79,8 @@ const Mode = [
   { label: "随机模式", value: "1" },
 ];
 let unitable = [true, true, true, true, true, true, true, true];
-//------------------checkbox------------------
-const CheckChange = (checkedValues) => {
-  let i = 0;
-  console.log("checked = ", checkedValues);
-  for (i = 0; i < 8; i++) {
-    unitable[i] = false;
-  }
-  for (i = 0; i < checkedValues.length; i++) {
-    // console.log(checkedValues[i]);
-    unitable[parseInt(checkedValues[i])] = true;
-  }
-  console.log(unitable);
-};
-//------------------checkbox------------------
+let moderecord = 0;
+let checkboxrecord = [];
 
 //------------------logic------------------
 function nextunit(unitnow) {
@@ -160,21 +148,72 @@ function nextrandom() {
   randomrecord.push(randomunit + "-" + randomword);
   console.log(randomrecord);
   return { unit: randomunit, word: randomword };
-  // return randomunit+"-"+randomword;
-  // return ;
+  //当一段代码以奇迹般的写法跑起来时
+  //就别改了
+  //这个随机取样烂得我都看不下去了
+  //怎么会有这种写法的啊
 }
 
 //------------------logic------------------
 function Main(props) {
   //------------------Drawer------------------
   const [Drawervisible, setVisible] = useState(true);
+
   const showDrawer = () => {
     setVisible(true);
   };
   const onClose = () => {
-    setVisible(false);
+      let tmp = [];
+        for (let i = 0; i < 8; i++) {
+            tmp.push(unitable[i]);
+            // if (unitable[i] === true) {
+            //     tmp.push(i);
+            // }
+        }
+    if (init === true) {
+      if (mode === Number(moderecord) && tmp.toString() === checkboxrecord.toString()) {
+          console.log(unitable);
+            console.log(checkboxrecord);
+        setVisible(false);
+      } else {
+        // setIsModalVisible2(true);
+        console.log(mode === Number(moderecord));
+        console.log(unitable === checkboxrecord);
+        console.log(unitable);
+        console.log(checkboxrecord);
+        showModal2();
+      }
+    }
+    else {
+      setVisible(false);
+    }
   };
   //------------------Drawer------------------
+  //------------------CheckboxGroup------------------
+  const [checkedList, setCheckedList] = useState([
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+  ]);
+
+  const CheckChange = (checkedValues) => {
+    let i = 0;
+    setCheckedList(checkedValues);
+    console.log("checked = ", checkedValues);
+    for (i = 0; i < 8; i++) {
+      unitable[i] = false;
+    }
+    for (i = 0; i < checkedValues.length; i++) {
+      // console.log(checkedValues[i]);
+      unitable[parseInt(checkedValues[i])] = true;
+    }
+    console.log(unitable);
+  };
 
   //------------------Radio------------------
   const [Radiovalue, setRadioValue] = useState("0");
@@ -184,9 +223,6 @@ function Main(props) {
       setRadioValue(value);
       mode = Number(value);
     } else {
-      //   alert("咕咕咕咕");
-      //   alert("小王已经累的不行了");
-      //   alert("下次一定");
       setRadioValue(value);
       mode = Number(value);
     }
@@ -215,12 +251,50 @@ function Main(props) {
   const handleOk = () => {
     setIsModalVisible(false);
     resetall();
+    setRadioValue("0");
   };
 
   const handleCancel = () => {
     setIsModalVisible(false);
     resetall();
+    setRadioValue("0");
   };
+  //create a new modal
+  const [isModalVisible2, setIsModalVisible2] = useState(false);
+  const showModal2 = () => {
+    setIsModalVisible2(true);
+  };
+  const handleOk2 = () => {
+    setIsModalVisible2(false);
+    let tmpmode = mode;
+    let tmpunitable = JSON.parse(JSON.stringify(unitable));
+    // let tmp
+    resetall();
+    let tmp =[];
+    for (let i = 0; i < tmpunitable.length; i++) {
+        if(unitable[i]===true){
+            tmp.push(String(i));
+        }
+    }
+    setCheckedList(tmp);
+    setRadioValue(String(tmpmode));
+    setVisible(false);
+  };
+  const handleCancel2 = () => {
+    setIsModalVisible2(false);
+    let tmp = [];
+    console.log("撤销操作")
+    mode = Number(moderecord);
+    unitable = JSON.parse(JSON.stringify(checkboxrecord));
+    for (let i = 0; i < unitable.length; i++) {
+        if(unitable[i]===true){
+            tmp.push(String(i));
+        }
+    }
+    setRadioValue(String(moderecord));
+    setCheckedList(tmp);
+  };
+
   //------------------Modal------------------
 
   //------------------Alert------------------
@@ -241,6 +315,7 @@ function Main(props) {
   const [meaning2, setMeaning2] = useState("");
 
   function logic() {
+    //   console.log("logic");
     console.log("主逻辑判断");
     let tmp = {};
     if (mode === 0) {
@@ -256,6 +331,8 @@ function Main(props) {
         setMeaning1(data[unitnow][wordnow].meaning1);
         setMeaning2(data[unitnow][wordnow].meaning2);
         init = true;
+        checkboxrecord =  JSON.parse(JSON.stringify(unitable));
+        moderecord = mode;
         if (firstletter === true)
           setSearchVaule(data[unitnow][wordnow].word[0]);
         return;
@@ -335,6 +412,10 @@ function Main(props) {
         setMeaning1(data[unitnow][wordnow].meaning1);
         setMeaning2(data[unitnow][wordnow].meaning2);
         init = true;
+        // checkboxrecord = unitable;
+        // checkboxrecord = unitable;
+        checkboxrecord =  JSON.parse(JSON.stringify(unitable));
+        moderecord = mode;
         if (firstletter === true)
           setSearchVaule(data[unitnow][wordnow].word[0]);
         return;
@@ -406,13 +487,23 @@ function Main(props) {
     setProgressValue(process.toFixed(1));
   }
   function resetall() {
+    let tmp =[];
     unitnow = -1;
     wordnow = 0;
-    firstletter = false;
+    // firstletter = false;
     needclear = false;
     inputanswer = " ";
     ischecked = false;
     randomrecord = [];
+    init = false;
+    for (let i = 0; i < unitable.length; i++) {
+        if(unitable[i]===true){
+            tmp.push(String(i));
+        }
+    }
+    // checkboxrecord = tmp;
+    checkboxrecord =  JSON.parse(JSON.stringify(tmp));
+    setRadioValue(0);
     setAlertVisible(AlertHideCSS);
     setAlertState("success");
     setAlertMessage("");
@@ -420,7 +511,7 @@ function Main(props) {
     setCx2("");
     setMeaning1("");
     setMeaning2("");
-    setProgressValue(0);
+    setProgressValue("0");
     setSearchVaule("");
     showDrawer();
   }
@@ -449,8 +540,19 @@ function Main(props) {
         >
           <p>已经没有更多的单词啦！</p>
           <p>很不错啦 继续加油哦~</p>
-          <p>点击确定或开始将会重新开始检测</p>
+          <p>点击确定或取消都会重新开始检测</p>
           {/* <p>Some contents...</p> */}
+        </Modal>
+        <Modal
+          title="警告"
+          visible={isModalVisible2}
+          onOk={handleOk2}
+          onCancel={handleCancel2}
+        >
+          <p>您现在正在检测中</p>
+          <p>在检测的过程中切换单元将会重置进度</p>
+          <p>按确定重置进度并切换单元</p>
+          <p>按取消撤销操作</p>
         </Modal>
         <Drawer
           title="设置"
@@ -484,6 +586,7 @@ function Main(props) {
                   options={unit}
                   defaultValue={["0", "1", "2", "3", "4", "5", "6", "7"]}
                   onChange={CheckChange}
+                  value={checkedList}
                 />
               </Col>
             </Row>
