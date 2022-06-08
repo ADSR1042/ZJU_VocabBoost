@@ -1,39 +1,67 @@
 {
-  "name": "antd-demo",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "antd": "^4.20.4",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "antd-demo",
+    "version": "0.1.0",
+    "private": true,
+    "main": "build/electron.js",
+    "homepage": ".",
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.2.0",
+        "@testing-library/user-event": "^13.5.0",
+        "antd": "^4.20.4",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "electron": "electron .",
+        "dev": "electron . --debug  | react-scripts start",
+        "electronbuild": "electron-builder",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "dist-win32": "electron-builder --win --ia32",
+        "dist-win64": "electron-builder --win --x64",
+        "dist-mac": "electron-builder --mac"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "electron": "^19.0.3",
+        "electron-builder": "^23.0.3"
+    },
+    "description": "一个用于大英背词检测的程序(适用新版新编大学英语)",
+    "author": {
+        "name": "武霁澜",
+        "email": "adsr1042@gmail.com",
+        "url": "https://github.com/ADSR1042"
+    },
+    "build": {
+        "productName": "大英四默写器",
+        "appId": "org.my-project.electron-react-antd",
+        "directories": {
+            "output": "dist"
+        },
+        "files": [
+            "build/**/*"
+        ]
+    }
 }

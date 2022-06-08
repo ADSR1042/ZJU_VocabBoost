@@ -131,18 +131,27 @@ function nextrandom() {
   // let i = 0;
   //check if all words has been chosen
   let all = 0;
+  let length = 0;
   for (let i = 0; i < 8; i++) {
     if (unitable[i] === true) {
       all += data[i].length;
+      length += 1;
     }
   }
   if (all === randomrecord.length) {
     return { unit: 8, word: 0 };
   }
-  let randomunit = Math.floor(Math.random() * 8);
+  let randomunit = Math.floor(Math.random() * length);
+  while(unitable[randomunit] === false) {
+    randomunit = Math.floor(Math.random() * 8);
+  }
+  console.log(randomunit);
   let randomword = Math.floor(Math.random() * data[randomunit].length);
   while (randomrecord.includes(randomunit + "-" + randomword)) {
-    randomunit = Math.floor(Math.random() * 8);
+    // randomunit = Math.floor(Math.random() * length);
+    while(unitable[randomunit] === false) {
+        randomunit = Math.floor(Math.random() * 8);
+      }
     randomword = Math.floor(Math.random() * data[randomunit].length);
   }
   randomrecord.push(randomunit + "-" + randomword);
@@ -163,17 +172,20 @@ function Main(props) {
     setVisible(true);
   };
   const onClose = () => {
-      let tmp = [];
-        for (let i = 0; i < 8; i++) {
-            tmp.push(unitable[i]);
-            // if (unitable[i] === true) {
-            //     tmp.push(i);
-            // }
-        }
+    let tmp = [];
+    for (let i = 0; i < 8; i++) {
+      tmp.push(unitable[i]);
+      // if (unitable[i] === true) {
+      //     tmp.push(i);
+      // }
+    }
     if (init === true) {
-      if (mode === Number(moderecord) && tmp.toString() === checkboxrecord.toString()) {
-          console.log(unitable);
-            console.log(checkboxrecord);
+      if (
+        mode === Number(moderecord) &&
+        tmp.toString() === checkboxrecord.toString()
+      ) {
+        console.log(unitable);
+        console.log(checkboxrecord);
         setVisible(false);
       } else {
         // setIsModalVisible2(true);
@@ -183,8 +195,7 @@ function Main(props) {
         console.log(checkboxrecord);
         showModal2();
       }
-    }
-    else {
+    } else {
       setVisible(false);
     }
   };
@@ -234,6 +245,9 @@ function Main(props) {
     // console.log("switch1 checked", checked);
     firstletter = checked;
     console.log("首字母检验" + firstletter);
+    if(firstletter === true) {
+        setSearchVaule(data[unitnow][wordnow].word[0]);
+    }
   };
 
   //------------------Switch------------------
@@ -270,11 +284,11 @@ function Main(props) {
     let tmpunitable = JSON.parse(JSON.stringify(unitable));
     // let tmp
     resetall();
-    let tmp =[];
+    let tmp = [];
     for (let i = 0; i < tmpunitable.length; i++) {
-        if(unitable[i]===true){
-            tmp.push(String(i));
-        }
+      if (unitable[i] === true) {
+        tmp.push(String(i));
+      }
     }
     setCheckedList(tmp);
     setRadioValue(String(tmpmode));
@@ -283,13 +297,13 @@ function Main(props) {
   const handleCancel2 = () => {
     setIsModalVisible2(false);
     let tmp = [];
-    console.log("撤销操作")
+    console.log("撤销操作");
     mode = Number(moderecord);
     unitable = JSON.parse(JSON.stringify(checkboxrecord));
     for (let i = 0; i < unitable.length; i++) {
-        if(unitable[i]===true){
-            tmp.push(String(i));
-        }
+      if (unitable[i] === true) {
+        tmp.push(String(i));
+      }
     }
     setRadioValue(String(moderecord));
     setCheckedList(tmp);
@@ -331,7 +345,7 @@ function Main(props) {
         setMeaning1(data[unitnow][wordnow].meaning1);
         setMeaning2(data[unitnow][wordnow].meaning2);
         init = true;
-        checkboxrecord =  JSON.parse(JSON.stringify(unitable));
+        checkboxrecord = JSON.parse(JSON.stringify(unitable));
         moderecord = mode;
         if (firstletter === true)
           setSearchVaule(data[unitnow][wordnow].word[0]);
@@ -414,7 +428,7 @@ function Main(props) {
         init = true;
         // checkboxrecord = unitable;
         // checkboxrecord = unitable;
-        checkboxrecord =  JSON.parse(JSON.stringify(unitable));
+        checkboxrecord = JSON.parse(JSON.stringify(unitable));
         moderecord = mode;
         if (firstletter === true)
           setSearchVaule(data[unitnow][wordnow].word[0]);
@@ -487,7 +501,7 @@ function Main(props) {
     setProgressValue(process.toFixed(1));
   }
   function resetall() {
-    let tmp =[];
+    let tmp = [];
     unitnow = -1;
     wordnow = 0;
     // firstletter = false;
@@ -497,12 +511,12 @@ function Main(props) {
     randomrecord = [];
     init = false;
     for (let i = 0; i < unitable.length; i++) {
-        if(unitable[i]===true){
-            tmp.push(String(i));
-        }
+      if (unitable[i] === true) {
+        tmp.push(String(i));
+      }
     }
     // checkboxrecord = tmp;
-    checkboxrecord =  JSON.parse(JSON.stringify(tmp));
+    checkboxrecord = JSON.parse(JSON.stringify(tmp));
     setRadioValue(0);
     setAlertVisible(AlertHideCSS);
     setAlertState("success");
@@ -537,6 +551,8 @@ function Main(props) {
           visible={isModalVisible}
           onOk={handleOk}
           onCancel={handleCancel}
+          cancelText="取消"
+          okText="确定"
         >
           <p>已经没有更多的单词啦！</p>
           <p>很不错啦 继续加油哦~</p>
@@ -548,6 +564,8 @@ function Main(props) {
           visible={isModalVisible2}
           onOk={handleOk2}
           onCancel={handleCancel2}
+          cancelText="取消"
+          okText="确定"
         >
           <p>您现在正在检测中</p>
           <p>在检测的过程中切换单元将会重置进度</p>
@@ -664,6 +682,7 @@ function Main(props) {
           }}
         >
           ZJU SQTP
+          {/* <p></p> */}
         </Footer>
       </Layout>
     </div>

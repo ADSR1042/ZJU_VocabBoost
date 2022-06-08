@@ -1559,12 +1559,12 @@ data[1] = [
   {
     word: "spill",
     pro: "/spɪl/\n",
-    cx1: "/spɪl/\n",
-    meaning1: "vt.\n\nreveal (confidential information) to sb. 透露",
+    cx1: "vt.",
+    meaning1: "reveal (confidential information) to sb. 透露",
     eg1: "e.g. The police officer refused to spill the witness' private information to the reporters to protect her security.",
-    cx2: "",
+    cx2: "v.",
     meaning2:
-      "v.\n\n(cause to) flow over the edge of a container, esp. unintentionally （使）溢出；泼出",
+      "(cause to) flow over the edge of a container, esp. unintentionally （使）溢出；泼出",
     eg2: "e.g. Let's see if we could pour the juice through the narrow opening of the bottle without spilling it.",
   },
   {
@@ -1580,12 +1580,12 @@ data[1] = [
   {
     word: "manual",
     pro: "/ˈmænjʊəl/",
-    cx1: "/ˈmænjʊəl/",
+    cx1: "n.",
     meaning1:
       "n.\n\n[C] a book of instructions, esp. for operating a machine or learning a subject; a handbook 说明书；手册",
     eg1: "e.g. The computer comes with a 600-page instruction manual that is not at all user-friendly.",
-    cx2: "",
-    meaning2: "a.\n\nof or done with the hands 手工的；用手的",
+    cx2: "a.",
+    meaning2: "\n\nof or done with the hands 手工的；用手的",
     eg2: "e.g. The floors of all campus buildings are equipped with manual fire alarm systems.",
   },
   {
@@ -2476,13 +2476,13 @@ data[3] = [
   {
     word: "pose",
     pro: "/pəʊz/",
-    cx1: "/pəʊz/",
+    cx1: "n",
     meaning1:
-      "n.\n\n[C] a particular position in which sb. stands, sits, etc., esp. in order to be painted, drawn or photographed （为画像、拍照等摆的）姿势",
+      "[C] a particular position in which sb. stands, sits, etc., esp. in order to be painted, drawn or photographed （为画像、拍照等摆的）姿势",
     eg1: "e.g. Please ask the model to stay in that pose anywhere from 30 seconds to 1 minute.",
-    cx2: "",
+    cx2: "vt.",
     meaning2:
-      "vt.\n\ncreate a threat, problem, etc. that has to be dealt with 造成（威胁、问题等）；引起；产生",
+      "create a threat, problem, etc. that has to be dealt with 造成（威胁、问题等）；引起；产生",
     eg2: "e.g. Concerns about the danger posed by fireworks could lead to restrictions on their sale and use.",
   },
   {
@@ -2519,13 +2519,13 @@ data[3] = [
   {
     word: "tick",
     pro: "/tɪk/",
-    cx1: "/tɪk/",
+    cx1: "vt.",
     meaning1:
-      "vt.\n\n(AmE check) mark a test, list of questions, etc. with a tick, in order to show that sth. is correct, to choose sth., etc. 给（试卷、问题等）打钩号",
+      "(AmE check) mark a test, list of questions, etc. with a tick, in order to show that sth. is correct, to choose sth., etc. 给（试卷、问题等）打钩号",
     eg1: "e.g. She is used to ticking off all of the things that she has done before the end of the day.",
-    cx2: "",
+    cx2: "vi.",
     meaning2:
-      "vi.\n\n(also ~ away) if a clock or watch ticks, it makes a short repeated sound （钟表）发出嘀嗒声",
+      "(also ~ away) if a clock or watch ticks, it makes a short repeated sound （钟表）发出嘀嗒声",
     eg2: "e.g. The clock on the wall ticked away, its sound echoing through the otherwise silent room.",
   },
   {
@@ -2837,13 +2837,13 @@ data[3] = [
   {
     word: "orbit",
     pro: "/ˈɔːbɪt/",
-    cx1: "/ˈɔːbɪt/",
+    cx1: "v.",
     meaning1:
-      "v.\n\ntravel in a curved path around a much larger object such as the Earth, the Sun, etc. 沿轨道运行；环绕···运行",
+      "travel in a curved path around a much larger object such as the Earth, the Sun, etc. 沿轨道运行；环绕···运行",
     eg1: "e.g. The Earth is one of several planets that orbit the Sun, and the Moon orbits around the Earth.",
-    cx2: "",
+    cx2: "n.",
     meaning2:
-      "n.\n\n[C] the curved path traveled by an object which is moving around another much larger object such as the Earth, the Sun, etc. （环绕地球、太阳等运行的）轨道",
+      "[C] the curved path traveled by an object which is moving around another much larger object such as the Earth, the Sun, etc. （环绕地球、太阳等运行的）轨道",
     eg2: "e.g. These planets have circular (环形的) orbits similar to the orbits of planets in our solar system.",
   },
   {
@@ -2860,13 +2860,13 @@ data[3] = [
   {
     word: "strip",
     pro: "/strɪp/",
-    cx1: "/strɪp/",
+    cx1: "vt.",
     meaning1:
-      "vt.\n\nremove sth. that is covering the surface of sth. else 剥去，除去（表面的东西）",
+      "remove sth. that is covering the surface of sth. else 剥去，除去（表面的东西）",
     eg1: "e.g. I think we should strip the old painting off and see what the wood is like underneath.",
-    cx2: "",
+    cx2: "n.",
     meaning2:
-      "n.\n\na long narrow area of land, sea, etc. （陆地、海域等）狭长地带；带状水域",
+      "a long narrow area of land, sea, etc. （陆地、海域等）狭长地带；带状水域",
     eg2: "e.g. The islands are separated by a narrow strip of water.",
   },
   {
@@ -2915,7 +2915,7 @@ data[3] = [
   {
     word: "shield",
     pro: "/ʃiːld/",
-    cx1: "/ʃiːld/",
+    cx1: "n.",
     meaning1:
       "vt.\n\nprotect sb. / sth. from being harmed or damaged 保护；保卫",
     eg1: "e.g. He wrapped himself in his heavy coat and sat in the corner where the bamboo leaves shielded him from the wind.",
@@ -3637,11 +3637,11 @@ data[4] = [
   {
     word: "Buddhist",
     pro: "/ˈbʊdɪst/",
-    cx1: "/ˈbʊdɪst/",
-    meaning1: "a.\n\nrelating or referring to Buddhism 佛教的",
+    cx1: "a.",
+    meaning1: "relating or referring to Buddhism 佛教的",
     eg1: "e.g. Lingyin Temple is a famous Buddhist temple situated in the northwest of Hangzhou.",
-    cx2: "",
-    meaning2: "n.\n\n[C] sb. who believes in Buddhism 佛教徒",
+    cx2: "n.",
+    meaning2: "[C] sb. who believes in Buddhism 佛教徒",
     eg2: "",
   },
   {
@@ -3730,12 +3730,12 @@ data[4] = [
   {
     word: "stretch",
     pro: "/stretʃ/",
-    cx1: "/stretʃ/",
-    meaning1: "vi.\n\nspread out or cover a large area of land 延伸；绵延",
+    cx1: "vi.",
+    meaning1: "spread out or cover a large area of land 延伸；绵延",
     eg1: "e.g. The beach stretches for more than two miles, backed by grassy dunes and sweet-smelling pine forest.",
-    cx2: "",
+    cx2: "v.",
     meaning2:
-      "v.\n\nmake sth. bigger or looser by pulling it, or become bigger or looser as a result of being pulled （使）变大；（使）变松；拉长",
+      "make sth. bigger or looser by pulling it, or become bigger or looser as a result of being pulled （使）变大；（使）变松；拉长",
     eg2: "e.g. Once stretched, the elastic band will not return to its original length.",
   },
   {
@@ -3991,13 +3991,13 @@ data[4] = [
   {
     word: "catalogue",
     pro: "/ˈkætəˌlɒg/ (AmE catalog)",
-    cx1: "/ˈkætəˌlɒg/ (AmE catalog)",
+    cx1: "vt.",
     meaning1:
-      "vt.\n\nmake a complete list of all the things in a group 为···编目录；把···列入目录中",
+      "make a complete list of all the things in a group 为···编目录；把···列入目录中",
     eg1: "e.g. The works came to light during the 1950s, when they were catalogued in the museum's collection.",
-    cx2: "",
+    cx2: "n.",
     meaning2:
-      "n.\n\n[C] a complete list of things that you can look at, buy, or use, for example in a library or at an art show 目录",
+      "[C] a complete list of things that you can look at, buy, or use, for example in a library or at an art show 目录",
     eg2: "e.g. She uses an online catalogue to search for items by price or country, instead of the hard copies traditionally taken to auctions (拍卖会).",
   },
   {
