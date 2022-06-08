@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "main": "build/electron.js",
-    "homepage": ".",
+    "homepage": "https://github.com/ADSR1042/SQTP2022",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.2.0",
