@@ -24,7 +24,9 @@
         "eject": "react-scripts eject",
         "dist-win32": "electron-builder --win --ia32",
         "dist-win64": "electron-builder --win --x64",
-        "dist-mac": "electron-builder --mac"
+        "dist-mac": "electron-builder --mac",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -46,7 +48,8 @@
     },
     "devDependencies": {
         "electron": "^19.0.3",
-        "electron-builder": "^23.0.3"
+        "electron-builder": "^23.0.3",
+        "gh-pages": "^3.2.3"
     },
     "description": "一个用于大英背词检测的程序(适用新版新编大学英语)",
     "author": {
