@@ -39,6 +39,7 @@ let firstletter = false;
 let needclear = false; //是否需要清空输入框
 let init = false;
 let process = 0;
+let random = [];
 let unit = [
   {
     label: "Unit1",
@@ -128,39 +129,17 @@ function ProcessCalculate() {
 }
 
 function nextrandom() {
-  // let i = 0;
-  //check if all words has been chosen
-  let all = 0;
-  let length = 0;
-  for (let i = 0; i < 8; i++) {
-    if (unitable[i] === true) {
-      all += data[i].length;
-      length += 1;
-    }
-  }
-  if (all === randomrecord.length) {
-    return { unit: 8, word: 0 };
-  }
-  let randomunit = Math.floor(Math.random() * length);
-  while(unitable[randomunit] === false) {
-    randomunit = Math.floor(Math.random() * 8);
-  }
-  console.log(randomunit);
-  let randomword = Math.floor(Math.random() * data[randomunit].length);
-  while (randomrecord.includes(randomunit + "-" + randomword)) {
-    // randomunit = Math.floor(Math.random() * length);
-    while(unitable[randomunit] === false) {
-        randomunit = Math.floor(Math.random() * 8);
-      }
-    randomword = Math.floor(Math.random() * data[randomunit].length);
-  }
-  randomrecord.push(randomunit + "-" + randomword);
-  console.log(randomrecord);
-  return { unit: randomunit, word: randomword };
-  //当一段代码以奇迹般的写法跑起来时
-  //就别改了
-  //这个随机取样烂得我都看不下去了
-  //怎么会有这种写法的啊
+  if (random.length === 0) return { unit: 8, word: 0 };
+  let i = Math.floor(Math.random() * random.length);
+  let tmp = random[i];
+  let unit = tmp.unit;
+  let word = tmp.word;
+  // delete random[i];
+  randomrecord.push(unit + "-" + word);
+  random.splice(i, 1);
+  console.log(unit);
+  console.log(word);
+  return { unit: unit, word: word };
 }
 
 //------------------logic------------------
@@ -245,8 +224,8 @@ function Main(props) {
     // console.log("switch1 checked", checked);
     firstletter = checked;
     console.log("首字母检验" + firstletter);
-    if(firstletter === true) {
-        setSearchVaule(data[unitnow][wordnow].word[0]);
+    if (firstletter === true) {
+      setSearchVaule(data[unitnow][wordnow].word[0]);
     }
   };
 
@@ -418,9 +397,19 @@ function Main(props) {
       //随机模式
       console.log("随机模式");
       if (init === false) {
+        for (let i = 0; i < 8; i++) {
+          if (unitable[i] === true) {
+            //   randomword.push();
+            for (let j = 0; j < data[i].length; j++) {
+              random.push({ unit: i, word: j });
+            }
+          }
+        }
         tmp = nextrandom();
         unitnow = tmp.unit;
         wordnow = tmp.word;
+        console.log("unitnow = " + unitnow);
+        console.log("wordnow = " + wordnow);
         setCx1(data[unitnow][wordnow].cx1);
         setCx2(data[unitnow][wordnow].cx2);
         setMeaning1(data[unitnow][wordnow].meaning1);
@@ -510,6 +499,7 @@ function Main(props) {
     ischecked = false;
     randomrecord = [];
     init = false;
+    random = [];
     for (let i = 0; i < unitable.length; i++) {
       if (unitable[i] === true) {
         tmp.push(String(i));
