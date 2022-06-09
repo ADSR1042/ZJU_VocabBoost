@@ -224,7 +224,7 @@ function Main(props) {
     // console.log("switch1 checked", checked);
     firstletter = checked;
     console.log("首字母检验" + firstletter);
-    if (firstletter === true) {
+    if (firstletter === true && init !== false) {
       setSearchVaule(data[unitnow][wordnow].word[0]);
     }
   };
