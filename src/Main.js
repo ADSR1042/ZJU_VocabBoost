@@ -96,7 +96,7 @@ function nextunit(unitnow) {
 function answercheck() {
   console.log(inputanswer);
   console.log(data[unitnow][wordnow].word);
-  if (inputanswer.trim() === data[unitnow][wordnow].word) {
+  if (inputanswer.trim() === data[unitnow][wordnow].word.trim()) {
     return true;
   }
   return false;
