@@ -1356,11 +1356,12 @@ data[1] = [
   {
     word: "intern",
     pro: "/ˈɪntɜːn/",
-    cx1: "n.",
-    meaning1: "[C] a doctor specially trained to perform surgery 外科医生",
-    eg1: "e.g. His finger was cut off when he caught it in a machine, but the surgeon was able to sew it back on.",
-    cx2: "",
-    meaning2: "",
+    cx1: "vi.",
+    meaning1: "(mainly AmE) serve as an intern 做实习医生（或实习生）",
+    eg1: " I interned at a clinic during the first summer vacation after I graduated from high school.",
+    cx2: "n. [C]",
+    meaning2:
+      "1) (BrE houseman) sb. who has nearly finished training as a doctor and is working in a hospital 实习医生\n2) sb., esp. a student, who works for a short time in a particular job in order to gain experience 实习生",
     eg2: "",
   },
   {
@@ -7106,15 +7107,17 @@ data[7] = [
     meaning2: "2) toward the inside or center of sth. 向内的；向中心的",
     eg2: "e.g. The car was not severely damaged — only the middle of the car door was bent inward.",
   },
-]
-data[8]=[{
+];
+data[8] = [
+  {
     word: "",
     pro: "",
     cx1: "",
-    meaning1:"",
+    meaning1: "",
     eg1: "",
     cx2: "",
     meaning2: "",
     eg2: "",
-}];
+  },
+];
 export default data;
