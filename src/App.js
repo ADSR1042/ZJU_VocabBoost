@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Layout, PageHeader, Button, Input, Alert } from "antd";
+import { Layout, PageHeader, Button, Input, Alert, Modal } from "antd";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
 import book1 from "./data/book1";
@@ -16,10 +16,27 @@ const defaultsettings = {
   showFirstLetter: false,
   units: [true, true, true, true, true, true, true, true],
 };
+const AlertShowCSS = {
+  top: "570px",
+  width: "50%",
+  margin: "auto",
+  visibility: "visible",
+  position: "absolute",
+};
+const AlertHideCSS = {
+  top: "570px",
+  width: "50%",
+  margin: "auto",
+  visibility: "hidden",
+  position: "absolute",
+};
 const App = () => {
-  let book = book1;
-  let check = false;
-  const [list, setList] = useState([{ unit: 1, lesson: 1 }]);
+  let book = [];
+  const [check, setCheck] = useState(false);
+  const [list, setList] = useState([
+    { unit: 0, lesson: 0 },
+    { unit: 0, lesson: 0 },
+  ]);
   const [current, setCurrent] = useState(0);
   const [settings, setSettings] = useState(defaultsettings);
   const [showSettings, setShowSettings] = useState(true);
@@ -27,42 +44,41 @@ const App = () => {
   const [alertState, setAlertState] = useState(false);
   const [alertMessage, setAlertMessage] = useState("");
   const [alertVisible, setAlertVisible] = useState(true);
+  const [inputValue, setInputValue] = useState("");
+  book[0] = book1;
+  book[1] = book2;
+  book[2] = book3;
   const initalization = () => {
     console.log("initalization now!");
     console.log(settings);
     setInital(false);
-    setCurrent(0);
-    check = false;
-    switch (settings.book) {
-      case "0":
-        book = book1;
-        break;
-      case "1":
-        book = book2;
-        break;
-      case "2":
-        book = book3;
-        break;
-      default:
-        book = book1;
-    }
+    setCheck(false);
     setList([]);
     let temp = [];
     switch (settings.mode) {
       case "0":
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
-            for (let j = 0; j < book[i][0].children.length; j++) {
+            for (
+              let j = 0;
+              j < book[settings.book * 1][i][0].children.length;
+              j++
+            ) {
               temp.push({ unit: i, lesson: j });
             }
           }
         }
+        // temp.push({ unit: 0, lesson: 0 });
         setList(temp);
         break;
       case "1":
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
-            for (let j = 0; j < book[i][0].children.length; j++) {
+            for (
+              let j = 0;
+              j < book[settings.book * 1][i][0].children.length;
+              j++
+            ) {
               temp.push({ unit: i, lesson: j });
             }
           }
@@ -72,10 +88,68 @@ const App = () => {
           const j = Math.floor(Math.random() * (i + 1));
           [temp[i], temp[j]] = [temp[j], temp[i]];
         }
+        // temp.push({ unit: 0, lesson: 0 });
         console.log(temp);
         setList(temp);
+        break;
+      default:
+        break;
     }
   };
+  const showFirstLetterfunc = () => {
+    console.log("first letter current: " + current);
+    let temp = current === list.length - 1 ? current : current + 1;
+    if (settings.showFirstLetter)
+      setInputValue(
+        book[settings.book * 1][list[temp].unit][0].children[list[temp].lesson]
+          .word[0]
+      );
+    else setInputValue("");
+  };
+  const handlePressEnter = (e) => {
+    let answer = e.target.value;
+    if (inital) {
+      initalization();
+      setCurrent(0);
+      showFirstLetterfunc();
+      return;
+    }
+    console.log("current", current);
+    console.log(list[current]);
+    console.log("check", check);
+    if (check) {
+      console.log("check is true");
+      setAlertVisible(false);
+      // check = false;
+      setCheck(false);
+      next();
+      showFirstLetterfunc();
+    } else if (
+      (answer.length === 1 && settings.showFirstLetter === true) ||
+      answer.length === 0
+    ) {
+      console.log("did not check");
+      next();
+      showFirstLetterfunc();
+    } else {
+      let key =
+        book[settings.book * 1][list[current].unit][0].children[
+          list[current].lesson
+        ].word;
+      if (answerCheck(answer, key)) {
+        setAlertState("success");
+        setAlertMessage("Correct!");
+        setAlertVisible(true);
+      } else {
+        setAlertState("error");
+        setAlertMessage("Wrong! The answer is " + key);
+        setAlertVisible(true);
+      }
+      // check = true;
+      setCheck(true);
+    }
+  };
+
   const answerCheck = (answer, key) => {
     if (answer.trim() === key.trim()) {
       return true;
@@ -84,6 +158,22 @@ const App = () => {
   const next = () => {
     if (current < list.length - 1) {
       setCurrent(current + 1);
+    } else {
+      Modal.success({
+        title: "完成!",
+        content: (
+          <>
+            <div>你已经完成选定的所有检测!</div>
+            <div>按下确认建重新检测</div>
+          </>
+        ),
+        onOk: () => {
+          setInputValue("");
+          setInital(true);
+          setCurrent(0);
+          setShowSettings(true);
+        },
+      });
     }
   };
   const prev = () => {
@@ -91,7 +181,6 @@ const App = () => {
       setCurrent(current - 1);
     }
   };
-  // if (inital) initalization();
 
   return (
     <div className="App">
@@ -99,7 +188,7 @@ const App = () => {
         <Layout className="layout">
           <PageHeader
             className="site-page-header"
-            title="大英四默写器"
+            title="大英默写器"
             subTitle="仅供学习使用 请勿用于商业用途"
             extra={[
               <Button
@@ -114,13 +203,12 @@ const App = () => {
             ]}
           />
           <Setting
+            key={settings}
             inital={inital}
-            initalization={initalization}
+            setInital={setInital}
             settings={settings}
             setSettings={(value) => {
-              console.log(value);
               setSettings(value);
-              console.log(settings);
             }}
             showDrawer={showSettings}
             showDrawerfunc={setShowSettings}
@@ -134,17 +222,10 @@ const App = () => {
               <Interface
                 inital={inital}
                 showPronounce={settings.showPronounce}
-                partOfSpeech={
-                  inital
-                    ? "无:"
-                    : book[list[current].unit][0].children[list[current].lesson]
-                        .pee[0].partOfSpeech
-                }
-                explanations_and_examples={
-                  inital
-                    ? []
-                    : book[list[current].unit][0].children[list[current].lesson]
-                        .pee[0].explanations_and_examples
+                data={
+                  book[settings.book * 1][list[current].unit][0].children[
+                    list[current].lesson
+                  ]
                 }
               />
               <div style={{ display: "flex", justifyContent: "center" }}>
@@ -153,29 +234,13 @@ const App = () => {
                   size="large"
                   style={{
                     width: "50%",
-                    top: "500px",
+                    top: "400px",
                     position: "absolute",
                   }}
-                  onPressEnter={(e) => {
-                    let answer = e.target.value;
-                    next();
-                    console.log(current);
-                    console.log(
-                      book[list[current].unit][0].children[list[current].lesson]
-                        .word
-                    );
-                    if (check) {
-                      next();
-                    } else if (
-                      answer.length === 1 &&
-                      settings.showFirstLetter === true
-                    ) {
-                      next();
-                    } else {
-                      next();
-                    }
-                  }}
+                  value={inputValue}
+                  onPressEnter={handlePressEnter}
                   onChange={(e) => {
+                    setInputValue(e.target.value);
                     console.log(e.target.value);
                   }}
                   autoFocus
@@ -185,11 +250,14 @@ const App = () => {
                 <Alert
                   message={alertMessage}
                   type={alertState}
-                  style={alertVisible}
+                  style={alertVisible ? AlertShowCSS : AlertHideCSS}
                 />
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                <Progressline current={current} total={list.length} />
+                <Progressline
+                  current={inital ? 0 : current}
+                  total={list.length - 1}
+                />
               </div>
             </div>
           </Content>

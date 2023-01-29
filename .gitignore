@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /dist
+
+yarn.lock
+package-lock.json

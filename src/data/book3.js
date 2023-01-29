@@ -3144,7 +3144,6 @@ book3[1] = [
       },
     ],
   },
-
   {
     name: "Phrases and expressions",
     children: [
@@ -4774,7 +4773,6 @@ book3[2] = [
           },
         ],
       },
-      ,
       {
         word: "mediocrity",
         audio:
@@ -4793,7 +4791,6 @@ book3[2] = [
           },
         ],
       },
-      ,
       {
         word: "alien",
         audio:
@@ -4818,7 +4815,6 @@ book3[2] = [
           },
         ],
       },
-      ,
       {
         word: "uncover",
         audio:
@@ -4837,7 +4833,6 @@ book3[2] = [
           },
         ],
       },
-      ,
       {
         word: "momentous",
         audio:
@@ -5683,7 +5678,6 @@ book3[3] = [
           },
         ],
       },
-      ,
       {
         word: "mysterious",
         audio:
@@ -5708,7 +5702,6 @@ book3[3] = [
           },
         ],
       },
-      ,
       {
         word: "handful",
         audio:
@@ -5733,7 +5726,6 @@ book3[3] = [
           },
         ],
       },
-      ,
       {
         word: "sailor",
         audio:

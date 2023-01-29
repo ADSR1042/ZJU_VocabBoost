@@ -59,8 +59,7 @@ export const Setting = (props) => {
     props.showDrawerfunc(false);
   };
   let defaultsettings = JSON.parse(JSON.stringify(props.settings));
-  let settings = JSON.parse(JSON.stringify(props.settings));
-  let firstLoad = true;
+  let settings = JSON.parse(JSON.stringify(defaultsettings));
   const convertUnit = (unit) => {
     let newUnit = [];
     for (let i = 0; i < 8; i++) {
@@ -86,14 +85,14 @@ export const Setting = (props) => {
     if (props.inital) {
       console.log("settings1",settings);
       props.setSettings(settings);
-      props.initalization();
+      // props.initalization();
       closeDrawer();
     } else {
       console.log("no inital");
       if (compareSettings(defaultsettings, settings)) {
+        props.setSettings(settings);
         props.showDrawerfunc(false);
-      } else 
-      {
+      } else {
         Modal.confirm({
           title: "提示",
           content: (
@@ -107,7 +106,8 @@ export const Setting = (props) => {
           ),
           onOk: () => {
             props.setSettings(settings);
-            props.initalization();
+            props.setInital(true);
+            // props.initalization();
             closeDrawer();
           },
           onCancel: () => {
@@ -128,6 +128,7 @@ export const Setting = (props) => {
       onClose={onClose}
       visible={props.showDrawer}
       maskClosable={false}
+      closable={false}
       destroyOnClose={true}
       extra={
         <Space>
@@ -141,7 +142,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <span>书本选择</span>
           <Select
-            defaultValue={defaultsettings.book}
+            defaultValue={props.settings.book}
             style={{ width: 120 }}
             options={Book}
             onChange={(value) => {
@@ -152,7 +153,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <span>模式选择</span>
           <Radio.Group
-            defaultValue={defaultsettings.mode}
+            defaultValue={props.settings.mode}
             options={Mode}
             optionType="button"
             buttonStyle="solid"
@@ -166,11 +167,10 @@ export const Setting = (props) => {
           <Col span={3}>
             <Checkbox.Group
               options={Unit}
-              defaultValue={defaultsettings.units.map((value, index) => {
+              defaultValue={props.settings.units.map((value, index) => {
                 if (value) return index.toString();
               })}
               onChange={(value) => {
-                console.log(value);
                 settings.units = convertUnit(value);
               }}
             />
@@ -180,7 +180,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <div>首字母显示</div>
           <Switch
-            defaultChecked={defaultsettings.showPronounce}
+            defaultChecked={props.settings.showPronounce}
             onChange={(value) => {
               settings.showFirstLetter = value;
             }}
@@ -189,7 +189,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <div>音标显示</div>
           <Switch
-            defaultChecked={defaultsettings.showPronounce}
+            defaultChecked={props.settings.showPronounce}
             onChange={(value) => {
               settings.showPronounce = value;
             }}
@@ -199,3 +199,4 @@ export const Setting = (props) => {
     </Drawer>
   );
 };
+
