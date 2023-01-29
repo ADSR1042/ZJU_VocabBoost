@@ -1,0 +1,201 @@
+import React from "react";
+import {
+  Drawer,
+  Button,
+  Space,
+  Radio,
+  Checkbox,
+  Row,
+  Col,
+  Switch,
+  Select,
+  Modal,
+} from "antd";
+export const Setting = (props) => {
+  const Mode = [
+    { label: "顺序模式", value: "0" },
+    { label: "随机模式", value: "1" },
+  ];
+  const Book = [
+    { label: "book1", value: "0" },
+    { label: "book2", value: "1" },
+    { label: "book3", value: "2" },
+  ];
+  const Unit = [
+    {
+      label: "Unit1",
+      value: "0",
+    },
+    {
+      label: "Unit2",
+      value: "1",
+    },
+    {
+      label: "Unit3",
+      value: "2",
+    },
+    {
+      label: "Unit4",
+      value: "3",
+    },
+    {
+      label: "Unit5",
+      value: "4",
+    },
+    {
+      label: "Unit6",
+      value: "5",
+    },
+    {
+      label: "Unit7",
+      value: "6",
+    },
+    {
+      label: "Unit8",
+      value: "7",
+    },
+  ];
+  const closeDrawer = () => {
+    props.showDrawerfunc(false);
+  };
+  let defaultsettings = JSON.parse(JSON.stringify(props.settings));
+  let settings = JSON.parse(JSON.stringify(props.settings));
+  let firstLoad = true;
+  const convertUnit = (unit) => {
+    let newUnit = [];
+    for (let i = 0; i < 8; i++) {
+      newUnit.push(false);
+    }
+    for (let i = 0; i < unit.length; i++) {
+      newUnit[unit[i]] = true;
+    }
+    return newUnit;
+  };
+  const compareSettings = (a, b) => {
+    if (
+      a.mode === b.mode &&
+      a.units.toString() === b.units.toString() &&
+      a.book === b.book
+    ) {
+      return true;
+    }
+    return false;
+  };
+
+  const onClose = () => {
+    if (props.inital) {
+      console.log("settings1",settings);
+      props.setSettings(settings);
+      props.initalization();
+      closeDrawer();
+    } else {
+      console.log("no inital");
+      if (compareSettings(defaultsettings, settings)) {
+        props.showDrawerfunc(false);
+      } else 
+      {
+        Modal.confirm({
+          title: "提示",
+          content: (
+            <>
+              <>&nbsp;</>
+              <p>您现在正在检测中</p>
+              <p>在检测的过程中切换单元将会重置进度</p>
+              <p>按确定重置进度并切换单元</p>
+              <p>按取消撤销操作</p>
+            </>
+          ),
+          onOk: () => {
+            props.setSettings(settings);
+            props.initalization();
+            closeDrawer();
+          },
+          onCancel: () => {
+            settings = JSON.parse(JSON.stringify(defaultsettings));
+            console.log("cancel");
+            closeDrawer();
+          },
+        });
+      }
+    }
+  };
+
+  return (
+    <Drawer
+      key={"settingDrawer"}
+      title="设置"
+      placement="right"
+      onClose={onClose}
+      visible={props.showDrawer}
+      maskClosable={false}
+      destroyOnClose={true}
+      extra={
+        <Space>
+          <Button type="primary" onClick={onClose}>
+            确定
+          </Button>
+        </Space>
+      }
+    >
+      <Space direction="vertical">
+        <Space size={"large"}>
+          <span>书本选择</span>
+          <Select
+            defaultValue={defaultsettings.book}
+            style={{ width: 120 }}
+            options={Book}
+            onChange={(value) => {
+              settings.book = value.toString();
+            }}
+          />
+        </Space>
+        <Space size={"large"}>
+          <span>模式选择</span>
+          <Radio.Group
+            defaultValue={defaultsettings.mode}
+            options={Mode}
+            optionType="button"
+            buttonStyle="solid"
+            onChange={(value) => {
+              settings.mode = value.target.value.toString();
+            }}
+          />
+        </Space>
+        <div>单元选择</div>
+        <Row>
+          <Col span={3}>
+            <Checkbox.Group
+              options={Unit}
+              defaultValue={defaultsettings.units.map((value, index) => {
+                if (value) return index.toString();
+              })}
+              onChange={(value) => {
+                console.log(value);
+                settings.units = convertUnit(value);
+              }}
+            />
+          </Col>
+        </Row>
+
+        <Space size={"large"}>
+          <div>首字母显示</div>
+          <Switch
+            defaultChecked={defaultsettings.showPronounce}
+            onChange={(value) => {
+              settings.showFirstLetter = value;
+            }}
+          />
+        </Space>
+        <Space size={"large"}>
+          <div>音标显示</div>
+          <Switch
+            defaultChecked={defaultsettings.showPronounce}
+            onChange={(value) => {
+              settings.showPronounce = value;
+            }}
+          />
+        </Space>
+      </Space>
+    </Drawer>
+  );
+};
