@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Layout,  Button, Input, Alert, Modal } from "antd";
-import { PageHeader } from '@ant-design/pro-layout';
+import { Layout, Button, Input, Alert, Modal } from "antd";
+import { PageHeader } from "@ant-design/pro-layout";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
 import book1 from "./data/book1";
@@ -10,6 +10,7 @@ import book3 from "./data/book3";
 import { Setting } from "./Setting";
 import { Progressline } from "./Progressline";
 import History from "./History";
+import Record from "./Record";
 const { Content, Footer } = Layout;
 const defaultsettings = {
   book: "0",
@@ -19,14 +20,14 @@ const defaultsettings = {
   units: [true, true, true, true, true, true, true, true],
 };
 const AlertShowCSS = {
-  top: "570px",
+  top: "450px",
   width: "50%",
   margin: "auto",
   visibility: "visible",
   position: "absolute",
 };
 const AlertHideCSS = {
-  top: "570px",
+  top: "450px",
   width: "50%",
   margin: "auto",
   visibility: "hidden",
@@ -188,15 +189,18 @@ const App = () => {
             title="大英默写器"
             subTitle="仅供学习使用 请勿用于商业用途"
             extra={[
-              <Button
-                type="text"
-                key="setting"
-                onClick={() => {
-                  setShowSettings(true);
-                }}
-                icon={<UnorderedListOutlined size={"large"} />}
-                size={"large"}
-              ></Button>,
+              <>
+                <Record />
+                <Button
+                  type="text"
+                  key="setting"
+                  onClick={() => {
+                    setShowSettings(true);
+                  }}
+                  icon={<UnorderedListOutlined size={"large"} />}
+                  size={"large"}
+                ></Button>
+              </>,
             ]}
           />
           <Setting
@@ -244,24 +248,6 @@ const App = () => {
                 />
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                <Button
-                  onClick={prev}
-                  size="large"
-                  disabled={current === 0}
-                  style={{ position: "absolute", top: "500px", left: "35%" }}
-                >
-                  pre
-                </Button>
-                <Button
-                  onClick={handlePressEnter}
-                  size="large"
-                  disabled={current === list.length - 1}
-                  style={{ position: "absolute", top: "500px", right: "35%" }}
-                >
-                  next
-                </Button>
-              </div>
-              <div style={{ display: "flex", justifyContent: "center" }}>
                 <Alert
                   message={alertMessage}
                   type={alertState}
@@ -269,13 +255,34 @@ const App = () => {
                 />
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
+                <Button
+                  onClick={prev}
+                  size="large"
+                  disabled={current === 0}
+                  style={{ position: "absolute", top: "540px", left: "35%" }}
+                >
+                  pre&nbsp;
+                </Button>
+                <Button
+                  onClick={handlePressEnter}
+                  size="large"
+                  disabled={current === list.length - 1}
+                  style={{ position: "absolute", top: "540px", right: "35%" }}
+                >
+                  next
+                </Button>
+              </div>
+
+              <div style={{ display: "flex", justifyContent: "center" }}>
                 <Progressline
+                  key={current}
                   current={inital ? 0 : current}
                   total={list.length - 1}
                 />
               </div>
             </div>
           </Content>
+          <History />
           <Footer
             style={{
               textAlign: "center",

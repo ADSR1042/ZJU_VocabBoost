@@ -11,7 +11,7 @@ import {
   Select,
   Modal,
 } from "antd";
-import {GuideUser } from "./Guide";
+import { GuideUser } from "./Guide";
 export const Setting = (props) => {
   const Mode = [
     { label: "顺序模式", value: "0" },
@@ -153,30 +153,34 @@ export const Setting = (props) => {
         </Space>
         <Space size={"large"}>
           <span>模式选择</span>
-          <Radio.Group
-            defaultValue={props.settings.mode}
-            options={Mode}
-            optionType="button"
-            buttonStyle="solid"
-            onChange={(value) => {
-              settings.mode = value.target.value.toString();
-            }}
-          />
-        </Space>
-        <div>单元选择</div>
-        <Row>
-          <Col span={3}>
-            <Checkbox.Group
-              options={Unit}
-              defaultValue={props.settings.units.map((value, index) => {
-                if (value) return index.toString();
-              })}
+          <Space direction="vertical">
+            <Radio.Group
+              defaultValue={props.settings.mode}
+              options={Mode}
+              optionType="button"
+              buttonStyle="solid"
               onChange={(value) => {
-                settings.units = convertUnit(value);
+                settings.mode = value.target.value.toString();
               }}
             />
-          </Col>
-        </Row>
+          </Space>
+        </Space>
+        <div>单元选择</div>
+
+          <Checkbox.Group
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "baseline",
+            }}
+            options={Unit}
+            defaultValue={props.settings.units.map((value, index) => {
+              if (value) return index.toString();
+            })}
+            onChange={(value) => {
+              settings.units = convertUnit(value);
+            }}
+          />
 
         <Space size={"large"}>
           <div>首字母显示</div>
@@ -196,7 +200,7 @@ export const Setting = (props) => {
             }}
           />
         </Space>
-        <GuideUser/>
+        <GuideUser />
       </Space>
       <Space size={"large"}></Space>
     </Drawer>

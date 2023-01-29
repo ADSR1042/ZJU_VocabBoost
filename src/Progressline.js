@@ -4,8 +4,8 @@ export const Progressline = (props) => {
     let percent = props.current/props.total*100;
   return (
     <Progress
-      percent={percent.toFixed(2)}
-      style={{ position: "absolute", top: "670px", width: "80%" }}
+      percent={percent===0?0.0:percent.toFixed(1)}
+      style={{ position: "absolute", top: "660px", width: "80%" }}
     ></Progress>
   );
 };

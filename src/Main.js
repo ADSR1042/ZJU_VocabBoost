@@ -522,7 +522,7 @@ function Main(props) {
   }
 
   return (
-    <div className="site-page-header-ghost-wrapper">
+    (<div className="site-page-header-ghost-wrapper">
       <Layout className="layout">
         <PageHeader
           className="site-page-header"
@@ -539,7 +539,7 @@ function Main(props) {
         />
         <Modal
           title="提示"
-          visible={isModalVisible}
+          open={isModalVisible}
           onOk={handleOk}
           onCancel={handleCancel}
           cancelText="取消"
@@ -552,7 +552,7 @@ function Main(props) {
         </Modal>
         <Modal
           title="警告"
-          visible={isModalVisible2}
+          open={isModalVisible2}
           onOk={handleOk2}
           onCancel={handleCancel2}
           cancelText="取消"
@@ -567,7 +567,7 @@ function Main(props) {
           title="设置"
           placement="right"
           onClose={onClose}
-          visible={Drawervisible}
+          open={Drawervisible}
           maskClosable={false}
           extra={
             <Space>
@@ -676,7 +676,7 @@ function Main(props) {
           {/* <p></p> */}
         </Footer>
       </Layout>
-    </div>
+    </div>)
   );
 }
 export default Main;
