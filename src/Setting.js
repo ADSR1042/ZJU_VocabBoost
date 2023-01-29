@@ -11,6 +11,7 @@ import {
   Select,
   Modal,
 } from "antd";
+import {GuideUser } from "./Guide";
 export const Setting = (props) => {
   const Mode = [
     { label: "顺序模式", value: "0" },
@@ -83,7 +84,7 @@ export const Setting = (props) => {
 
   const onClose = () => {
     if (props.inital) {
-      console.log("settings1",settings);
+      console.log("settings1", settings);
       props.setSettings(settings);
       // props.initalization();
       closeDrawer();
@@ -126,7 +127,7 @@ export const Setting = (props) => {
       title="设置"
       placement="right"
       onClose={onClose}
-      visible={props.showDrawer}
+      open={props.showDrawer}
       maskClosable={false}
       closable={false}
       destroyOnClose={true}
@@ -195,8 +196,9 @@ export const Setting = (props) => {
             }}
           />
         </Space>
+        <GuideUser/>
       </Space>
+      <Space size={"large"}></Space>
     </Drawer>
   );
 };
-

@@ -1,4 +1,4 @@
-import React ,{useState}from "react";
+import React from "react";
 import { Progress } from "antd";
 export const Progressline = (props) => {
     let percent = props.current/props.total*100;

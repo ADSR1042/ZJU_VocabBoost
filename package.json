@@ -5,10 +5,12 @@
     "main": "build/electron.js",
     "homepage": "https://adsr1042.github.io/SQTP2022",
     "dependencies": {
+        "@ant-design/compatible": "^5.1.1",
+        "@ant-design/pro-layout": "^7.6.1",
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.2.0",
         "@testing-library/user-event": "^13.5.0",
-        "antd": "^4.20.4",
+        "antd": "^5.1.6",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-scripts": "5.0.1",

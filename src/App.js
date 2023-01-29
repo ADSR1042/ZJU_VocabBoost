@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Layout, PageHeader, Button, Input, Alert, Modal } from "antd";
+import { Layout,  Button, Input, Alert, Modal } from "antd";
+import { PageHeader } from '@ant-design/pro-layout';
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
 import book1 from "./data/book1";
@@ -8,6 +9,7 @@ import book2 from "./data/book2";
 import book3 from "./data/book3";
 import { Setting } from "./Setting";
 import { Progressline } from "./Progressline";
+import History from "./History";
 const { Content, Footer } = Layout;
 const defaultsettings = {
   book: "0",
@@ -97,7 +99,6 @@ const App = () => {
     }
   };
   const showFirstLetterfunc = () => {
-    console.log("first letter current: " + current);
     let temp = current === list.length - 1 ? current : current + 1;
     if (settings.showFirstLetter)
       setInputValue(
@@ -107,7 +108,7 @@ const App = () => {
     else setInputValue("");
   };
   const handlePressEnter = (e) => {
-    let answer = e.target.value;
+    let answer = e.target.value || "";
     if (inital) {
       initalization();
       setCurrent(0);
@@ -118,9 +119,7 @@ const App = () => {
     console.log(list[current]);
     console.log("check", check);
     if (check) {
-      console.log("check is true");
       setAlertVisible(false);
-      // check = false;
       setCheck(false);
       next();
       showFirstLetterfunc();
@@ -128,7 +127,6 @@ const App = () => {
       (answer.length === 1 && settings.showFirstLetter === true) ||
       answer.length === 0
     ) {
-      console.log("did not check");
       next();
       showFirstLetterfunc();
     } else {
@@ -145,7 +143,6 @@ const App = () => {
         setAlertMessage("Wrong! The answer is " + key);
         setAlertVisible(true);
       }
-      // check = true;
       setCheck(true);
     }
   };
@@ -245,6 +242,24 @@ const App = () => {
                   }}
                   autoFocus
                 />
+              </div>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Button
+                  onClick={prev}
+                  size="large"
+                  disabled={current === 0}
+                  style={{ position: "absolute", top: "500px", left: "35%" }}
+                >
+                  pre
+                </Button>
+                <Button
+                  onClick={handlePressEnter}
+                  size="large"
+                  disabled={current === list.length - 1}
+                  style={{ position: "absolute", top: "500px", right: "35%" }}
+                >
+                  next
+                </Button>
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Alert
