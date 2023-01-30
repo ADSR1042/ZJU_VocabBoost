@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Layout, Button, Input, Alert, Modal } from "antd";
+import { Layout, Button, Input, Alert, Modal, message } from "antd";
 import { PageHeader } from "@ant-design/pro-layout";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
@@ -9,7 +9,7 @@ import book2 from "./data/book2";
 import book3 from "./data/book3";
 import { Setting } from "./Setting";
 import { Progressline } from "./Progressline";
-import History from "./History";
+// import History from "./History";
 import Record from "./Record";
 const { Content, Footer } = Layout;
 const defaultsettings = {
@@ -17,10 +17,11 @@ const defaultsettings = {
   mode: "0",
   showPronounce: false,
   showFirstLetter: false,
+  showButton:true,
   units: [true, true, true, true, true, true, true, true],
 };
 const AlertShowCSS = {
-  top: "450px",
+  top: "530px",
   width: "50%",
   margin: "auto",
   visibility: "visible",
@@ -48,6 +49,7 @@ const App = () => {
   const [alertMessage, setAlertMessage] = useState("");
   const [alertVisible, setAlertVisible] = useState(true);
   const [inputValue, setInputValue] = useState("");
+  const [history, setHistory] = useState([]);
   book[0] = book1;
   book[1] = book2;
   book[2] = book3;
@@ -86,12 +88,11 @@ const App = () => {
             }
           }
         }
-        console.log(temp);
+
         for (let i = temp.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [temp[i], temp[j]] = [temp[j], temp[i]];
         }
-        // temp.push({ unit: 0, lesson: 0 });
         console.log(temp);
         setList(temp);
         break;
@@ -109,7 +110,8 @@ const App = () => {
     else setInputValue("");
   };
   const handlePressEnter = (e) => {
-    let answer = e.target.value || "";
+    let answer ="";
+    if(e!==undefined)answer = e.target.value;
     if (inital) {
       initalization();
       setCurrent(0);
@@ -118,7 +120,6 @@ const App = () => {
     }
     console.log("current", current);
     console.log(list[current]);
-    console.log("check", check);
     if (check) {
       setAlertVisible(false);
       setCheck(false);
@@ -143,6 +144,11 @@ const App = () => {
         setAlertState("error");
         setAlertMessage("Wrong! The answer is " + key);
         setAlertVisible(true);
+        updateHistory(
+          book[settings.book * 1][list[current].unit][0].children[
+            list[current].lesson
+          ]
+        );
       }
       setCheck(true);
     }
@@ -177,7 +183,14 @@ const App = () => {
   const prev = () => {
     if (current > 0) {
       setCurrent(current - 1);
+    } else {
+      message.error("前面已经没有单词啦");
     }
+  };
+  const updateHistory = (newdata) => {
+    let temp = history;
+    temp.push(newdata);
+    setHistory(temp);
   };
 
   return (
@@ -185,12 +198,16 @@ const App = () => {
       <div className="site-page-header-ghost-wrapper">
         <Layout className="layout">
           <PageHeader
+            key={"header"}
             className="site-page-header"
             title="大英默写器"
-            subTitle="仅供学习使用 请勿用于商业用途"
+            subTitle="仅供学习 请勿商用"
             extra={[
               <>
-                <Record />
+                <Record 
+                  data={history}
+                  setHistory={setHistory}
+                />
                 <Button
                   type="text"
                   key="setting"
@@ -235,14 +252,25 @@ const App = () => {
                   size="large"
                   style={{
                     width: "50%",
-                    top: "400px",
+                    top: "480px",
                     position: "absolute",
                   }}
                   value={inputValue}
                   onPressEnter={handlePressEnter}
                   onChange={(e) => {
                     setInputValue(e.target.value);
-                    console.log(e.target.value);
+                  }}
+                  onKeyDown={(e) => {
+                    switch(e.key){
+                      case "ArrowUp":
+                        if(inital===false)prev();
+                        break;
+                      case "ArrowDown":
+                        handlePressEnter();
+                        break;
+                      default:
+                        break;
+                    }
                   }}
                   autoFocus
                 />
@@ -258,8 +286,9 @@ const App = () => {
                 <Button
                   onClick={prev}
                   size="large"
-                  disabled={current === 0}
-                  style={{ position: "absolute", top: "540px", left: "35%" }}
+                  disabled={current === 0 || inital === true}
+                  style={{ position: "absolute", top: "580px", left: "35%" ,display:settings.showButton?null:"none"}}
+
                 >
                   pre&nbsp;
                 </Button>
@@ -267,7 +296,8 @@ const App = () => {
                   onClick={handlePressEnter}
                   size="large"
                   disabled={current === list.length - 1}
-                  style={{ position: "absolute", top: "540px", right: "35%" }}
+                  style={{ position: "absolute", top: "580px", right: "35%",display:settings.showButton?null:"none" }}
+
                 >
                   next
                 </Button>
@@ -282,7 +312,7 @@ const App = () => {
               </div>
             </div>
           </Content>
-          <History />
+          {/* <History /> */}
           <Footer
             style={{
               textAlign: "center",

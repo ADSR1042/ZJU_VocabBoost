@@ -1,9 +1,10 @@
 {
-    "name": "antd-demo",
+    "name": "sqtp2022",
     "version": "0.1.0",
     "private": true,
     "main": "build/electron.js",
-    "homepage": "https://adsr1042.github.io/SQTP2022",
+    "homepage-gh": "https://adsr1042.github.io/SQTP2022",
+    "homepage": "./",
     "dependencies": {
         "@ant-design/compatible": "^5.1.1",
         "@ant-design/pro-layout": "^7.6.1",

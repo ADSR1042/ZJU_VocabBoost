@@ -5,8 +5,6 @@ import {
   Space,
   Radio,
   Checkbox,
-  Row,
-  Col,
   Switch,
   Select,
   Modal,
@@ -138,6 +136,7 @@ export const Setting = (props) => {
           </Button>
         </Space>
       }
+      autoFocus
     >
       <Space direction="vertical">
         <Space size={"large"}>
@@ -183,7 +182,9 @@ export const Setting = (props) => {
           />
 
         <Space size={"large"}>
-          <div>首字母显示</div>
+          <div
+            style={{"width":"100px"}}
+          >首字母显示</div>
           <Switch
             defaultChecked={props.settings.showPronounce}
             onChange={(value) => {
@@ -192,11 +193,24 @@ export const Setting = (props) => {
           />
         </Space>
         <Space size={"large"}>
-          <div>音标显示</div>
+          <div
+            style={{"width":"100px"}}
+          >音标显示</div>
           <Switch
             defaultChecked={props.settings.showPronounce}
             onChange={(value) => {
               settings.showPronounce = value;
+            }}
+          />
+        </Space>
+        <Space size={"large"}>
+          <div
+            style={{"width":"100px"}}
+          >切换按钮显示</div>
+          <Switch
+            defaultChecked={props.settings.showButton}
+            onChange={(value) => {
+              settings.showButton = value;
             }}
           />
         </Space>
