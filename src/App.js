@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Layout, Button, Input, Alert, Modal, message ,PageHeader} from "antd";
+import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
@@ -17,7 +17,7 @@ const defaultsettings = {
   mode: "0",
   showPronounce: false,
   showFirstLetter: false,
-  showButton:true,
+  showButton: true,
   units: [true, true, true, true, true, true, true, true],
 };
 const AlertShowCSS = {
@@ -34,6 +34,8 @@ const AlertHideCSS = {
   visibility: "hidden",
   position: "absolute",
 };
+const defaultIput = { target: { value: "" } };
+
 const App = () => {
   let book = [];
   const [check, setCheck] = useState(false);
@@ -110,8 +112,8 @@ const App = () => {
     else setInputValue("");
   };
   const handlePressEnter = (e) => {
-    let answer =" ";
-    if(e!==undefined)answer = e.target.value;
+    let answer = " ";
+    if (e !== undefined) answer = e.target.value;
     if (inital) {
       initalization();
       setCurrent(0);
@@ -126,6 +128,7 @@ const App = () => {
       next();
       showFirstLetterfunc();
     } else if (
+      answer === undefined ||
       (answer.length === 1 && settings.showFirstLetter === true) ||
       answer.length === 0
     ) {
@@ -186,6 +189,7 @@ const App = () => {
     } else {
       message.error("前面已经没有单词啦");
     }
+    showFirstLetterfunc();
   };
   const updateHistory = (newdata) => {
     let temp = history;
@@ -204,10 +208,7 @@ const App = () => {
             subTitle="仅供学习 请勿商用"
             extra={[
               <>
-                <Record 
-                  data={history}
-                  setHistory={setHistory}
-                />
+                <Record data={history} setHistory={setHistory} />
                 <Button
                   type="text"
                   key="setting"
@@ -255,18 +256,19 @@ const App = () => {
                     top: "480px",
                     position: "absolute",
                   }}
+                  disabled={showSettings}
                   value={inputValue}
                   onPressEnter={handlePressEnter}
                   onChange={(e) => {
                     setInputValue(e.target.value);
                   }}
                   onKeyDown={(e) => {
-                    switch(e.key){
+                    switch (e.key) {
                       case "ArrowUp":
-                        if(inital===false)prev();
+                        if (inital === false) prev();
                         break;
                       case "ArrowDown":
-                        handlePressEnter();
+                        handlePressEnter(defaultIput);
                         break;
                       default:
                         break;
@@ -287,17 +289,27 @@ const App = () => {
                   onClick={prev}
                   size="large"
                   disabled={current === 0 || inital === true}
-                  style={{ position: "absolute", top: "580px", left: "35%" ,display:settings.showButton?null:"none"}}
-
+                  style={{
+                    position: "absolute",
+                    top: "600px",
+                    left: window.innerWidth < 600 ? "30%" : "35%",
+                    marginRight: "25%",
+                    display: settings.showButton ? null : "none",
+                  }}
                 >
                   pre&nbsp;
                 </Button>
                 <Button
-                  onClick={handlePressEnter}
+                  onClick={()=>handlePressEnter(defaultIput)}
                   size="large"
                   disabled={current === list.length - 1}
-                  style={{ position: "absolute", top: "580px", right: "35%",display:settings.showButton?null:"none" }}
-
+                  style={{
+                    position: "absolute",
+                    top: "600px",
+                    left: window.innerWidth < 600 ? "30%" : "35%",
+                    marginLeft: "25%",
+                    display: settings.showButton ? null : "none",
+                  }}
                 >
                   next
                 </Button>
@@ -318,7 +330,7 @@ const App = () => {
               textAlign: "center",
             }}
           >
-            ZJU SQTP
+            ZJU EVA
           </Footer>
         </Layout>
       </div>

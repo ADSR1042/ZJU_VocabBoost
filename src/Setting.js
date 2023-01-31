@@ -10,6 +10,7 @@ import {
   Modal,
 } from "antd";
 import { GuideUser } from "./Guide";
+import { Contactme } from "./Contactme";
 export const Setting = (props) => {
   const Mode = [
     { label: "顺序模式", value: "0" },
@@ -184,7 +185,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <div
             style={{"width":"100px"}}
-          >首字母显示</div>
+          >显示首字母</div>
           <Switch
             defaultChecked={props.settings.showPronounce}
             onChange={(value) => {
@@ -195,7 +196,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <div
             style={{"width":"100px"}}
-          >音标显示</div>
+          >显示音标</div>
           <Switch
             defaultChecked={props.settings.showPronounce}
             onChange={(value) => {
@@ -206,7 +207,7 @@ export const Setting = (props) => {
         <Space size={"large"}>
           <div
             style={{"width":"100px"}}
-          >切换按钮显示</div>
+          >显示切换按钮</div>
           <Switch
             defaultChecked={props.settings.showButton}
             onChange={(value) => {
@@ -214,9 +215,13 @@ export const Setting = (props) => {
             }}
           />
         </Space>
+        <span
+          style={{"color":"grey","fontSize":"13px"}}
+        >*设置将会在点击上方确认按钮后生效</span>
         <GuideUser />
       </Space>
       <Space size={"large"}></Space>
+      <Contactme/>
     </Drawer>
   );
 };

@@ -11,7 +11,13 @@ import {
 } from "antd";
 import { FileTextOutlined, QuestionCircleOutlined } from "@ant-design/icons";
 import React, { useState } from "react";
-
+const isRepeat = (data, repeat) => {
+  if (repeat === true) {
+    return data;
+  } else {
+    return Array.from(new Set(data)); 
+};
+}
 const ContentModal = (props) => {
   return (
     <div key={props.word + "-1"}>
@@ -41,6 +47,7 @@ const ContentModal = (props) => {
 
 const Content = (props) => {
   const [showExample, setShowExample] = useState(true);
+  const [showRepeat, setShowRepeat] = useState(false);
   const saveStorage = (value) => {
     if (value.length !== 0) {
       localStorage.setItem("history", JSON.stringify(value));
@@ -85,7 +92,7 @@ const Content = (props) => {
     <div style={{ top: "50px" }}>
       <div style={{ maxHeight: window.innerHeight * 0.75, overflowY: "auto" }}>
         {props.data.length !== 0 ? (
-          props.data.map((item, index) => (
+          isRepeat( props.data,showRepeat).map((item, index) => (
             <ContentModal
               index={index}
               key={index}
@@ -101,14 +108,36 @@ const Content = (props) => {
 
       <div style={{ position: "sticky", bottom: "10px" }}>
         <Divider />
-        <span>展示例句&nbsp;&nbsp;</span>
-        <Switch
-          defaultChecked={true}
-          onChange={(value) => {
-            setShowExample(value);
+        <div
+          style={{
+            marginBottom: "10px",
+            display: window.innerWidth < 600 ? "block" : "contents",
           }}
-        />
-        <span>&nbsp;&nbsp;</span>
+        >
+          <span>
+            <span>&nbsp;&nbsp;</span>
+            <span>展示例句&nbsp;&nbsp;</span>
+            <Switch
+              defaultChecked={true}
+              onChange={(value) => {
+                setShowExample(value);
+              }}
+            />
+          </span>
+          <span>&nbsp;&nbsp;</span>
+          <span>
+            <span>&nbsp;&nbsp;</span>
+            <span>去除重复&nbsp;&nbsp;</span>
+            <Switch
+              defaultChecked={true}
+              onChange={(value) => {
+                setShowRepeat(value);
+              }}
+            />
+          </span>
+          <span>&nbsp;&nbsp;</span>
+        </div>
+
         <span>
           {/* <Button type="primary" style={{"margin":"0px 5px"}} disabled={true}>导出记录</Button> */}
           <Button
@@ -125,7 +154,7 @@ const Content = (props) => {
           </Button>
           <Tooltip
             title="本地缓存仅储存于该浏览器本地 不含云端同步功能"
-            placement="right"
+            placement="bottom"
             zIndex={3000}
           >
             <Button type="link" icon={<QuestionCircleOutlined />}></Button>
@@ -145,10 +174,12 @@ const Record = (props) => {
         title="错题本"
         trigger="click"
         overlayStyle={{
-          maxWidth: window.innerWidth * 0.8,
-          minWidth: window.innerWidth * 0.8,
+          width:
+            window.innerWidth < 600
+              ? window.innerWidth
+              : window.innerWidth * 0.8,
         }}
-        placement="bottomLeft"
+        placement={window.innerWidth < 600 ? "bottom" : "bottomLeft"}
       >
         <Button type="text" icon={<FileTextOutlined />}></Button>
       </Popover>
