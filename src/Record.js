@@ -80,7 +80,7 @@ const Content = (props) => {
         zIndex: 2000,
         content: <>读取缓存后会清楚当前错题记录，确定要继续吗</>,
         onOk: () => {
-          console.log(localStorage.getItem("history"));
+          // console.log(localStorage.getItem("history"));
           props.setHistory(JSON.parse(localStorage.getItem("history")));
           message.success("读取成功");
         },

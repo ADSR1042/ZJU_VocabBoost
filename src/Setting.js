@@ -99,12 +99,12 @@ export const Setting = (props) => {
       return;
     }
     if (props.inital) {
-      console.log("settings1", settings);
+      // console.log("settings1", settings);
       props.setSettings(settings);
       // props.initalization();
       closeDrawer();
     } else {
-      console.log("no inital",settings);
+      // console.log("no inital",settings);
       if (compareSettings(defaultsettings, settings)) {
         props.setSettings(settings);
         props.showDrawerfunc(false);
@@ -128,7 +128,7 @@ export const Setting = (props) => {
           },
           onCancel: () => {
             settings = JSON.parse(JSON.stringify(defaultsettings));
-            console.log("cancel");
+            // console.log("cancel");
             closeDrawer();
           },
         });

@@ -56,8 +56,8 @@ const App = () => {
   book[1] = book2;
   book[2] = book3;
   const initalization = () => {
-    console.log("initalization now!");
-    console.log(settings);
+    // console.log("initalization now!");
+    // console.log(settings);
     setInital(false);
     setCheck(false);
     setList([]);
@@ -96,7 +96,7 @@ const App = () => {
           const j = Math.floor(Math.random() * (i + 1));
           [temp[i], temp[j]] = [temp[j], temp[i]];
         }
-        console.log(temp);
+        // console.log(temp);
         setList(temp);
         return temp;
       default:
@@ -124,7 +124,7 @@ const App = () => {
     else setInputValue("");
   };
   const handlePressEnter = (e) => {
-    console.log("settings when PressEnter", settings);
+    // console.log("settings when PressEnter", settings);
     let answer = " ";
     let temp = [];
     if (e !== undefined) answer = e.target.value;
@@ -134,8 +134,8 @@ const App = () => {
       showFirstLetterfunc(temp, 0);
       return;
     }
-    console.log("current", current);
-    console.log(list[current]);
+    // console.log("current", current);
+    // console.log(list[current]);
     if (check) {
       setAlertVisible(false);
       setCheck(false);
@@ -201,6 +201,7 @@ const App = () => {
       setCurrent(current - 1);
     } else {
       message.error("前面已经没有单词啦");
+      return;
     }
     showFirstLetterfunc(undefined, current - 1);
   };
@@ -228,7 +229,7 @@ const App = () => {
             subTitle="仅供学习 请勿商用"
             extra={[
               <>
-                <Record data={history} setHistory={setHistory} />
+                <Record key="record" data={history} setHistory={setHistory} />
                 <Button
                   type="text"
                   key="setting"
