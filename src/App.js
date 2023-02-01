@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
@@ -61,6 +61,7 @@ const App = () => {
     setInital(false);
     setCheck(false);
     setList([]);
+    setAlertVisible(false);
     let temp = [];
     switch (settings.mode) {
       case "0":
@@ -77,7 +78,7 @@ const App = () => {
         }
         // temp.push({ unit: 0, lesson: 0 });
         setList(temp);
-        break;
+        return temp;
       case "1":
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
@@ -97,13 +98,24 @@ const App = () => {
         }
         console.log(temp);
         setList(temp);
-        break;
+        return temp;
       default:
         break;
     }
   };
-  const showFirstLetterfunc = () => {
+  const showFirstLetterfunc = (initlist, trueIndex) => {
+    //shit code here need modify in the future
     let temp = current === list.length - 1 ? current : current + 1;
+    if (trueIndex !== undefined) temp = trueIndex;
+    if (initlist !== undefined && settings.showFirstLetter) {
+      //为了防止setState异步导致list未更新
+      setInputValue(
+        book[settings.book * 1][initlist[temp].unit][0].children[
+          initlist[temp].lesson
+        ].word[0]
+      );
+      return;
+    }
     if (settings.showFirstLetter)
       setInputValue(
         book[settings.book * 1][list[temp].unit][0].children[list[temp].lesson]
@@ -112,12 +124,14 @@ const App = () => {
     else setInputValue("");
   };
   const handlePressEnter = (e) => {
+    console.log("settings when PressEnter", settings);
     let answer = " ";
+    let temp = [];
     if (e !== undefined) answer = e.target.value;
     if (inital) {
-      initalization();
+      temp = initalization();
       setCurrent(0);
-      showFirstLetterfunc();
+      showFirstLetterfunc(temp, 0);
       return;
     }
     console.log("current", current);
@@ -156,7 +170,6 @@ const App = () => {
       setCheck(true);
     }
   };
-
   const answerCheck = (answer, key) => {
     if (answer.trim() === key.trim()) {
       return true;
@@ -189,14 +202,21 @@ const App = () => {
     } else {
       message.error("前面已经没有单词啦");
     }
-    showFirstLetterfunc();
+    showFirstLetterfunc(undefined, current - 1);
   };
   const updateHistory = (newdata) => {
     let temp = history;
     temp.push(newdata);
     setHistory(temp);
   };
-
+  //listen when showSettings change
+  useEffect(() => {
+    if (showSettings === false && inital === true) setInputValue("");//用于清除 更改设置之后的输入框内容
+  }, [showSettings]);
+  //listen when settings.showFirstLetter change
+  // useEffect(() => {
+  //   if(settings.showFirstLetter === true) setInputValue();
+  // }, [settings.showFirstLetter]);
   return (
     <div className="App">
       <div className="site-page-header-ghost-wrapper">
@@ -281,7 +301,13 @@ const App = () => {
                 <Alert
                   message={alertMessage}
                   type={alertState}
-                  style={alertVisible ? AlertShowCSS : AlertHideCSS}
+                  style={
+                    inital
+                      ? AlertHideCSS
+                      : alertVisible
+                      ? AlertShowCSS
+                      : AlertHideCSS
+                  }
                 />
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
@@ -300,7 +326,7 @@ const App = () => {
                   pre&nbsp;
                 </Button>
                 <Button
-                  onClick={()=>handlePressEnter(defaultIput)}
+                  onClick={() => handlePressEnter(defaultIput)}
                   size="large"
                   disabled={current === list.length - 1}
                   style={{

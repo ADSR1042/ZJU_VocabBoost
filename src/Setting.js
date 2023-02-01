@@ -80,15 +80,31 @@ export const Setting = (props) => {
     }
     return false;
   };
+  const isEmtpy = (list) => {
+    for (let i = 0; i < list.length; i++) {
+      if (list[i]) return false;
+    }
+    return true;
+  }
+
 
   const onClose = () => {
+    if(isEmtpy(settings.units)){
+      Modal.error(
+        {
+          title: "错误",
+          content: "至少选择一个单元",
+        }
+      )
+      return;
+    }
     if (props.inital) {
       console.log("settings1", settings);
       props.setSettings(settings);
       // props.initalization();
       closeDrawer();
     } else {
-      console.log("no inital");
+      console.log("no inital",settings);
       if (compareSettings(defaultsettings, settings)) {
         props.setSettings(settings);
         props.showDrawerfunc(false);
@@ -187,7 +203,7 @@ export const Setting = (props) => {
             style={{"width":"100px"}}
           >显示首字母</div>
           <Switch
-            defaultChecked={props.settings.showPronounce}
+            defaultChecked={props.settings.showFirstLetter}
             onChange={(value) => {
               settings.showFirstLetter = value;
             }}
