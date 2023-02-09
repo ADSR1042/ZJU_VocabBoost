@@ -199,6 +199,7 @@ const App = () => {
   const prev = () => {
     if (current > 0) {
       setCurrent(current - 1);
+      setAlertVisible(false);
     } else {
       message.error("前面已经没有单词啦");
       return;

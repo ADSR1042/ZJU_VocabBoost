@@ -656,7 +656,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) (<em>AmE</em>) an important test that you take at the end of a particular class in high school or college（高中或大学的）期终考试2) the last and most important game, race, or set of games in a competition 决赛",
+                  "1) (AmE) an important test that you take at the end of a particular class in high school or college（高中或大学的）期终考试2) the last and most important game, race, or set of games in a competition 决赛",
                 example:
                   "He's through to the men's tennis final for the first time in his career.",
               },
@@ -691,7 +691,7 @@ book3[0] = [
             partOfSpeech: "/ˈwɪkə/",
             explanations_and_examples: [
               {
-                explanation: ">[C] 干枝条；干柳条；芦苇杆",
+                explanation: " [C] 干枝条；干柳条；芦苇杆",
               },
             ],
           },
@@ -707,7 +707,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  ">bad-tempered and easily annoyed 脾气坏的；易怒的",
+                  " bad-tempered and easily annoyed 脾气坏的；易怒的",
                 example:
                   " I have not had enough sleep lately and is feeling kind of grumpy.",
               },
@@ -812,7 +812,7 @@ book3[0] = [
         ],
       },
       {
-        word: "arc",
+        word: "arch",
         audio:
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/38d12a7457ebb4ad5d76c9de1aeec09fddb99a5d_96k.mp3#duration=1.2&t=.mp3",
         pee: [
@@ -948,7 +948,7 @@ book3[0] = [
               },
               {
                 explanation:
-                  "2) a part of a situation or a quality involved in it&nbsp;（形势或品质的）方面，层面",
+                  "2) a part of a situation or a quality involved in it （形势或品质的）方面，层面",
                 example:
                   "You can have a spiritual dimension to your life without being religious.",
               },
@@ -1310,7 +1310,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) (<em>also</em> <strong>~ enough</strong>) used to say that sth. seems strange or surprising 奇怪的是；真奇怪",
+                  "1) (also  ~ enough ) used to say that sth. seems strange or surprising 奇怪的是；真奇怪",
                 example:
                   "Oddly enough, someone asked me the same question yesterday.",
               },
@@ -1336,7 +1336,7 @@ book3[0] = [
                 explanation:
                   "used to say the opposite of a situation you have just described is also true 反之亦然",
                 example:
-                  " >He refuses to believe anything they say and vice versa.",
+                  "  He refuses to believe anything they say and vice versa.",
               },
             ],
           },
@@ -1457,7 +1457,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  ">not to be caught or punished when you have done sth. wrong （做错事）不被发现，不受惩罚",
+                  " not to be caught or punished when you have done sth. wrong （做错事）不被发现，不受惩罚",
                 example:
                   "It's time they put a stop to his bad behavior. He's been getting away with it for too long.",
               },
@@ -1550,7 +1550,7 @@ book3[0] = [
         ],
       },
       {
-        word: "cut into<",
+        word: "cut into",
         audio:
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/9b99db1dbddc252171569cb691f9473771d36ac5_96k.mp3#duration=1.5&t=.mp3",
         pee: [
@@ -1646,7 +1646,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "(<strong>Brown University</strong>) 布朗大学（美国大学，位于罗得岛州）",
+                  "(Brown University) 布朗大学（美国大学，位于罗得岛州）",
               },
             ],
           },
@@ -2300,7 +2300,7 @@ book3[1] = [
             partOfSpeech: "/ˈrɑːtn/",
             explanations_and_examples: [
               {
-                explanation: "1) (<em>infml</em>.) very bad 极糟的；恶劣的",
+                explanation: "1) (infml.) very bad 极糟的；恶劣的",
                 example:
                   "I personally think it's a rotten idea to go camping on such a rainy day.",
               },
@@ -2481,7 +2481,7 @@ book3[1] = [
                 explanation:
                   "a claim or assertion that sb. has done sth. illegal or wrong, typically one without proof （尤指无证据的）宣称，指控",
                 example:
-                  "He made allegations of corruption against the&nbsp;administration.",
+                  "He made allegations of corruption against the administration.",
               },
             ],
           },
@@ -2585,7 +2585,7 @@ book3[1] = [
                   {
                     explanation: "  although 虽然；尽管",
                     example:
-                      "Charles'&nbsp;letters were published against all odds, albeit in a somewhat abbreviated ",
+                      "Charles' letters were published against all odds, albeit in a somewhat abbreviated ",
                   },
                 ],
               },
@@ -2602,7 +2602,7 @@ book3[1] = [
                 explanations_and_examples: [
                   {
                     explanation:
-                      " >respected for being honest or for doing good work 有声望的；信誉佳的",
+                      "  respected for being honest or for doing good work 有声望的；信誉佳的",
                     example:
                       "If you have a fire alarm fitted, make sure it is done by a reputable company.",
                   },
@@ -2616,7 +2616,7 @@ book3[1] = [
               "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/9bae64458d71de92007a329535fe0a15d3657c04_96k.mp3#duration=2.0&t=.mp3",
             pee: [
               {
-                partOfSpeech: ">/ˈsɜː(r)dʒərɪ/",
+                partOfSpeech: " /ˈsɜː(r)dʒərɪ/",
                 explanations_and_examples: [
                   {
                     explanation:
@@ -2882,7 +2882,7 @@ book3[1] = [
                     explanation:
                       " a restaurant where customers serve themselves from a counter and pay before eating 自助餐馆；自助食堂",
                     example:
-                      ">Even if you do not buy your food in the cafeteria, you can use the tables to have meetings or to study.",
+                      " Even if you do not buy your food in the cafeteria, you can use the tables to have meetings or to study.",
                   },
                 ],
               },
@@ -2912,7 +2912,7 @@ book3[1] = [
               "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4666fc5118297b482d0ec9da88e292fd020e14b3_96k.mp3#duration=1.7&t=.mp3",
             pee: [
               {
-                partOfSpeech: ">/ˌ&aelig;plɪˈkeɪʃn/",
+                partOfSpeech: " /ˌ&aelig;plɪˈkeɪʃn/",
                 explanations_and_examples: [
                   {
                     explanation:
@@ -2942,7 +2942,7 @@ book3[1] = [
                     explanation:
                       " a set of clothes worn together, esp. for a particular occasion or purpose 全套服装",
                     example:
-                      " When you're wearing a loud </em>(花哨的)<em> polka-dot clothes, you need to keep the rest of your outfit quiet.",
+                      " When you're wearing a loud (花哨的) polka-dot clothes, you need to keep the rest of your outfit quiet.",
                   },
                 ],
               },
@@ -2992,7 +2992,7 @@ book3[1] = [
                 explanations_and_examples: [
                   {
                     explanation:
-                      " >in a way that is severe and sudden or has very noticeable effects 激烈地；大幅度地",
+                      "  in a way that is severe and sudden or has very noticeable effects 激烈地；大幅度地",
                     example:
                       "Our communication has changed drastically in the past decade owing to the information technology.",
                   },
@@ -3030,7 +3030,7 @@ book3[1] = [
                     explanation:
                       " reveal (confidential information) to sb. 透露",
                     example:
-                      ">The police officer refused to spill the witness' private information to the reporters to protect her security.",
+                      " The police officer refused to spill the witness' private information to the reporters to protect her security.",
                   },
                   {
                     explanation:
@@ -3079,7 +3079,7 @@ book3[1] = [
                       "The computer comes with a 600-page instruction manual that is not at all user-friendly.",
                   },
                   {
-                    explanation: ">of or done with the hands 手工的；用手的",
+                    explanation: " of or done with the hands 手工的；用手的",
                     example:
                       "The floors of all campus buildings are equipped with manual fire alarm systems.",
                   },
@@ -3093,7 +3093,7 @@ book3[1] = [
               "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8650d1b9717b9777d5a90547763fccd6df3c3fd9_96k.mp3#duration=1.6&t=.mp3",
             pee: [
               {
-                partOfSpeech: ">/ˈsuːpəˌmɒdl/",
+                partOfSpeech: " /ˈsuːpəˌmɒdl/",
                 explanations_and_examples: [
                   {
                     explanation: "  a very famous model 超级名模",
@@ -3192,7 +3192,7 @@ book3[1] = [
                 explanation:
                   "spend a lot of time in a place or area for no particular reason 闲逛",
                 example:
-                  ">I used to hang out with my friends in the park with a fountain, which is now beyond recognition.",
+                  " I used to hang out with my friends in the park with a fountain, which is now beyond recognition.",
               },
             ],
           },
@@ -3207,7 +3207,7 @@ book3[1] = [
             explanations_and_examples: [
               {
                 explanation:
-                  ">used after a negative statement to say that the next thing you mention is even more unlikely 更不用说，更谈不上（用于否定句之后）",
+                  " used after a negative statement to say that the next thing you mention is even more unlikely 更不用说，更谈不上（用于否定句之后）",
                 example:
                   "Because of the knee injuries, he cannot walk any more, let alone play golf.",
               },
@@ -3575,7 +3575,7 @@ book3[1] = [
             explanations_and_examples: [
               {
                 explanation:
-                  ">埃隆.马斯克（美国电动车及能源公司特斯拉〔Tesla〕和太空探索技术公司〔SpaceX〕的首席执行官",
+                  " 埃隆.马斯克（美国电动车及能源公司特斯拉〔Tesla〕和太空探索技术公司〔SpaceX〕的首席执行官",
               },
             ],
           },
@@ -3751,7 +3751,7 @@ book3[2] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "increase sth. such as profit or income as much as possible 使增加到最大限度；使最大化",
+                  "increase sth. such as profit or income as much as possible 使增加到最大限度；使最大化(请使用ise结尾)",
                 example:
                   "Some airlines have canceled less popular routes in an effort to maximise profit.",
               },
@@ -3895,7 +3895,7 @@ book3[2] = [
                 explanation:
                   "the crime of stealing money or things from a bank, shop, etc., esp. using violence 抢劫",
                 example:
-                  "The gang </em>(犯罪团伙)&nbsp;<em>admitted they had committed four recent bank robberies.",
+                  "The gang (犯罪团伙) admitted they had committed four recent bank robberies.",
               },
             ],
           },
@@ -4164,7 +4164,7 @@ book3[2] = [
                 explanation:
                   " a new business activity that involves taking risks 风险项目；风险投资；冒险事业",
                 example:
-                  " >Another idea that has attracted venture capitalists' interest is online learning.",
+                  "  Another idea that has attracted venture capitalists' interest is online learning.",
               },
             ],
           },
@@ -4801,7 +4801,7 @@ book3[2] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) (<strong>~ to sb. / sth.</strong>) strange and frightening; different from what you are used to 陌生的；不熟悉的",
+                  "1) ( ~ to sb. / sth. ) strange and frightening; different from what you are used to 陌生的；不熟悉的",
                 example:
                   " In a world that had suddenly become alien and dangerous, Michael was her only security.",
               },
@@ -5159,7 +5159,7 @@ book3[3] = [
               {
                 explanation: "not covered by any clothes 裸体的；裸露的",
                 example:
-                  "While she was walking around her house in bare feet, her mom just didn't seem to notice.</em></p>",
+                  "While she was walking around her house in bare feet, her mom just didn't seem to notice.",
               },
             ],
           },
@@ -5201,7 +5201,7 @@ book3[3] = [
                 explanation:
                   "make sth. less tight or firmly fixed; become less tight or firmly fixed （使）放松；变松",
                 example:
-                  "He took a screwdriver </em>(螺丝刀)<em> from his pocket and began to loosen the screws on the bike.",
+                  "He took a screwdriver (螺丝刀) from his pocket and began to loosen the screws on the bike.",
               },
             ],
           },
@@ -5712,7 +5712,7 @@ book3[3] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) [sing.] (~ <strong>of</strong>) a small number of people or things 少数人或物",
+                  "1) [sing.] (~  of ) a small number of people or things 少数人或物",
                 example:
                   "The new book is by a man who's already written a handful of best-sellers, most of them about space exploration.",
               },
@@ -6548,7 +6548,7 @@ book3[3] = [
                 explanation:
                   "a quality or power that a substance, plant, etc. has 特性；性质；属性",
                 example:
-                  "For practical purposes the solar spectrum </em>(光谱) <em>is divided into regions with characteristic properties.",
+                  "For practical purposes the solar spectrum (光谱) is divided into regions with characteristic properties.",
               },
               {
                 explanation:
@@ -6570,7 +6570,7 @@ book3[3] = [
             explanations_and_examples: [
               {
                 explanation:
-                  " 1) (<strong>~ yourself / sb. to sth. / to doing sth.</strong>) allow yourself or sb. to have only a limited amount of sth. or to do only a particular kind of activity 约束；限制",
+                  " 1) ( ~ yourself / sb. to sth. / to doing sth. ) allow yourself or sb. to have only a limited amount of sth. or to do only a particular kind of activity 约束；限制",
                 example:
                   "The senator said he would voluntarily restrict himself to $2.2 million in campaign spending",
               },
@@ -6940,7 +6940,7 @@ book3[4] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "move forward or backward while also quickly moving slightly from side to side&nbsp; 一摇一摆地走（移动）",
+                  "move forward or backward while also quickly moving slightly from side to side  一摇一摆地走（移动）",
                 example:
                   "The performer shook, jumped and shimmied in perfect motion, spurring the crowd to rise in an emotional applause.",
               },
@@ -7007,9 +7007,9 @@ book3[4] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) (<em>written</em>) knock sb. down with great force （用力）击倒（某人）",
+                  "1) (written) knock sb. down with great force （用力）击倒（某人）",
                 example:
-                  ">A 25-year-old man was felled by that boxer with a single punch.",
+                  " A 25-year-old man was felled by that boxer with a single punch.",
               },
               {
                 explanation: "2) cut down a tree 砍伐（树木)",
@@ -7229,7 +7229,7 @@ book3[4] = [
                 explanation:
                   "2) [C] an exciting and often short relationship between two people who love each other 罗曼史；风流韵事",
                 example:
-                  "Hemingway's romance with his nurse inspired him to write </em>A Farewell to Arms<em>.",
+                  "Hemingway's romance with his nurse inspired him to write A Farewell to Arms.",
               },
             ],
           },
@@ -7333,7 +7333,7 @@ book3[4] = [
             explanations_and_examples: [
               {
                 explanation:
-                  ">1) repeat exactly the same journey that sb. else has made 重走（别人走过的路程）",
+                  " 1) repeat exactly the same journey that sb. else has made 重走（别人走过的路程）",
                 example:
                   "They are hoping to retrace the epic voyage of Christopher Columbus.",
               },
@@ -7523,7 +7523,7 @@ book3[4] = [
               },
               {
                 explanation:
-                  ">make sth. bigger or looser by pulling it, or become bigger or looser as a result of being pulled （使）变大；（使）变松；拉长",
+                  "make sth. bigger or looser by pulling it, or become bigger or looser as a result of being pulled （使）变大；（使）变松；拉长",
                 example:
                   "Once stretched, the elastic band will not return to its original length.",
               },
@@ -8228,7 +8228,7 @@ book3[4] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) (<em>fml.</em>) sb. who guards or protects sth. 维护者；保卫者",
+                  "1) (fml.) sb. who guards or protects sth. 维护者；保卫者",
                 example:
                   "These oral historians were the guardians of traditional values and the teachers of lessons about the natural world.",
               },
@@ -9066,7 +9066,7 @@ book3[5] = [
                 explanation:
                   "continuing forever and having no end 永远的；永恒的",
                 example:
-                  "Three teenage girls took a vow</em> (誓言)<em> of eternal friendship during the summer of 1985.",
+                  "Three teenage girls took a vow (誓言) of eternal friendship during the summer of 1985.",
               },
             ],
           },
@@ -9164,7 +9164,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/7f3bddba45476914119d12636cef3097b090cd0a_96k.mp3#duration=1.0&t=.mp3",
         pee: [
           {
-            partOfSpeech: ">/kəʊp/",
+            partOfSpeech: "/kəʊp/",
             explanations_and_examples: [
               {
                 explanation:
@@ -9524,7 +9524,7 @@ book3[5] = [
                 explanation:
                   "increase or improve sth. and make it more successful 促进；推动；使兴旺",
                 example:
-                  "They won the semi-final and this boosted the morale</em> (士气)<em> of the team.",
+                  "They won the semi-final and this boosted the morale (士气) of the team.",
               },
             ],
           },
@@ -9589,7 +9589,7 @@ book3[5] = [
               {
                 explanation: "make inactive 使不活动；使不活跃",
                 example:
-                  "Researchers have identified antibodies </em>(抗体)<em> that inactivate the virus before it has the chance to change itself.",
+                  "Researchers have identified antibodies (抗体) that inactivate the virus before it has the chance to change itself.",
               },
             ],
           },
@@ -10040,7 +10040,7 @@ book3[5] = [
               {
                 explanation: "seem likely to happen 很可能发生",
                 example:
-                  "So you think they'll get married next year? </em></p>\n<p><em>- I think it's on the cards.",
+                  "So you think they'll get married next year? - I think it's on the cards.",
               },
             ],
           },
@@ -10440,7 +10440,7 @@ book3[6] = [
                 explanation:
                   "very famous or popular, esp. being considered to represent particular opinions or a particular time （尤指能代表某种观点或某一时代）非常出名的，受欢迎的",
                 example:
-                  "The Phantom of the Opera<em> must be the most iconic Broadway musical ever, and it's for a good reason &mdash; it's so incredible.",
+                  "The Phantom of the Opera must be the most iconic Broadway musical ever, and it's for a good reason &mdash; it's so incredible.",
               },
             ],
           },
@@ -10476,7 +10476,7 @@ book3[6] = [
                 explanation:
                   "sb. whose job is to make judgments about the good and bad qualities of art, music, films, etc. （艺术、音乐、电影等的）评论家，批评家",
                 example:
-                  "Have you read the review written by the theater critic of </em>The Sunday Times",
+                  "Have you read the review written by the theater critic of The Sunday Times",
               },
             ],
           },
@@ -10510,7 +10510,7 @@ book3[6] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "a1) [U] (<em>fml.</em>) the quality of being useful, or the degree to which sth. is useful 有用；实用性",
+                  "a1) [U] (fml.) the quality of being useful, or the degree to which sth. is useful 有用；实用性",
                 example:
                   "I have severe doubts about the utility of examinations on subjects learned this way.",
               },
@@ -10781,7 +10781,7 @@ book3[6] = [
             explanations_and_examples: [
               {
                 explanation:
-                  " 1) (<strong>social / legal / political, etc. framework</strong>) the structure of a society, a legal or political system, etc. 社会 / 法律 / 政治等的框架",
+                  " 1) ( social / legal / political, etc. framework ) the structure of a society, a legal or political system, etc. 社会 / 法律 / 政治等的框架",
                 example:
                   "There is no escaping the fact that we have to act within the existing legal framework.",
               },
@@ -11240,7 +11240,7 @@ book3[6] = [
                 explanation:
                   "imagine a particular situation or think about sth. in a particular way 想象；构想；设想",
                 example:
-                  ">Language may be conceived of as a process which arises from social interaction.",
+                  "Language may be conceived of as a process which arises from social interaction.",
               },
             ],
           },
@@ -11552,7 +11552,7 @@ book3[6] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) (<em>fml.</em>) having the ability to work and make decisions by yourself without any help from anyone else 有自主能力的；自主的",
+                  "1) (fml.) having the ability to work and make decisions by yourself without any help from anyone else 有自主能力的；自主的",
                 example:
                   "It is teachers' responsibility to help children become autonomous learners.",
               },
@@ -11762,7 +11762,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b00f97db0c2e965bebcf31a23362e48f9b09d7ec_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌiːv s&aelig;n&nbsp;ˈləʊrɔːn/",
+            partOfSpeech: "/ˌiːv s&aelig;n ˈləʊrɔːn/",
             explanations_and_examples: [
               {
                 explanation: "伊夫.罗兰（法国时装设计师）",
@@ -11795,7 +11795,7 @@ book3[6] = [
             partOfSpeech: "/məʊˈneɪ/",
             explanations_and_examples: [
               {
-                explanation: "克劳德.莫奈（法国印象派画家）<",
+                explanation: "克劳德.莫奈（法国印象派画家）",
               },
             ],
           },
@@ -12325,7 +12325,7 @@ book3[7] = [
               {
                 explanation: " move slowly and quietly 轻声地缓慢行进",
                 example:
-                  "When cats are preparing to pounce on</em> (猛扑)&nbsp;<em>the mouse, they creep over the ground very slowly.",
+                  "When cats are preparing to pounce on (猛扑) the mouse, they creep over the ground very slowly.",
               },
             ],
           },
@@ -12992,7 +12992,7 @@ book3[7] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "1) [U] (<em> fml.</em>) skill in making people believe what you want them to believe 诡计；手腕",
+                  "1) [U] ( fml.) skill in making people believe what you want them to believe 诡计；手腕",
                 example:
                   "He knew how to win by craft and diplomacy what he could not gain by force.",
               },
@@ -13516,7 +13516,7 @@ book3[7] = [
             partOfSpeech: "/ˈɔːltə/",
             explanations_and_examples: [
               {
-                explanation: ">make sb. / sth. different 使变样；改变",
+                explanation: " make sb. / sth. different 使变样；改变",
                 example:
                   "This doesn't alter the fact that what you did was wrong. You'd better call him and apologize.",
               },

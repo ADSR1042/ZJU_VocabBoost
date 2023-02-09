@@ -1508,7 +1508,7 @@ book2[1] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "having or showing strong feelings of love or of anger, etc. 感情强烈的；热情的",
-                              "example": "<span class=\"words-color\" data-wordscolor=\"#2187e0\">e.g.</span>;Sarah was greeted with a passionate embrace by her husband and children at Heathrow Airport on returning to London. "
+                              "example": "Sarah was greeted with a passionate embrace by her husband and children at Heathrow Airport on returning to London. "
                           }
                       ]
                   }
@@ -1523,7 +1523,7 @@ book2[1] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "[sing.] the edge of the land that is next to the water in a port 码头边；坞边",
-                              "example": "<span class=\"words-color\" data-wordscolor=\"#2187e0\">e.g.</span>;The dockside was the busiest place he had ever seen."
+                              "example": "The dockside was the busiest place he had ever seen."
                           }
                       ]
                   }
@@ -1538,7 +1538,7 @@ book2[1] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "1) [C, U] the act of people coming together after they have been apart for some time 团圆；重逢",
-                              "example": "<span class=\"words-color\" data-wordscolor=\"#2187e0\">e.g.</span>;It was a very emotional reunion, for the children weren't allowed to see her for nearly a week."
+                              "example": "It was a very emotional reunion, for the children weren't allowed to see her for nearly a week."
                           },
                           {
                               "explanation": "2) [C] a social occasion or party attended by a group of people who have not seen each other for a long time 聚会",
@@ -1728,7 +1728,7 @@ book2[1] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "(also ~ up) (AmE line, line up) form or join a line of people or vehicles waiting to do sth. or go somewhere 排队（等候）",
-                              "example": "<span class=\"words-color\" data-wordscolor=\"#2187e0\">e.g.</span>;People are queuing to get in from seven o'clock in the morning."
+                              "example": "People are queuing to get in from seven o'clock in the morning."
                           }
                       ]
                   },
@@ -10886,24 +10886,19 @@ book2[7] = [
               "word": "echo",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈekəʊ/【vt.】",
+                      "partOfSpeech": "/ˈekəʊ/【vt./vi】",
                       "explanations_and_examples": [
                           {
                               "explanation": "repeat (another's words, ideas, etc.) 附和",
                               "example": "Her feelings are echoed by other parents whose kids have left home."
-                          }
+                          },
+                          {
+                            "explanation": "if a sound echoes, you hear it again because it was made near sth. such as a wall or hill （声音）回响；发出回声",
+                            "example": "Her footsteps echoed in the empty room."
+                        },
                       ]
                   },
-                  {
-                      "partOfSpeech": "vi.",
-                      "explanations_and_examples": [
-                          {
-                              "explanation": "if a sound echoes, you hear it again because it was made near sth. such as a wall or hill （声音）回响；发出回声",
-                              "example": "Her footsteps echoed in the empty room."
-                          }
-                      ]
-                  }
-              ],
+                ],
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/9ed5ca99902e9e35278dc62de005846cb128595c_96k.mp3#duration=1.3&t=.mp3"
           },
           {
@@ -11059,6 +11054,600 @@ book2[7] = [
                   }
               ],
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/f10a5fd4905223c54caa58ebf61c2aa834f627f5_96k.mp3#duration=1.7&t=.mp3"
+          },
+          {
+            "word": "rational",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a03fd94eb84581a379a7912b3d603e796814b3b3_96k.mp3#duration=1.6&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈr&aelig;ʃn(ə)l/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "rational thoughts, decisions, etc. are based on reasons rather than emotions （想法、决定等）合理的，基于理性的",
+                    "example": "Parents need to be fully informed before they can make a rational decision."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "biological",
+            "pee": [
+              {
+                "partOfSpeech": "/ˌbaɪəˈlɒdʒɪkl/【 a. 】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "relating to the natural processes performed by living things 生物的；与生物有关的",
+                    "example": "Breathing and sleeping are examples of biological rhythms in humans."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5bb79b8ae156c99ebbfe9a8d07b981de6e78f5c4_96k.mp3#duration=1.9&t=.mp3"
+          },
+          {
+            "word": "genetic",
+            "pee": [
+              {
+                "partOfSpeech": "/dʒəˈnetɪk/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "relating to genes or genetics 基因的；遗传学的",
+                    "example": "I'm giving a seminar on the latest developments in genetic research next week. "
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a3ba8db8799c2d0500e56a1ab80e6b8f3ed6b0c1_96k.mp3#duration=1.7&t=.mp3"
+          },
+          {
+            "word": "microbe",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈmaɪkrəʊb/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[C] an extremely small living thing which can only be seen if you use a microscope. Some microbes can cause diseases. 微生物",
+                    "example": "Was it not the duty of the doctor to kill the microbes?"
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/8ace2b2b8bffacfa9a9afc9268b4301f34ba0348_96k.mp3#duration=1.6&t=.mp3"
+          },
+          {
+            "word": "intuitively",
+            "pee": [
+              {
+                "partOfSpeech": "/ɪnˈtju:ətɪvli/【ad. 】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "in a way that is based on feelings rather than facts or proof 基于直觉地",
+                    "example": "She had sensed, intuitively, that Larry was interested in her."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5980a405ca00a512ed4b60600047c7b4eec5471c_96k.mp3#duration=1.8&t=.mp3"
+          },
+          {
+            "word": "willingly",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈwɪlɪŋli/【ad.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "in a way that shows you are happy or pleased to do sth. or that you do not object to doing sth. 欣然地；愿意地；乐意地",
+                    "example": "Sixty percent of voters said they would willingly pay higher taxes for better health care."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/716c03160af955cf4faab1dfaa08b65a9dabb8fa_96k.mp3#duration=1.3&t=.mp3"
+          },
+          {
+            "word": "broccoli",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈbrɒkəli/【 n.】",
+                "explanations_and_examples": [
+                  { "explanation": "[U] 西兰花", "example": "" }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0213b19cc99d9c6d7bed0f0f6c27d94d8541c9fc_96k.mp3#duration=1.3&t=.mp3"
+          },
+          {
+            "word": "recoil",
+            "pee": [
+              {
+                "partOfSpeech": "/rɪˈkɔɪl/【vi.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "move your body quickly away from sb. / sth. because you find them or it frightening or unpleasant 退缩；畏缩",
+                    "example": "Howard recoiled a little at the sharpness in my voice."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1f303371b51407fc8ff8e38e775880d54c9a3014_96k.mp3#duration=1.4&t=.mp3"
+          },
+          {
+            "word": "horror",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈhɒrə/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[U] a feeling of great shock, fear, or disgust 震惊；惊恐；厌恶",
+                    "example": "The thought of being left alone filled her with horror."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/4e6794621d840b254d078770a67f93be7788fa8b_96k.mp3#duration=1.1&t=.mp3"
+          },
+          {
+            "word": "distaste",
+            "pee": [
+              {
+                "partOfSpeech": "/dɪsˈteɪst/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[U] a feeling that sb. / sth. is unpleasant or morally offensive 不喜欢；厌恶；反感",
+                    "example": "She was trying her best not to show her distaste."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/afbd8b50f46df652022060b6865e58c7c29b4ac7_96k.mp3#duration=1.7&t=.mp3"
+          },
+          {
+            "word": "variation",
+            "pee": [
+              {
+                "partOfSpeech": "/ˌveərɪˈeɪʃn/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[C, U] a difference between similar things, or a change from the usual amount or form of sth. （相似物体之间的）差异；（数量或形式的）变化，变动",
+                    "example": "There might be striking variations within a species."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/2f46812c222f135c4bdbd8dfde9e406c331cec85_96k.mp3#duration=1.6&t=.mp3"
+          },
+          {
+            "word": "taste bud",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈteɪst ˌbʌd/【n.】",
+                "explanations_and_examples": [
+                  { "explanation": "[C, usu. pl.] 味蕾", "example": "" }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/56fa1b4d6a71a9a5234bd786a800a85f3d41b8a1_96k.mp3#duration=1.4&t=.mp3"
+          },
+          {
+            "word": "receptor",
+            "pee": [
+              {
+                "partOfSpeech": "/rɪˈseptə/【 n. 】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[C] a nerve ending which receives information about changes in light, heat, etc. and causes the body to react in particular ways 感受器；受体",
+                    "example": "In the year 2000, taste receptors that detect this chemical were discovered on the tongue. "
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b3d8d417ab6c80fbc066eab88e4caab9a5326c90_96k.mp3#duration=1.5&t=.mp3"
+          },
+          {
+            "word": "thiourea",
+            "pee": [
+              {
+                "partOfSpeech": "/ˌ&theta;aɪəʊˈjʊərɪə/【 n.】",
+                "explanations_and_examples": [
+                  { "explanation": "[U] 硫脲", "example": "" }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1230638a9cf16ff47adfc87e821721d174c0f0bd_96k.mp3#duration=1.8&t=.mp3"
+          },
+          {
+            "word": "plentiful",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈplentɪfl/【a. 】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "more than enough in quantity 丰富的；充足的",
+                    "example": "I provided a plentiful supply of games to keep the children occupied."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/d529e45cf37d6b4272782bff81a7edd574ebf8b5_96k.mp3#duration=1.4&t=.mp3"
+          },
+          {
+            "word": "DNA",
+            "pee": [
+              {
+                "partOfSpeech": "【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "(deoxyribonucleic acid) 脱氧核糖核酸",
+                    "example": ""
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/64922cfb9c3831d2679d010eeccbec8427c94449_96k.mp3#duration=2.4&t=.mp3"
+          },
+          {
+            "word": "disgusting",
+            "pee": [
+              {
+                "partOfSpeech": "/dɪsˈgʌstɪŋ/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "extremely unpleasant and making you feel sick 令人恶心的；使人极其反感的；令人厌恶的",
+                    "example": "The kitchen was in a disgusting state when she left. "
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/02b39343ceb2900846c3ff11d33e02ddf672eea5_96k.mp3#duration=1.9&t=.mp3"
+          },
+          {
+            "word": "reasonable",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈri:znəbl/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "fair, practical, and sensible 有道理的；合情合理的",
+                    "example": "Be reasonable &mdash; you can't expect her to do all the work on her own!"
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1eadbdd0e637a4896323b37974a26141d48195b2_96k.mp3#duration=1.7&t=.mp3"
+          },
+          {
+            "word": "relieve",
+            "pee": [
+              {
+                "partOfSpeech": "/rɪˈli:v/【vt.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "reduce sb.'s pain or unpleasant feelings 减轻；缓解 ( 疼痛或不快的感觉 )",
+                    "example": "This kind of drug can help to relieve the pain, but it should be used carefully."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/2a5a2ae99e95bbf9b4e950320a7277919a1cce20_96k.mp3#duration=1.4&t=.mp3"
+          },
+          {
+            "word": "relieved",
+            "pee": [
+              {
+                "partOfSpeech": "/rɪˈli:vd/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "feeling happy because you are no longer worried about sth. 宽慰的；放心的",
+                    "example": "She looked immensely relieved when she heard the news."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/ef11513efd2ea0de757cd2e9d4c0bdca521fc572_96k.mp3#duration=1.8&t=.mp3"
+          },
+          {
+            "word": "innate",
+            "pee": [
+              {
+                "partOfSpeech": "/ˌɪˈneɪt/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "an innate quality or ability is sth. you are born with （素质或能力）天生的，与生俱来的",
+                    "example": "Children seem to have an innate ability to learn language."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/60a0338ab1cb4b3630795bf87cb1fba75c3217c3_96k.mp3#duration=2.0&t=.mp3"
+          },
+          {
+            "word": "desirable",
+            "pee": [
+              {
+                "partOfSpeech": "/dɪˈzaɪrəbl/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "1) sexually attractive 性感迷人的",
+                    "example": "He was with the young woman whom his classmates thought most desirable."
+                  },
+                  {
+                    "explanation": "2) (fml.) sth. that is desirable is worth having or doing 理想的；值得拥有的；值得做的",
+                    "example": "The ability to speak a foreign language is highly desirable. "
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/d1e79ee743715a9a61c6b8c6a701a573067877a4_96k.mp3#duration=1.8&t=.mp3"
+          },
+          {
+            "word": "mate",
+            "pee": [
+              {
+                "partOfSpeech": "/meɪt/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "1) [C] (infml.) a husband, wife, or other sexual partner 丈夫；妻子；配偶；性伴侣",
+                    "example": "Many matchmaking sites compile lists of potential mates using basic information."
+                  },
+                  {
+                    "explanation": "2) [C] sb. you work with, do an activity with, or share sth. with 同事；同伴",
+                    "example": "Some of my office mates are planning to throw a party for me."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/d6776358c38ef5ecb7339386b34bb4e1ba6f119d_96k.mp3#duration=1.6&t=.mp3"
+          },
+          {
+            "word": "shapely",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈʃeɪpli/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "(esp. of a woman or part of her body) having an attractive or well-proportioned shape （尤指女子或其部分身体）好看的，匀称的",
+                    "example": "She was about my age and had long, shapely legs and a beautiful smile. "
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/88ca6bac8a7f00b43c4cd73d7fc41c706a62586a_96k.mp3#duration=1.3&t=.mp3"
+          },
+          {
+            "word": "sparkling",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈspɑːklɪŋ/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "shining and flashing with light 闪亮的；闪光的",
+                    "example": "This is a region of sparkling lakes, rushing streams, and dense forests."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0dae9006248d02f8ce1e6fdcb9f1abece6765b96_96k.mp3#duration=1.6&t=.mp3"
+          },
+          {
+            "word": "attractive",
+            "pee": [
+              {
+                "partOfSpeech": "/əˈtr&aelig;ktɪv/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "very pleasing in appearance or sound 好看的；好听的；有吸引力的",
+                    "example": "I thought he was very attractive and obviously very intelligent."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/425738c0f387cba1bfd23a8ff5220cd3fe2190e5_96k.mp3#duration=1.7&t=.mp3"
+          },
+          {
+            "word": "evolutionary",
+            "pee": [
+              {
+                "partOfSpeech": "/ˌi:vəˈlu:ʃn(ə)ri/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "relating to the way in which plants and animals develop and change gradually over a long period of time 进化的",
+                    "example": "Some scholars are keen to see evolutionary theory challenged in university lecture halls."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/438466d7b3a12d57b2ae713b48d938503fb27342_96k.mp3#duration=1.6&t=.mp3"
+          },
+          {
+            "word": "virtually",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈvɜːtʃʊəli/【ad.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "almost 几乎",
+                    "example": "This kind of bird has become virtually extinct in most of the country."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/259cf7c226daa6a79de84a00c45170a2ad9f9294_96k.mp3#duration=1.4&t=.mp3"
+          },
+          {
+            "word": "reproduce",
+            "pee": [
+              {
+                "partOfSpeech": "/ˌri:prəˈdju:s/【v.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "if an animal or plant reproduces, or reproduces itself, it produces young plants or animals 生殖；繁殖",
+                    "example": "Many single cell organisms reproduce by splitting in two."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/98089b64508a80dd709b2efccdcd0e381e11b816_96k.mp3#duration=2.0&t=.mp3"
+          },
+          {
+            "word": "parental",
+            "pee": [
+              {
+                "partOfSpeech": "/pəˈrentl/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "relating to being a parent and esp. to being responsible for a child's safety and development 父亲的；母亲的；父母的",
+                    "example": "Parental consent is required before the operation can take place. "
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3f8d0319197d5d49a28238781d1c0f9e98406a96_96k.mp3#duration=1.4&t=.mp3"
+          },
+          {
+            "word": "offspring",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b3dd2bb5f52410a46a935076ea500c65dd913324_96k.mp3#duration=1.3&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈɒfˌsprɪŋ/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[C] (pl. offspring) sb.'s child or children &mdash; often used humorously （某人的）子女，子孙，后代（常为幽默用法）",
+                    "example": " Tom's sister came over on Saturday with all her offspring."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "disinterest",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/ef95aa30f858efd6c2d84c7f0d306afc41afe0f7_96k.mp3#duration=1.8&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/dɪsˈɪntrəst/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[U] a lack of interest 无兴趣",
+                    "example": "The exception to Tom&rsquo;s disinterest in social issues was education."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "organ",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/9837b7a7a21f91a42c4822d5efb3d994edb77638_96k.mp3#duration=1.6&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈɔːgən/【n.】",
+                "explanations_and_examples": [
+                  { "explanation": "[C] 器官" }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "disheartening",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/44ff797fadfc2a77600bb98387bdc3492f64464f_96k.mp3#duration=1.7&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/dɪsˈhɑːtnɪŋ/【a. 】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "making you lose hope and determination 令人灰心的；令人气馁的",
+                    "example": "It is disheartening to see what little progress has been made. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "destined",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/ddc2ee668847edf2459c4f04db5281ef5526af1e_96k.mp3#duration=1.6&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈdestɪnd/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "(not before noun) seeming certain to happen at some time in the future 注定的；必然的",
+                    "example": "He feels that he is destined to become a musician, just like his father."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "slave",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3f64cea2cc197e99656404367c1d2c6f84bd65d5_96k.mp3#duration=1.0&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/sleɪv/【n.】 [C]",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "1) (be a ~ of / to sth.) be so strongly influenced by sth. that you cannot make your own decisions &mdash; used to show disapproval 成为某事物的奴隶，完全受某事物控制（含贬义）",
+                    "example": "How can she not see that she has become a slave of fashion? "
+                  },
+                  {
+                    "explanation": "2) sb. who is owned by another person and works for them for no money 奴隶",
+                    "example": "By the time I was 10, I had become her slave, doing all the housework."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "magnificent",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/4debddfcde817bd8a99fd8611817ae262fa3d500_96k.mp3#duration=2.0&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/m&aelig;gˈnɪfɪsnt/【a.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "extremely attractive and impressive; deserving praise 壮丽的；宏伟的；值得赞扬的",
+                    "example": "I think he deserves congratulations for a magnificent job well done."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "remedy",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3bce984f36188c068dd320bc2e2ebe9f47db39ab_96k.mp3#duration=1.5&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/ˈremədi/【vt.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "deal with a problem or improve a bad situation 解决；补救；纠正；改善",
+                    "example": "To remedy the situation, the water must be chemically treated. "
+                  }
+                ]
+              },
+              {
+                "partOfSpeech": "【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[C] a way of dealing with a problem or making a bad situation better （问题的）解决方式；（糟糕状况的）补救方法",
+                    "example": "There is no simple remedy for unemployment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "compassion",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/915c1594e49730faa605b5a96b7002145c302422_96k.mp3#duration=1.4&t=.mp3",
+            "pee": [
+              {
+                "partOfSpeech": "/kəmˈp&aelig;ʃn/【n.】",
+                "explanations_and_examples": [
+                  {
+                    "explanation": "[U] a strong feeling of sympathy for sb. who is suffering, and a desire to help them 怜悯；同情",
+                    "example": "He was filled with overwhelming love and compassion for his wife."
+                  }
+                ]
+              }
+            ]
           }
       ]
   },
@@ -11233,6 +11822,160 @@ book2[7] = [
                       ]
                   }
               ]
+          },
+          {
+            "word": "make sense",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "if sth. makes sense, there seems to be a good reason or explanation for it 解释得通；有道理",
+                    "example": "Why did she do a thing like that? It doesn't seem to make sense."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3fad30eef64184ff5a298300ab7831c34a16e852_96k.mp3#duration=1.5&t=.mp3"
+          },
+          {
+            "word": "dig into",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "try to find out about sth. unknown or secret 探究； 探寻",
+                    "example": "When you dig into the data a bit though, things look gloomier."
+                  }
+                ]
+              }
+            ],
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/20151a86ecfe055e5baa6b39c608b67d9c658478_96k.mp3#duration=1.8&t=.mp3"
+          },
+          {
+            "word": "hit upon / on",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7a845567f48067a91ae84114391684647276b510_96k.mp3#duration=2.6&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "have an idea or discover sth. suddenly or unexpectedly 突然想出（主意）；无意中发现（某事）",
+                    "example": "When we first hit upon the idea, everyone told us it would never work. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "give / lose one's heart to",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1ff64e74b78d4b5928a0acccd3f277f3ef14fdaa_96k.mp3#duration=4.6&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "start to love sb. very much 爱上某人",
+                    "example": "The minute we met I knew this was the girl I wanted to give my heart to."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "as to",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/535c7ffa742d2f91b2ddf61e8348c98952567e08_96k.mp3#duration=1.4&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "concerning sb. / sth. 关于某事",
+                    "example": "Frank was very uncertain as to whether it was the right job for him."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "green with envy",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/35738afff55736ad191c6aa031554c4755663a40_96k.mp3#duration=2.2&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "very unhappy because sb. has sth. that you want 十分忌妒；眼红",
+                    "example": "Chad is heading off to Spain for the week, and I'm green with envy. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "set out to do sth.",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b7e8909595d103d8ac159a3f813757b489086213_96k.mp3#duration=2.5&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "start doing sth. or making plans to do sth. in order to achieve a particular result （为达到某个结果而）开始做某事，着手进行",
+                    "example": "He has achieved what he set out to do three years ago."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "be on the case",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1fe74b587a00e1c25cc11a68214b9a32a4c805e6_96k.mp3#duration=2.0&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "(spoken) if sb. says they are on the case, they know about a problem and are going to try to solve it 负责处理某事；负责解决某事",
+                    "example": "We need to book a flight before it's too late.  Don't worry, I'm on the case."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "beyond one's control",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/928c88aa5b7b042918fe28beaab50cf920c65421_96k.mp3#duration=2.3&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "used to say sth. is impossible for sb. to control 无法控制",
+                    "example": "There was nothing we could do about it &mdash; the situation was beyond our control."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "lend (one's) support",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7d381a862f5f0c323d6de3d1fecb422668c54938_96k.mp3#duration=1.8&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "support sb. / sth. 给予支持",
+                    "example": "The president is lending support to the governor's re-election campaign."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "word": "take sth. personally",
+            "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a01b83ea0946b2bec10dbe2e820af1685897512a_96k.mp3#duration=2.8&t=.mp3",
+            "pee": [
+              {
+                "explanations_and_examples": [
+                  {
+                    "explanation": "get upset by the things other people say or do, because you think that their remarks or behaviors are directed at you in particular 因认为某人的言行针对自己而不快",
+                    "example": "Don't take it personally; she is rude to everyone. "
+                  }
+                ]
+              }
+            ]
           }
       ]
   },
