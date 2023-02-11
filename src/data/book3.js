@@ -2538,605 +2538,603 @@ book3[1] = [
               },
             ],
           },
+        ],
+      },
+      {
+        word: "amplify",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/f02523d44771f511268f335865ac5a8e85d56004_96k.mp3#duration=1.5&t=.mp3",
+        pee: [
           {
-            word: "amplify",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/f02523d44771f511268f335865ac5a8e85d56004_96k.mp3#duration=1.5&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈ&aelig;mplɪˌfaɪ/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈ&aelig;mplɪˌfaɪ/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " increase the effects or strength of sth. 增强",
-                    example:
-                      "You might practice gratitude, which is necessary to empower your mind and amplify your power of attraction.",
-                  },
-                ],
+                explanation: " increase the effects or strength of sth. 增强",
+                example:
+                  "You might practice gratitude, which is necessary to empower your mind and amplify your power of attraction.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "dive",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/5a522c9a5ae602ce50c17764b177ae14f51f9cf5_96k.mp3#duration=1.4&t=.mp3",
+        pee: [
           {
-            word: "dive",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/5a522c9a5ae602ce50c17764b177ae14f51f9cf5_96k.mp3#duration=1.4&t=.mp3",
-            pee: [
+            partOfSpeech: "/daɪv/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/daɪv/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "jump into deep water with your head and arms going in first 跳水",
-                    example:
-                      "It was so hot that the children took off their clothes and dived into the swimming pool.",
-                  },
-                ],
+                explanation:
+                  "jump into deep water with your head and arms going in first 跳水",
+                example:
+                  "It was so hot that the children took off their clothes and dived into the swimming pool.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "albeit",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4ff4cf091fea119e719e77fb270cd92a87d06582_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "albeit",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4ff4cf091fea119e719e77fb270cd92a87d06582_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ɔːlˈbiːɪt/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ɔːlˈbiːɪt/",
-                explanations_and_examples: [
-                  {
-                    explanation: "  although 虽然；尽管",
-                    example:
-                      "Charles' letters were published against all odds, albeit in a somewhat abbreviated ",
-                  },
-                ],
+                explanation: "  although 虽然；尽管",
+                example:
+                  "Charles' letters were published against all odds, albeit in a somewhat abbreviated ",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "reputable",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/1a2fd4506856a315164749d52028114f8dacc4ab_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "reputable",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/1a2fd4506856a315164749d52028114f8dacc4ab_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
-              {
-                partOfSpeech: "/ˈrepjʊtəbl",
+            partOfSpeech: "/ˈrepjʊtəbl",
 
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "  respected for being honest or for doing good work 有声望的；信誉佳的",
-                    example:
-                      "If you have a fire alarm fitted, make sure it is done by a reputable company.",
-                  },
-                ],
+            explanations_and_examples: [
+              {
+                explanation:
+                  "  respected for being honest or for doing good work 有声望的；信誉佳的",
+                example:
+                  "If you have a fire alarm fitted, make sure it is done by a reputable company.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "plastic surgery",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/9bae64458d71de92007a329535fe0a15d3657c04_96k.mp3#duration=2.0&t=.mp3",
+        pee: [
           {
-            word: "plastic surgery",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/9bae64458d71de92007a329535fe0a15d3657c04_96k.mp3#duration=2.0&t=.mp3",
-            pee: [
+            partOfSpeech: " /ˈsɜː(r)dʒərɪ/",
+            explanations_and_examples: [
               {
-                partOfSpeech: " /ˈsɜː(r)dʒərɪ/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "the medical practice of changing the appearance of people's faces or bodies, either to improve their appearance or to repair injuries 整形手术；整形外科",
-                  },
-                ],
+                explanation:
+                  "the medical practice of changing the appearance of people's faces or bodies, either to improve their appearance or to repair injuries 整形手术；整形外科",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "specialty",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/771654ba09512d8a9dc9bcb053f974a6f07d35e0_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "specialty",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/771654ba09512d8a9dc9bcb053f974a6f07d35e0_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈspeʃltɪ/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈspeʃltɪ/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " 1) a branch of medicine or surgery 医学专科；专外科",
-                    example:
-                      "Emergency medicine is one of the most important specialties.",
-                  },
-                  {
-                    explanation:
-                      "2) a subject or job that you know a lot about or have a lot of experience of 专业；专长",
-                    example:
-                      "No matter what our specialties are, communication is at the heart of what doctors do.",
-                  },
-                ],
+                explanation:
+                  " 1) a branch of medicine or surgery 医学专科；专外科",
+                example:
+                  "Emergency medicine is one of the most important specialties.",
+              },
+              {
+                explanation:
+                  "2) a subject or job that you know a lot about or have a lot of experience of 专业；专长",
+                example:
+                  "No matter what our specialties are, communication is at the heart of what doctors do.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "surgeon",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ac24b00566cd1e92009f3922a71e6322c1b2dbb4_96k.mp3#duration=1.4&t=.mp3",
+        pee: [
           {
-            word: "surgeon",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ac24b00566cd1e92009f3922a71e6322c1b2dbb4_96k.mp3#duration=1.4&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈsɜːdʒ(ə)n/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈsɜːdʒ(ə)n/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "a doctor specially trained to perform surgery 外科医生",
-                    example:
-                      "His finger was cut off when he caught it in a machine, but the surgeon was able to sew it back on.",
-                  },
-                ],
+                explanation:
+                  "a doctor specially trained to perform surgery 外科医生",
+                example:
+                  "His finger was cut off when he caught it in a machine, but the surgeon was able to sew it back on.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "intern",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ab8735d7710c824a55d6e7f03ebc03c0870cdcb0_96k.mp3#duration=1.5&t=.mp3",
+        pee: [
           {
-            word: "intern",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ab8735d7710c824a55d6e7f03ebc03c0870cdcb0_96k.mp3#duration=1.5&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈɪntɜːn/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈɪntɜːn/",
-                explanations_and_examples: [
-                  {
-                    explanation: " 1)serve as an intern 做实习医生（或实习生）",
-                    example:
-                      "I interned at a clinic during the first summer vacation after I graduated from high school.",
-                  },
-                  {
-                    explanation:
-                      "2)sb. who has nearly finished training as a doctor and is working in a hospital 实习医生",
-                    example:
-                      "She refused to be treated by an intern and demanded to see a qualified doctor.",
-                  },
-                  {
-                    explanation:
-                      " 3)sb., esp. a student, who works for a short time in a particular job in order to gain experience 实习生",
-                    example:
-                      "John once worked as an intern for a private detective to satisfy his curiosity.",
-                  },
-                ],
+                explanation: " 1)serve as an intern 做实习医生（或实习生）",
+                example:
+                  "I interned at a clinic during the first summer vacation after I graduated from high school.",
+              },
+              {
+                explanation:
+                  "2)sb. who has nearly finished training as a doctor and is working in a hospital 实习医生",
+                example:
+                  "She refused to be treated by an intern and demanded to see a qualified doctor.",
+              },
+              {
+                explanation:
+                  " 3)sb., esp. a student, who works for a short time in a particular job in order to gain experience 实习生",
+                example:
+                  "John once worked as an intern for a private detective to satisfy his curiosity.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "operating room",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/35eef183923d367a690cb5fa644165374e665855_96k.mp3#duration=1.9&t=.mp3",
+        pee: [
           {
-            word: "operating room",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/35eef183923d367a690cb5fa644165374e665855_96k.mp3#duration=1.9&t=.mp3",
-            pee: [
+            explanations_and_examples: [
               {
-                explanations_and_examples: [
-                  {
-                    explanation: "手术室",
-                  },
-                ],
+                explanation: "手术室",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "cosmetic",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b02ede5f70e35887b2d59eb0f6d1ce44ff5a93d6_96k.mp3#duration=1.5&t=.mp3",
+        pee: [
           {
-            word: "cosmetic",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b02ede5f70e35887b2d59eb0f6d1ce44ff5a93d6_96k.mp3#duration=1.5&t=.mp3",
-            pee: [
+            partOfSpeech: "/kɒzˈmetɪk/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/kɒzˈmetɪk/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "involving or relating to treatment intended to restore or improve a person's appearance 整容的",
-                    example:
-                      "The movie star ignored the rumors that she had had cosmetic surgery on nine parts of her body.",
-                  },
-                ],
+                explanation:
+                  "involving or relating to treatment intended to restore or improve a person's appearance 整容的",
+                example:
+                  "The movie star ignored the rumors that she had had cosmetic surgery on nine parts of her body.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "merit",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b25fa7d1943c8b7a8b78a7b9cebf9daf4e5cb004_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "merit",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b25fa7d1943c8b7a8b78a7b9cebf9daf4e5cb004_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈmerɪt/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈmerɪt/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "1) a mark that a school student gets as a reward for good work or behavior （学校对学业或表现优异学生的评分）优，优秀",
-                    example:
-                      "Artistic merit scholarships require that applicants excel in a given artistic area.",
-                  },
-                  {
-                    explanation:
-                      "2) an advantage or good feature of sth. 长处；优点",
-                    example:
-                      "Tonight's meeting will weigh up the relative merits of the two candidates.",
-                  },
-                ],
+                explanation:
+                  "1) a mark that a school student gets as a reward for good work or behavior （学校对学业或表现优异学生的评分）优，优秀",
+                example:
+                  "Artistic merit scholarships require that applicants excel in a given artistic area.",
+              },
+              {
+                explanation:
+                  "2) an advantage or good feature of sth. 长处；优点",
+                example:
+                  "Tonight's meeting will weigh up the relative merits of the two candidates.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "neurobiology",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/509dd81a60bc3412e5b671ffc2661d5d9d00b5d7_96k.mp3#duration=1.9&t=.mp3",
+        pee: [
           {
-            word: "neurobiology",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/509dd81a60bc3412e5b671ffc2661d5d9d00b5d7_96k.mp3#duration=1.9&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˌnjʊərəʊbaɪˈɒlədʒɪ/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˌnjʊərəʊbaɪˈɒlədʒɪ/",
-                explanations_and_examples: [
-                  {
-                    explanation: "神经生物学",
-                  },
-                ],
+                explanation: "神经生物学",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "physiology",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e25ca3b7d7dcf59da012e0e42a4a28de8a6c0405_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "physiology",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e25ca3b7d7dcf59da012e0e42a4a28de8a6c0405_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˌfɪzɪˈɒlədʒɪ/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˌfɪzɪˈɒlədʒɪ/",
-                explanations_and_examples: [
-                  {
-                    explanation: "生理学",
-                  },
-                ],
+                explanation: "生理学",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "dreaded",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/d9aaf10f6e2ddb8a6385c712bfe24909b3459001_96k.mp3#duration=1.3&t=.mp3",
+        pee: [
           {
-            word: "dreaded",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/d9aaf10f6e2ddb8a6385c712bfe24909b3459001_96k.mp3#duration=1.3&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈdredɪd/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈdredɪd/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " making you feel afraid or anxious &mdash; often used humorously 可怕的，令人忧虑的（常为幽默用法）",
-                    example:
-                      "For decades in American households the most dreaded morning sound was that of an alarm clock.",
-                  },
-                ],
+                explanation:
+                  " making you feel afraid or anxious &mdash; often used humorously 可怕的，令人忧虑的（常为幽默用法）",
+                example:
+                  "For decades in American households the most dreaded morning sound was that of an alarm clock.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "internship",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/cf197bbff2be604377dd991a3561ee9314853945_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "internship",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/cf197bbff2be604377dd991a3561ee9314853945_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈɪntɜːnˌʃɪp/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈɪntɜːnˌʃɪp/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " ) a period of training spent in a hospital by a young doctor in order to finish their medical qualification 医生实习期",
-                    example:
-                      "he diligent young man will be a genuine asset to any hospital that offers him an internship position.",
-                  },
-                ],
+                explanation:
+                  " ) a period of training spent in a hospital by a young doctor in order to finish their medical qualification 医生实习期",
+                example:
+                  "he diligent young man will be a genuine asset to any hospital that offers him an internship position.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "surgical",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/25e4623da9793e0ec201b7e5ddbd065c4bb13e46_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "surgical",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/25e4623da9793e0ec201b7e5ddbd065c4bb13e46_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈsɜːdʒɪkl/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈsɜːdʒɪkl/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "of, relating to, or used in surgery 外科的；外科手术（用）的",
-                    example:
-                      "Most people who ultimately turn to a surgical solution have tried everything else.",
-                  },
-                ],
+                explanation:
+                  "of, relating to, or used in surgery 外科的；外科手术（用）的",
+                example:
+                  "Most people who ultimately turn to a surgical solution have tried everything else.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "scrub",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a412e134459dd2dd759bd4810f8acbd4bc98b5c0_96k.mp3#duration=1.5&t=.mp3",
+        pee: [
           {
-            word: "scrub",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a412e134459dd2dd759bd4810f8acbd4bc98b5c0_96k.mp3#duration=1.5&t=.mp3",
-            pee: [
+            partOfSpeech: "/skrʌb/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/skrʌb/",
-                explanations_and_examples: [
-                  {
-                    explanation: "手术服",
-                  },
-                ],
+                explanation: "手术服",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "mask",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/6a198d41743b0dcc08d6d36b39c485329391dcee_96k.mp3#duration=1.4&t=.mp3",
+        pee: [
           {
-            word: "mask",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/6a198d41743b0dcc08d6d36b39c485329391dcee_96k.mp3#duration=1.4&t=.mp3",
-            pee: [
+            partOfSpeech: "/mɑːsk/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/mɑːsk/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " a covering for all or part of the face, worn to hide or protect it 面具；面罩",
-                    example:
-                      "We had to wear a protective mask when handling goods in the awfully dusty environment.",
-                  },
-                ],
+                explanation:
+                  " a covering for all or part of the face, worn to hide or protect it 面具；面罩",
+                example:
+                  "We had to wear a protective mask when handling goods in the awfully dusty environment.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "cafeteria",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/cbbc9e1412a2d840eed776279bb146756fe631fb_96k.mp3#duration=1.8&t=.mp3",
+        pee: [
           {
-            word: "cafeteria",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/cbbc9e1412a2d840eed776279bb146756fe631fb_96k.mp3#duration=1.8&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˌk&aelig;fəˈtɪərɪə/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˌk&aelig;fəˈtɪərɪə/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " a restaurant where customers serve themselves from a counter and pay before eating 自助餐馆；自助食堂",
-                    example:
-                      " Even if you do not buy your food in the cafeteria, you can use the tables to have meetings or to study.",
-                  },
-                ],
+                explanation:
+                  " a restaurant where customers serve themselves from a counter and pay before eating 自助餐馆；自助食堂",
+                example:
+                  " Even if you do not buy your food in the cafeteria, you can use the tables to have meetings or to study.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "enthusiasm",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af77a0bec9dfc5fc1425fccb32bd65daad048f48_96k.mp3#duration=1.7&t=.mp3",
+        pee: [
           {
-            word: "enthusiasm",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af77a0bec9dfc5fc1425fccb32bd65daad048f48_96k.mp3#duration=1.7&t=.mp3",
-            pee: [
+            partOfSpeech: "/ɪnˈ&theta;juːzɪˌ&aelig;zəm/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ɪnˈ&theta;juːzɪˌ&aelig;zəm/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " intense and eager enjoyment, interest, or approval 热心；热情",
-                    example:
-                      "One of the good things about teaching young children is their enthusiasm never lets you down.",
-                  },
-                ],
+                explanation:
+                  " intense and eager enjoyment, interest, or approval 热心；热情",
+                example:
+                  "One of the good things about teaching young children is their enthusiasm never lets you down.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "application",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4666fc5118297b482d0ec9da88e292fd020e14b3_96k.mp3#duration=1.7&t=.mp3",
+        pee: [
           {
-            word: "application",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4666fc5118297b482d0ec9da88e292fd020e14b3_96k.mp3#duration=1.7&t=.mp3",
-            pee: [
+            partOfSpeech: " /ˌ&aelig;plɪˈkeɪʃn/",
+            explanations_and_examples: [
               {
-                partOfSpeech: " /ˌ&aelig;plɪˈkeɪʃn/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "1) the action of putting sth. into operation 应用",
-                    example:
-                      "Students learned the practical application of the theory they had learned in the classroom.",
-                  },
-                  {
-                    explanation:
-                      "2) a formal request to an authority for sth. 申请",
-                    example:
-                      "We regret to inform you that your application has not been accepted because it has gone beyond the deadline.",
-                  },
-                ],
+                explanation:
+                  "1) the action of putting sth. into operation 应用",
+                example:
+                  "Students learned the practical application of the theory they had learned in the classroom.",
+              },
+              {
+                explanation:
+                  "2) a formal request to an authority for sth. 申请",
+                example:
+                  "We regret to inform you that your application has not been accepted because it has gone beyond the deadline.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "outfit",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/faaceecdb1deaf0974d5ff1a01d8a0f0e2a9c083_96k.mp3#duration=1.4&t=.mp3",
+        pee: [
           {
-            word: "outfit",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/faaceecdb1deaf0974d5ff1a01d8a0f0e2a9c083_96k.mp3#duration=1.4&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈaʊtfɪt/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈaʊtfɪt/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " a set of clothes worn together, esp. for a particular occasion or purpose 全套服装",
-                    example:
-                      " When you're wearing a loud (花哨的) polka-dot clothes, you need to keep the rest of your outfit quiet.",
-                  },
-                ],
+                explanation:
+                  " a set of clothes worn together, esp. for a particular occasion or purpose 全套服装",
+                example:
+                  " When you're wearing a loud (花哨的) polka-dot clothes, you need to keep the rest of your outfit quiet.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "wardrobe",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4c84f677917b505cfc3a8ad7f9d395c503dab039_96k.mp3#duration=1.4&t=.mp3",
+        pee: [
           {
-            word: "wardrobe",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4c84f677917b505cfc3a8ad7f9d395c503dab039_96k.mp3#duration=1.4&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈwɔːdrəʊb/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈwɔːdrəʊb/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " a piece of furniture like a large cupboard that you hang clothes in 衣柜；衣橱",
-                    example: "",
-                  },
-                ],
+                explanation:
+                  " a piece of furniture like a large cupboard that you hang clothes in 衣柜；衣橱",
+                example: "",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "gear",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2205522a050d09a932a347b176f7735727620283_96k.mp3#duration=1.3&t=.mp3",
+        pee: [
           {
-            word: "gear",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2205522a050d09a932a347b176f7735727620283_96k.mp3#duration=1.3&t=.mp3",
-            pee: [
+            partOfSpeech: "/gɪə/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/gɪə/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "the machinery in a vehicle that turns engine power into movement forward or backward 排挡",
-                    example: "",
-                  },
-                ],
+                explanation:
+                  "the machinery in a vehicle that turns engine power into movement forward or backward 排挡",
+                example: "",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "drastically",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af009d3a5ff713a412b4670b21efa80f6edadca5_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "drastically",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af009d3a5ff713a412b4670b21efa80f6edadca5_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈdr&aelig;stɪkli/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈdr&aelig;stɪkli/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "  in a way that is severe and sudden or has very noticeable effects 激烈地；大幅度地",
-                    example:
-                      "Our communication has changed drastically in the past decade owing to the information technology.",
-                  },
-                ],
+                explanation:
+                  "  in a way that is severe and sudden or has very noticeable effects 激烈地；大幅度地",
+                example:
+                  "Our communication has changed drastically in the past decade owing to the information technology.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "swirl",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/1d20ec96a1f580dfa9a4af946c1059750ee98ee9_96k.mp3#duration=1.5&t=.mp3",
+        pee: [
           {
-            word: "swirl",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/1d20ec96a1f580dfa9a4af946c1059750ee98ee9_96k.mp3#duration=1.5&t=.mp3",
-            pee: [
+            partOfSpeech: "/swɜːl/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/swɜːl/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "(make sth.) move in a twisting or spiraling pattern （使）打旋；（使）旋动",
-                    example:
-                      "He sank into deep thought in a corner at the news, the cigarette smoke swirling around him.",
-                  },
-                ],
+                explanation:
+                  "(make sth.) move in a twisting or spiraling pattern （使）打旋；（使）旋动",
+                example:
+                  "He sank into deep thought in a corner at the news, the cigarette smoke swirling around him.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "spill",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ba8800e80e8865fb1e9bf1dfe8e9446491c99976_96k.mp3#duration=1.4&t=.mp3",
+        pee: [
           {
-            word: "spill",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ba8800e80e8865fb1e9bf1dfe8e9446491c99976_96k.mp3#duration=1.4&t=.mp3",
-            pee: [
+            partOfSpeech: "/spɪl/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/spɪl/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " reveal (confidential information) to sb. 透露",
-                    example:
-                      " The police officer refused to spill the witness' private information to the reporters to protect her security.",
-                  },
-                  {
-                    explanation:
-                      "(cause to) flow over the edge of a container, esp. unintentionally （使）溢出；泼出",
-                    example:
-                      "Let's see if we could pour the juice through the narrow opening of the bottle without spilling it.",
-                  },
-                ],
+                explanation: " reveal (confidential information) to sb. 透露",
+                example:
+                  " The police officer refused to spill the witness' private information to the reporters to protect her security.",
+              },
+              {
+                explanation:
+                  "(cause to) flow over the edge of a container, esp. unintentionally （使）溢出；泼出",
+                example:
+                  "Let's see if we could pour the juice through the narrow opening of the bottle without spilling it.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "legitimate",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/44127e1b6d7ba1f70e7a2e303f1eb318612576b9_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "legitimate",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/44127e1b6d7ba1f70e7a2e303f1eb318612576b9_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/lɪˈdʒɪtəmət/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/lɪˈdʒɪtəmət/",
-                explanations_and_examples: [
-                  {
-                    explanation: " 1) reasonable or justified 合理的；正当的",
-                    example:
-                      "He claimed that the restaurant bill was a legitimate business expense and should be covered by the company.",
-                  },
-                  {
-                    explanation: "2) allowed by law 合法的",
-                    example:
-                      "The international community urged the army of the country to give power back to the legitimate government.",
-                  },
-                ],
+                explanation: " 1) reasonable or justified 合理的；正当的",
+                example:
+                  "He claimed that the restaurant bill was a legitimate business expense and should be covered by the company.",
+              },
+              {
+                explanation: "2) allowed by law 合法的",
+                example:
+                  "The international community urged the army of the country to give power back to the legitimate government.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "manual",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a276f5377364fb7da840b98626827b25672f9ce9_96k.mp3#duration=1.3&t=.mp3",
+        pee: [
           {
-            word: "manual",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a276f5377364fb7da840b98626827b25672f9ce9_96k.mp3#duration=1.3&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˈm&aelig;njʊəl/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˈm&aelig;njʊəl/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      " a book of instructions, esp. for operating a machine or learning a subject; a handbook 说明书；手册",
-                    example:
-                      "The computer comes with a 600-page instruction manual that is not at all user-friendly.",
-                  },
-                  {
-                    explanation: " of or done with the hands 手工的；用手的",
-                    example:
-                      "The floors of all campus buildings are equipped with manual fire alarm systems.",
-                  },
-                ],
+                explanation:
+                  " a book of instructions, esp. for operating a machine or learning a subject; a handbook 说明书；手册",
+                example:
+                  "The computer comes with a 600-page instruction manual that is not at all user-friendly.",
+              },
+              {
+                explanation: " of or done with the hands 手工的；用手的",
+                example:
+                  "The floors of all campus buildings are equipped with manual fire alarm systems.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "supermodel",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8650d1b9717b9777d5a90547763fccd6df3c3fd9_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "supermodel",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8650d1b9717b9777d5a90547763fccd6df3c3fd9_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: " /ˈsuːpəˌmɒdl/",
+            explanations_and_examples: [
               {
-                partOfSpeech: " /ˈsuːpəˌmɒdl/",
-                explanations_and_examples: [
-                  {
-                    explanation: "  a very famous model 超级名模",
-                    example:
-                      "She became a supermodel and went to the top soon after she was discovered by a talent scout",
-                  },
-                ],
+                explanation: "  a very famous model 超级名模",
+                example:
+                  "She became a supermodel and went to the top soon after she was discovered by a talent scout",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "flip",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/44316300f65bdead448b18e1f183b55dbfa57d5e_96k.mp3#duration=1.2&t=.mp3",
+        pee: [
           {
-            word: "flip",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/44316300f65bdead448b18e1f183b55dbfa57d5e_96k.mp3#duration=1.2&t=.mp3",
-            pee: [
+            partOfSpeech: "/flɪp/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/flɪp/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "(cause to) turn over with a sudden sharp movement （使）快速翻转",
-                    example:
-                      "I lost my place in my book when the pages flipped over in the wind.",
-                  },
-                ],
+                explanation:
+                  "(cause to) turn over with a sudden sharp movement （使）快速翻转",
+                example:
+                  "I lost my place in my book when the pages flipped over in the wind.",
               },
             ],
           },
+        ],
+      },
+      {
+        word: "crystal clear",
+        audio:
+          "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/bcfe9d8179533a8f26d4e58c31604c1324fa157d_96k.mp3#duration=1.6&t=.mp3",
+        pee: [
           {
-            word: "crystal clear",
-            audio:
-              "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/bcfe9d8179533a8f26d4e58c31604c1324fa157d_96k.mp3#duration=1.6&t=.mp3",
-            pee: [
+            partOfSpeech: "/ˌkrɪstl ˈklɪə/",
+            explanations_and_examples: [
               {
-                partOfSpeech: "/ˌkrɪstl ˈklɪə/",
-                explanations_and_examples: [
-                  {
-                    explanation:
-                      "very clearly stated and easy to understand 明白的；无疑问的",
-                    example:
-                      "I want to make one thing crystal clear &mdash; I do not agree with these proposals.",
-                  },
-                ],
+                explanation:
+                  "very clearly stated and easy to understand 明白的；无疑问的",
+                example:
+                  "I want to make one thing crystal clear &mdash; I do not agree with these proposals.",
               },
             ],
           },
@@ -3380,7 +3378,6 @@ book3[1] = [
           },
         ],
       },
-      ,
       {
         word: "shut / close the door on sth",
         audio:
@@ -3398,7 +3395,6 @@ book3[1] = [
           },
         ],
       },
-      ,
       {
         word: "break the news to sb.",
         audio:
@@ -3432,7 +3428,6 @@ book3[1] = [
           },
         ],
       },
-      ,
       {
         word: "flip through",
         audio:
@@ -3450,7 +3445,6 @@ book3[1] = [
           },
         ],
       },
-      ,
       {
         word: "(right) under one's nose",
         audio:
@@ -6975,7 +6969,8 @@ book3[4] = [
             partOfSpeech: "/ˈk&aelig;rəˌv&aelig;n/",
             explanations_and_examples: [
               {
-                explanation: "1) （尤指穿越沙漠地带的）旅行队，商队 \n 2)（带有食宿设备的）旅行拖车",
+                explanation:
+                  "1) （尤指穿越沙漠地带的）旅行队，商队 \n 2)（带有食宿设备的）旅行拖车",
                 // explanation: "",
               },
             ],
@@ -10796,7 +10791,7 @@ book3[6] = [
         ],
       },
       {
-        word: "nescapable",
+        word: "unescapable",
         audio:
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b06e858d9c8688a4f33034be9699ba95b42831fa_96k.mp3#duration=1.5&t=.mp3",
         pee: [
