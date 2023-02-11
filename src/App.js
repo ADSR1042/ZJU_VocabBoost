@@ -159,7 +159,14 @@ const App = () => {
         setAlertVisible(true);
       } else {
         setAlertState("error");
-        setAlertMessage("Wrong! The answer is " + key);
+        setAlertMessage(
+          <>
+            Wrong! The answer is&nbsp;
+            <span style={{ display: "inline", fontSize: "1.1rem" }}>
+              <b>{key}</b>
+            </span>
+          </>
+        );
         setAlertVisible(true);
         updateHistory(
           book[settings.book * 1][list[current].unit][0].children[
@@ -213,7 +220,7 @@ const App = () => {
   };
   //listen when showSettings change
   useEffect(() => {
-    if (showSettings === false && inital === true) setInputValue("");//用于清除 更改设置之后的输入框内容
+    if (showSettings === false && inital === true) setInputValue(""); //用于清除 更改设置之后的输入框内容
   }, [showSettings]);
   //listen when settings.showFirstLetter change
   // useEffect(() => {
@@ -229,7 +236,7 @@ const App = () => {
             title="大英默写器"
             subTitle="仅供学习 请勿商用"
             extra={[
-              <>
+              <div key = "extra">
                 <Record key="record" data={history} setHistory={setHistory} />
                 <Button
                   type="text"
@@ -240,7 +247,7 @@ const App = () => {
                   icon={<UnorderedListOutlined size={"large"} />}
                   size={"large"}
                 ></Button>
-              </>,
+              </div>,
             ]}
           />
           <Setting
@@ -319,7 +326,7 @@ const App = () => {
                   disabled={current === 0 || inital === true}
                   style={{
                     position: "absolute",
-                    top: "600px",
+                    top: "590px",
                     left: window.innerWidth < 600 ? "30%" : "35%",
                     marginRight: "25%",
                     display: settings.showButton ? null : "none",
@@ -333,7 +340,7 @@ const App = () => {
                   disabled={current === list.length - 1}
                   style={{
                     position: "absolute",
-                    top: "600px",
+                    top: "590px",
                     left: window.innerWidth < 600 ? "30%" : "35%",
                     marginLeft: "25%",
                     display: settings.showButton ? null : "none",

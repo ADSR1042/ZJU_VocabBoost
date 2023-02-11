@@ -1,8 +1,8 @@
 import { ConfigProvider } from "antd";
 import App from "./App";
-ConfigProvider.config({
+// ConfigProvider.config({
   // theme: { primaryColor: "#25b864",},
-});
+// });
 const Main = () => {
   return (
     <>

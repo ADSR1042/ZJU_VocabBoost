@@ -1,5 +1,5 @@
 /* @import "~antd/dist/reset.css"; */
-/* @import "~antd/dist/antd.dark.css"; */
+/* @import "~antd/dist/antd.css"; */
 @import 'antd/dist/antd.variable.min.css';
 
 body {
@@ -17,7 +17,7 @@ code {
     monospace;
 }
 .site-layout-content {
-  min-height: 580px;
+  min-height: 550px;
   padding: 24px;
   background: #fff;
   /* display: flex; */
