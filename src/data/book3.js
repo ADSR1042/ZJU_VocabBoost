@@ -32,7 +32,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/6f33d2591d8df6356ec3f133ff25fec19aebdd28_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈf&aelig;klti/ 【n.】",
+            partOfSpeech: "/ˈfæklti/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -66,7 +66,7 @@ book3[0] = [
               },
               {
                 explanation:
-                  "2) (of a problem or difficult situation) appear and need to be dealt with by sb. （问题或困境）临到&middot;&middot;&middot;头上；使面对",
+                  "2) (of a problem or difficult situation) appear and need to be dealt with by sb. （问题或困境）临到···头上；使面对",
                 example:
                   "Here are some problems that have confronted scientists all over the world in the past decade.",
               },
@@ -119,7 +119,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "done too quickly and carelessly &mdash; used to show disapproval 马虎的，随便的，草率的（含贬义）",
+                  "done too quickly and carelessly — used to show disapproval 马虎的，随便的，草率的（含贬义）",
                 example:
                   "She complained that the research project was delayed mainly due to slipshod management.",
               },
@@ -168,7 +168,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b9b6fa968605dc8f13ee1ef1a6d032a693f09995_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈg&aelig;rʊləs/ 【a.】",
+            partOfSpeech: "/ˈgærʊləs/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -227,7 +227,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/378e5e5d5db738e880d974e0657d2893d8d469e9_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌʌnɪˈm&aelig;dʒɪnətɪv/【a.】",
+            partOfSpeech: "/ˌʌnɪˈmædʒɪnətɪv/【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -245,7 +245,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4bb164929a872b3340408e40375cdd7159b31a13_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈf&aelig;ntəsɪ/ 【n.】",
+            partOfSpeech: "/ˈfæntəsɪ/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -317,7 +317,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/0ff1c7a3b0ac91ca4889782b5a09ca4954e11e49_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;dɪkwət/【a.】",
+            partOfSpeech: "/ˈædɪkwət/【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -437,7 +437,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/dd1fb01ca715fd229f32722d52ae62c6283059e0_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌ&aelig;dəˈlesnt/【n.】",
+            partOfSpeech: "/ˌædəˈlesnt/【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -473,7 +473,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8e4def636c84b9db1058281a44bdb787a86fc45a_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/prɪˈp&aelig;rətɔːri/ 【a.】",
+            partOfSpeech: "/prɪˈpærətɔːri/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -907,7 +907,7 @@ book3[0] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "showing too much satisfaction with your own cleverness or success &mdash; used to show disapproval 自满的，自鸣得意的，沾沾自喜的（含贬义）",
+                  "showing too much satisfaction with your own cleverness or success — used to show disapproval 自满的，自鸣得意的，沾沾自喜的（含贬义）",
                 example:
                   "Peter was wearing an unbearably smug expression and waving the tickets in front of me.",
               },
@@ -1192,7 +1192,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/55f0c73aea2f5d243f858adbd2a92b18b896b531_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈsl&aelig;m ˌdʌŋk/ 【n.】",
+            partOfSpeech: "/ˈslæm ˌdʌŋk/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -1252,7 +1252,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b16cf3b6f843edfa41f4d98ff386b6391683cad1_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈfr&aelig;ntɪk/ 【 a.】",
+            partOfSpeech: "/ˈfræntɪk/ 【 a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -1270,7 +1270,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/f81fd9670049620ea8d07cbf7e0984385838e6fc_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈfr&aelig;ntɪkli/ 【ad.】",
+            partOfSpeech: "/ˈfræntɪkli/ 【ad.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -1658,7 +1658,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b0494a4edb2369395c400565b45de7fdb8043ea3_96k.mp3#duration=2.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈd&aelig;njəl/",
+            partOfSpeech: "/ˈdænjəl/",
             explanations_and_examples: [
               {
                 explanation: "卡特.A. 丹尼尔（人名）",
@@ -1711,7 +1711,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2bc76b3a205a648d407eff009cebc6b5874f7a4f_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/'k&aelig;ʒuəl/ 【n.】",
+            partOfSpeech: "/'kæʒuəl/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -1823,7 +1823,7 @@ book3[1] = [
                 explanation:
                   " sth. that you get legally from your work in addition to your wages, such as goods, meals, or a car （工资以外的）额外收入（待遇）；津贴",
                 example:
-                  "I eat all three meals per day, five days a week, in the company because they are free &mdash; one of the perks of the job.",
+                  "I eat all three meals per day, five days a week, in the company because they are free — one of the perks of the job.",
               },
             ],
           },
@@ -1985,7 +1985,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/23ec2cd88ae0250605bb1fc030c46b4a669fe3b3_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈfl&aelig;tn/ 【v. 】",
+            partOfSpeech: "/ˈflætn/ 【v. 】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2053,7 +2053,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/10e5b15bd1a453d9116239099420d231ed224e4f_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;kjʊˌpʌŋktʃə/【n.】",
+            partOfSpeech: "/ˈækjʊˌpʌŋktʃə/【n.】",
             explanations_and_examples: [
               {
                 explanation: "针刺疗法",
@@ -2101,7 +2101,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/02628b256460ebd8f294d33e36bfc3c2917e4aad_96k.mp3#duration=2.0&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈn&aelig;pˌpɒd/ 【n.】",
+            partOfSpeech: "/ˈnæpˌpɒd/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "小憩舱；打盹舱",
@@ -2240,7 +2240,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/c6c71ed5415b2a52f8f05915e4b9f8ce5581577b_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈp&aelig;rədi/ 【n.】",
+            partOfSpeech: "/ˈpærədi/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2323,7 +2323,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/cc6a8bcc9b0778d6e63ede1c6d935bab43b54cfd_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈk&aelig;pɪtəˌlɪz(ə)m/ 【n.】",
+            partOfSpeech: "/ˈkæpɪtəˌlɪz(ə)m/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2479,7 +2479,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/6b6a2eb4bd00aafefc87ba5f9df9e5ffda3d4034_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌ&aelig;ləˈgeɪʃn/ 【n.】",
+            partOfSpeech: "/ˌæləˈgeɪʃn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2550,7 +2550,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/f02523d44771f511268f335865ac5a8e85d56004_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;mplɪˌfaɪ/ 【vt.】",
+            partOfSpeech: "/ˈæmplɪˌfaɪ/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation: " increase the effects or strength of sth. 增强",
@@ -2799,7 +2799,7 @@ book3[1] = [
             explanations_and_examples: [
               {
                 explanation:
-                  " making you feel afraid or anxious &mdash; often used humorously 可怕的，令人忧虑的（常为幽默用法）",
+                  " making you feel afraid or anxious — often used humorously 可怕的，令人忧虑的（常为幽默用法）",
                 example:
                   "For decades in American households the most dreaded morning sound was that of an alarm clock.",
               },
@@ -2882,7 +2882,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/cbbc9e1412a2d840eed776279bb146756fe631fb_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌk&aelig;fəˈtɪərɪə/ 【n.】",
+            partOfSpeech: "/ˌkæfəˈtɪərɪə/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2900,7 +2900,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af77a0bec9dfc5fc1425fccb32bd65daad048f48_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɪnˈ&theta;juːzɪˌ&aelig;zəm/ 【n.】",
+            partOfSpeech: "/ɪnˈθjuːzɪˌæzəm/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2918,7 +2918,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/4666fc5118297b482d0ec9da88e292fd020e14b3_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: " /ˌ&aelig;plɪˈkeɪʃn/ 【n.[C, U]】",
+            partOfSpeech: " /ˌæplɪˈkeɪʃn/ 【n.[C, U]】",
             explanations_and_examples: [
               {
                 explanation:
@@ -2994,7 +2994,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af009d3a5ff713a412b4670b21efa80f6edadca5_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈdr&aelig;stɪkli/ 【ad.】",
+            partOfSpeech: "/ˈdræstɪkli/ 【ad.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -3075,7 +3075,7 @@ book3[1] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a276f5377364fb7da840b98626827b25672f9ce9_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈm&aelig;njʊəl/",
+            partOfSpeech: "/ˈmænjʊəl/",
             explanations_and_examples: [
               {
                 explanation:
@@ -3139,7 +3139,7 @@ book3[1] = [
                 explanation:
                   "very clearly stated and easy to understand 明白的；无疑问的",
                 example:
-                  "I want to make one thing crystal clear &mdash; I do not agree with these proposals.",
+                  "I want to make one thing crystal clear — I do not agree with these proposals.",
               },
             ],
           },
@@ -3427,7 +3427,7 @@ book3[1] = [
               {
                 explanation: "tell people secret information 泄露秘密",
                 example:
-                  "We'll all be there at 6 for the surprise party &mdash; now don't spill the beans unless you want to spoil the fun.",
+                  "We'll all be there at 6 for the surprise party — now don't spill the beans unless you want to spoil the fun.",
               },
             ],
           },
@@ -3728,7 +3728,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/851e7105e669b7a74436df4f9eea9d4e48542cc2_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈkl&aelig;sɪkl/ 【a.】",
+            partOfSpeech: "/ˈklæsɪkl/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -3746,7 +3746,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/626882995e9b5bf4c6157d2bc303937502771b5a_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈm&aelig;ksɪˌmaɪz/  【vt.】",
+            partOfSpeech: "/ˈmæksɪˌmaɪz/  【vt.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -3799,7 +3799,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b6c9463bd385fdc2a3c4a4ee3b8a20d3c597c55b_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;ləg(ə)rɪ/ 【n.】",
+            partOfSpeech: "/ˈæləg(ə)rɪ/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -3977,7 +3977,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e007c1153f2c91c636538dcf9d467903b97b2514_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/kəmˈp&aelig;rətɪv/ 【a.】",
+            partOfSpeech: "/kəmˈpærətɪv/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -4013,7 +4013,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/5865b8324400f81e7fafe22e6a232844d1df06d0_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɪnˈ&aelig;kʃn/ 【n.】",
+            partOfSpeech: "/ɪnˈækʃn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -4321,7 +4321,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ce1a7edf6822d488a7e3821bacfb0ce04695b9e9_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌk&aelig;pɪtəˈlɪstɪk/ 【a.】",
+            partOfSpeech: "/ˌkæpɪtəˈlɪstɪk/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -4393,7 +4393,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/41f61568f9873e6d07a21708e172407c966c9091_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈgr&aelig;tɪˌfaɪɪŋ/ 【a.】",
+            partOfSpeech: "/ˈgrætɪˌfaɪɪŋ/ 【a.】",
             explanations_and_examples: [
               {
                 explanation: "pleasing and satisfying 令人高兴的；令人满意的",
@@ -4524,7 +4524,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/74faf7bae4b60a9bec6d5515f4e640dba85716d8_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/kəmˈp&aelig;ʃnət/ 【a.】",
+            partOfSpeech: "/kəmˈpæʃnət/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -4721,7 +4721,7 @@ book3[2] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b9a36fb5b70458305a6667aa68055035201cc2d7_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈl&aelig;tə/ 【n.】",
+            partOfSpeech: "/ˈlætə/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -4897,7 +4897,7 @@ book3[2] = [
               {
                 explanation: "be involved in a plan, deal, etc. 卷入；参与",
                 example:
-                  "We need some financial advice &mdash; that's where Kate comes in.",
+                  "We need some financial advice — that's where Kate comes in.",
               },
             ],
           },
@@ -5060,7 +5060,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/6cbc1fafc3390e78043bfa042039d44f07443453_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈtʃ&aelig;mpiənʃɪp/ 【n.】",
+            partOfSpeech: "/ˈtʃæmpiənʃɪp/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5078,7 +5078,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/89db9b81888b5a414d7ec56566f0d0db829ca026_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌnʌn&eth;əˈles/ 【ad.】",
+            partOfSpeech: "/ˌnʌnðəˈles/ 【ad.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5132,7 +5132,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/76e9f53fe89c8f24e5e5f6c38adff555e65a0036_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈd&aelig;ŋgl/ 【v.】",
+            partOfSpeech: "/ˈdæŋgl/ 【v.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5269,7 +5269,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/68b3287ab5032a11fa88df2d58e75b86babbaf6c_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈv&aelig;nɪʃ/ 【vi.】",
+            partOfSpeech: "/ˈvænɪʃ/ 【vi.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5345,7 +5345,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/74a5dc2d70ab887d0718b85608a137c87c8e0789_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;gəˌnaɪzɪŋ/ 【a.】",
+            partOfSpeech: "/ˈægəˌnaɪzɪŋ/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5488,7 +5488,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a2638bb9dad1680ae2ed137bd669ff2dad67258f_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈkɑːdiˌ&aelig;k/ 【a.】",
+            partOfSpeech: "/ˈkɑːdiˌæk/ 【a.】",
             explanations_and_examples: [
               {
                 explanation: "relating to the heart 心脏的",
@@ -5505,7 +5505,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8ec2a96b3b5e55d0428562b23737b9e5fec81511_96k.mp3#duration=2.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌkɑːdi&aelig;k əˈrest/ 【n.】",
+            partOfSpeech: "/ˌkɑːdiæk əˈrest/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "心脏停搏；心搏停止",
@@ -5657,7 +5657,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/512593cd568f610fdaec66ab628cdec7c51f1d49_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈfr&aelig;kʃn/ 【n.】",
+            partOfSpeech: "/ˈfrækʃn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[C] a very small amount of sth. 一点；少量",
@@ -5722,7 +5722,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/60befcc2b7dbeb2eec7546fab7ee57308d691616_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈh&aelig;ndfʊl/ 【n.】",
+            partOfSpeech: "/ˈhændfʊl/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5793,7 +5793,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/531e338d0b5dd27ce03070cea1aec08671758dcd_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈg&aelig;ləksi/ 【n.】",
+            partOfSpeech: "/ˈgæləksi/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5946,7 +5946,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2dd3b38f42994778ebcebf339a1b97e6d899820c_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;ksɪs/ 【n.】",
+            partOfSpeech: "/ˈæksɪs/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -5982,7 +5982,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/3e4f1032c2a339d65dae9758aa2417cb61dc9c4e_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;ksiəl/ 【a.】",
+            partOfSpeech: "/ˈæksiəl/ 【a.】",
             explanations_and_examples: [
               {
                 explanation: "of or related to an axis 轴的；轴线的",
@@ -6039,7 +6039,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/93e12c5d59dfbcfcb0d9d7e7828b905cf13c8773_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌk&aelig;təˈstrɒfik/ 【a.】",
+            partOfSpeech: "/ˌkætəˈstrɒfik/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6075,7 +6075,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/38f8b90ae2aafd61440db743c70f0b90b2cd4107_96k.mp3#duration=1.9&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈeksəʊˌpl&aelig;nɪt/ 【n.】",
+            partOfSpeech: "/ˈeksəʊˌplænɪt/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6093,7 +6093,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/56f4d0f83a208bcea806f41a07eb3ee23015f00c_96k.mp3#duration=1.9&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌ&aelig;strəʊbaɪˈɒlədʒi/ 【n.】",
+            partOfSpeech: "/ˌæstrəʊbaɪˈɒlədʒi/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6128,7 +6128,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/d8bf6182b94d4a41f374d2244cff38945ef8598e_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌhaɪdrəʊˈ&theta;ɜːml/ 【a.】",
+            partOfSpeech: "/ˌhaɪdrəʊˈθɜːml/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6163,7 +6163,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/86c7bc078e277fb4db7422c5eef998e85a8be677_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;bs(ə)ns/ 【n.】",
+            partOfSpeech: "/ˈæbs(ə)ns/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6281,7 +6281,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/d97934f6b60333c4f4734df43021228585b1e36f_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;kwiəs/ 【a.】",
+            partOfSpeech: "/ˈækwiəs/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6337,7 +6337,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/dd61b6fc7761397fdf19cdcf4faa9a10c787ea53_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌdʒiːəʊˈ&theta;ɜːml/ 【a.】",
+            partOfSpeech: "/ˌdʒiːəʊˈθɜːml/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6373,7 +6373,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/903adf5f3e23a9271a23d4c3d8879559aeaeb63e_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈh&aelig;bɪtəbl/ 【a.】",
+            partOfSpeech: "/ˈhæbɪtəbl/ 【a.】",
             explanations_and_examples: [
               {
                 explanation: "suitable for people to live in 适合居住的",
@@ -6429,7 +6429,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/647ebb65ffe6d9dbce4863da2cdef04b816cca5d_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈpl&aelig;nəteri/ 【a.】",
+            partOfSpeech: "/ˈplænəteri/ 【a.】",
             explanations_and_examples: [
               {
                 explanation: "(only before noun)relating to a planet or planets 行星的",
@@ -6531,7 +6531,7 @@ book3[3] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/608a5552657651719f82edfcd82ae46a1ae6d0ae_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɪnˈh&aelig;bɪtənt/ 【n.】",
+            partOfSpeech: "/ɪnˈhæbɪtənt/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6694,7 +6694,7 @@ book3[3] = [
                 explanation:
                   "according to the conditions that sb. wants 按照...的条件；根据...的主张hink about sth. that happened in the past 回忆起；回顾",
                 example:
-                  "Don't just accept this job because it would make your parents happy &mdash; you need to act on your own terms for once.",
+                  "Don't just accept this job because it would make your parents happy — you need to act on your own terms for once.",
               },
             ],
           },
@@ -6797,7 +6797,7 @@ book3[4] = [
               },
               {
                 explanation:
-                  "2) while noisy, busy, or confused events are happening &mdash; used in writing or news reports 在（嘈杂、纷乱的时间）中（用于书面语或新闻报道中）",
+                  "2) while noisy, busy, or confused events are happening — used in writing or news reports 在（嘈杂、纷乱的时间）中（用于书面语或新闻报道中）",
                 example:
                   "The dollar has fallen in value amid rumors of weakness in the US economy.",
               },
@@ -6811,7 +6811,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/998e1e6c10db62410d4352017768da2de66f203c_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈdʒ&aelig;gɪd/ 【a.】",
+            partOfSpeech: "/ˈdʒægɪd/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -6997,7 +6997,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/de0cea274c3f1f8be4155e3255db2257a498cb47_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈk&aelig;rəˌv&aelig;n/",
+            partOfSpeech: "/ˈkærəˌvæn/",
             explanations_and_examples: [
               {
                 explanation:
@@ -7076,7 +7076,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/bca8de07fc468de3b2c904721fb3e113f2c68550_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/klaɪˈm&aelig;tɪk/ 【a.】",
+            partOfSpeech: "/klaɪˈmætɪk/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -7171,7 +7171,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/c4219888258c0adcb191e49598704237bbebd123_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/&theta;ɜːst/ 【n.】",
+            partOfSpeech: "/θɜːst/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -7243,7 +7243,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/fbd8a0078bec5460f8c1109b322b007a3828c39b_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/rəʊˈm&aelig;ns/ 【n.】",
+            partOfSpeech: "/rəʊˈmæns/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -7332,7 +7332,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/99b73950cf14653ad70d946ed74c81c10d7324b3_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈd&aelig;zl/ 【vt.】",
+            partOfSpeech: "/ˈdæzl/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation: "1) make sb. feel strong admiration 使...倾倒",
@@ -7566,7 +7566,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/06752b9861584a33dd297a55bdf577c089b11057_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈk&aelig;təˌpʌlt/ 【vt.】",
+            partOfSpeech: "/ˈkætəˌpʌlt/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -7624,7 +7624,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2abf89d6b244db8bc0741fb8e7ca55f729361a9a_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈh&aelig;zədəs/【a.】",
+            partOfSpeech: "/ˈhæzədəs/【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -7826,7 +7826,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/c99bedc4c1b015da5c44345dbbd460a6f953e795_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈf&aelig;ʃnəbl/ 【a.】",
+            partOfSpeech: "/ˈfæʃnəbl/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -7904,7 +7904,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b8b87f96e9c7ffa2bd01896b790e66ddcdf78900_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/əˈp&aelig;rəl/ 【n.】",
+            partOfSpeech: "/əˈpærəl/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[U] (fml.) clothes 衣服",
@@ -7995,7 +7995,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8c1cb56271a2be4d18a168345e9799f2a8f5b88f_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈk&aelig;təˌlɒg/",
+            partOfSpeech: "/ˈkætəˌlɒg/",
             explanations_and_examples: [
               {
                 explanation:
@@ -8043,7 +8043,7 @@ book3[4] = [
                 explanation:
                   "(fml.) (be ~ of sth.)  completely lacking in sth. 毫无某物；完全没有某物",
                 example:
-                  "Milly is the most serious person I know &mdash; her stories are always completely devoid of humor.",
+                  "Milly is the most serious person I know — her stories are always completely devoid of humor.",
               },
             ],
           },
@@ -8091,7 +8091,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/01e3525287e28f31a4963f59df15cf9959097195_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈt&aelig;ndʒəbl/ 【a.】",
+            partOfSpeech: "/ˈtændʒəbl/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -8286,13 +8286,13 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/57e149c5aea55ef8579bf23a953d886231068b09_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;lbəm/ 【n. [C]】",
+            partOfSpeech: "/ˈælbəm/ 【n. [C]】",
             explanations_and_examples: [
               {
                 explanation:
                   " 1) a book that you put photographs, stamps, etc. in （收存照片、邮票等的）簿，册",
                 example:
-                  "We've put the best wedding photos into an album &mdash; do you want to see them?",
+                  "We've put the best wedding photos into an album — do you want to see them?",
               },
               {
                 explanation:
@@ -8310,7 +8310,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/1da24b8a28a938e1a9266b9020fe6a1129675bbd_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɔːˈg&aelig;nɪkli/ 【ad.】",
+            partOfSpeech: "/ɔːˈgænɪkli/ 【ad.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -8334,7 +8334,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b81ae4ed21406bb99428acd3581395e9d1cf6d0c_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈsk&aelig;təd/ 【a.】",
+            partOfSpeech: "/ˈskætəd/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -8352,7 +8352,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/7b7c4792da15411c8231b38d7fefd9cce82aec77_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈk&aelig;bɪnət/ 【n.】",
+            partOfSpeech: "/ˈkæbɪnət/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -8405,7 +8405,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/40ba6230a0b3d1bb53805bd13a71207b8c304795_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/&theta;red/ 【n.】",
+            partOfSpeech: "/θred/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -8532,7 +8532,7 @@ book3[4] = [
               {
                 explanation: "store or hide sth. 将某物存起来或藏起来",
                 example:
-                  "Every member of the family can now tuck away either &pound;9 or &pound;18 a month in one of these savings plans.",
+                  "Every member of the family can now tuck away either £9 or £18 a month in one of these savings plans.",
               },
             ],
           },
@@ -8580,7 +8580,7 @@ book3[4] = [
             explanations_and_examples: [
               {
                 explanation:
-                  'die &mdash; use this when you want to avoid saying the word "die" 去世；离世',
+                  'die — use this when you want to avoid saying the word "die" 去世；离世',
                 example:
                   "Stephen Hawking, who is known for his groundbreaking work with black holes and relativity, passed away at the age of 76.",
               },
@@ -8628,7 +8628,7 @@ book3[4] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/20e59850624ecf9fb431aa011569d1c5e34bc7d6_96k.mp3#duration=2.0&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌkɒnst&aelig;ntɪˈnəʊpl/",
+            partOfSpeech: "/ˌkɒnstæntɪˈnəʊpl/",
             explanations_and_examples: [
               {
                 explanation: "君士坦丁堡（伊斯坦布尔的旧称）",
@@ -8912,7 +8912,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/7c2024e039597b389802e985406a5b18fb6f2565_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈjuː&theta;fli/ 【ad.】",
+            partOfSpeech: "/ˈjuːθfli/ 【ad.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -8957,7 +8957,7 @@ book3[5] = [
             explanations_and_examples: [
               {
                 explanation:
-                  "having old-fashioned attitudes and ideas &mdash; used to show disapproval 古板的，守旧的（含贬义）",
+                  "having old-fashioned attitudes and ideas — used to show disapproval 古板的，守旧的（含贬义）",
                 example:
                   "Tim was rude, unable to bear criticism, and more and more hidebound in his views as he got older. ",
               },
@@ -8971,7 +8971,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/45aac2ab4a92b98f0783f400625974e355f4e8b2_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/riːˈk&aelig;ptʃə/ 【vt.】",
+            partOfSpeech: "/riːˈkæptʃə/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -9079,7 +9079,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/1e72d3e70eff9fa533562b903899900db97662db_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/tr&aelig;p/ 【n.[C]】",
+            partOfSpeech: "/træp/ 【n.[C]】",
             explanations_and_examples: [
               {
                 explanation:
@@ -9119,7 +9119,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a421413896651dac8aaa50ebe8b1092c9c0861db_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈwɪ&eth;ə/ 【v.】",
+            partOfSpeech: "/ˈwɪðə/ 【v.】",
             explanations_and_examples: [
               {
                 explanation: "(cause to) dry and die 枯萎；干枯",
@@ -9188,13 +9188,13 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/385411cb31ee05b6997a31eb0613d0d7dfd1baf3_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/kr&aelig;m/ 【vt.】",
+            partOfSpeech: "/kræm/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation:
                   "force sth. into a small space 塞进（小空间）；硬塞",
                 example:
-                  "You have to be realistic &mdash; it's difficult to cram everything into a tight schedule.",
+                  "You have to be realistic — it's difficult to cram everything into a tight schedule.",
               },
             ],
           },
@@ -9242,7 +9242,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e3e160c43b021274a9a2d6c6727f487587d9c88d_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌɪmɔːˈt&aelig;ləti/ 【n.】",
+            partOfSpeech: "/ˌɪmɔːˈtæləti/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -9260,7 +9260,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/265614d22b7394ac66cdb86f04dd42a9c869f6b0_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈf&aelig;ntəsɪst/ 【n.】",
+            partOfSpeech: "/ˈfæntəsɪst/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -9514,7 +9514,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/0461c28ae3585692e1395f6bcdcc5ab78d610708_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&theta;aɪrɔɪd/ 【n.】",
+            partOfSpeech: "/ˈθaɪrɔɪd/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[C] 甲状腺",
@@ -9631,7 +9631,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ca7ce2e3d5aecdafe2a58e8488a21e981c425672_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɪnˈ&aelig;ktɪˌveɪt/ 【vt.】",
+            partOfSpeech: "/ɪnˈæktɪˌveɪt/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation: "make inactive 使不活动；使不活跃",
@@ -9741,7 +9741,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/8aa3387fec72449c40756997cd8ea236e2112838_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/&aelig;nˌtɪsɪˈpeɪʃn/ 【n.】",
+            partOfSpeech: "/ænˌtɪsɪˈpeɪʃn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -9759,7 +9759,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e65bfa4ad0e6e3dfb443a7f6ab919e6849bde1bc_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈɡ&aelig;strɪn/ 【n.】",
+            partOfSpeech: "/ˈɡæstrɪn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[U] 胃泌素；促胃液素",
@@ -9792,7 +9792,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/d8e81791f9105a99e1acb1067fdddd273c791da8_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈ&aelig;sɪd/ 【n.】",
+            partOfSpeech: "/ˈæsɪd/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[C, U] 酸（一种化学物质）",
@@ -9841,7 +9841,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2fe058de6870c025449983561407fcba7a7aa98d_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/gl&aelig;nd/ 【n.】",
+            partOfSpeech: "/glænd/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[C] 腺",
@@ -9872,7 +9872,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/488c6b6044452b9f31f610c65dec05819aaae607_96k.mp3#duration=1.9&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌhaɪpəˈ&theta;aɪrɔɪˌdɪzəm/ 【n.】",
+            partOfSpeech: "/ˌhaɪpəˈθaɪrɔɪˌdɪzəm/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[U] 甲状腺功能亢进",
@@ -9887,7 +9887,7 @@ book3[5] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b3016e886cf1e7a5e853237a4da68d6ef8b4e2fa_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈst&aelig;tʃə/ 【n.[U]】",
+            partOfSpeech: "/ˈstætʃə/ 【n.[U]】",
             explanations_and_examples: [
               {
                 explanation: "1) sb.'s height or size 身高；身材",
@@ -10489,7 +10489,7 @@ book3[6] = [
                 explanation:
                   "very famous or popular, esp. being considered to represent particular opinions or a particular time （尤指能代表某种观点或某一时代）非常出名的，受欢迎的",
                 example:
-                  "The Phantom of the Opera must be the most iconic Broadway musical ever, and it's for a good reason &mdash; it's so incredible.",
+                  "The Phantom of the Opera must be the most iconic Broadway musical ever, and it's for a good reason — it's so incredible.",
               },
             ],
           },
@@ -10579,7 +10579,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/7b98b4a03cc4436f51d35ce6dc7bb76bf9c62a2a_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌtempəˈr&aelig;ləti/ 【n.】",
+            partOfSpeech: "/ˌtempəˈræləti/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -10626,7 +10626,7 @@ book3[6] = [
                 explanation:
                   "[C] the shape of the outer edges of sth. such as an area of land or sb.'s body 外形；轮廓",
                 example:
-                  "Maybe you can try this seat &mdash; it can be adjusted to fit the contours of your back.",
+                  "Maybe you can try this seat — it can be adjusted to fit the contours of your back.",
               },
             ],
           },
@@ -10638,7 +10638,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/030379ff4b7c1d7db3a83aaa0032ab9338bc1815_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌ&aelig;vɒŋ ˈgɑːd/ 【a.】",
+            partOfSpeech: "/ˌævɒŋ ˈgɑːd/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -10911,7 +10911,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e9d6b4c00d6dc110b339ac850066f69466be41ec_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/iːsˈ&theta;etɪk/ 【a.】",
+            partOfSpeech: "/iːsˈθetɪk/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -10964,7 +10964,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/33887d4e00c516bb6e7f856a61ab8523b549a36b_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/kəˈl&aelig;bəˌreɪt/ 【vi.】",
+            partOfSpeech: "/kəˈlæbəˌreɪt/ 【vi.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -10982,7 +10982,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/ebe68be258fd127cf0685602551a5e50e7f9bf19_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/kəˌl&aelig;bəˈreɪʃn/ 【n.】",
+            partOfSpeech: "/kəˌlæbəˈreɪʃn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -11089,13 +11089,13 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a97da1524b4a7767810e85afffafc38cf30e3397_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɪˈl&aelig;b(ə)rət/ 【a.】",
+            partOfSpeech: "/ɪˈlæb(ə)rət/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
                   "very complicated and detailed; carefully prepared and organized 复杂的；详尽的；精心制作的",
                 example:
-                  " You need a plain blouse to go with that skirt &mdash; nothing too elaborate.",
+                  " You need a plain blouse to go with that skirt — nothing too elaborate.",
               },
             ],
           },
@@ -11260,7 +11260,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/9a20ec6973b1b5756e8eff5a8275efbe16b33352_96k.mp3#duration=1.5&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈempəˌ&theta;aɪz/ 【vi.】",
+            partOfSpeech: "/ˈempəˌθaɪz/ 【vi.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -11302,7 +11302,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/84ed522dab3eb239e985c2b6c77808a948e65ac9_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈɑːtɪˌf&aelig;kt/ 【n.】",
+            partOfSpeech: "/ˈɑːtɪˌfækt/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -11374,7 +11374,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/af42db87e31ed16fefc2e6dd41ab638a25c214c2_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ɔːˈ&theta;entɪkli/ 【ad.】",
+            partOfSpeech: "/ɔːˈθentɪkli/ 【ad.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -11556,7 +11556,7 @@ book3[6] = [
                 explanation:
                   "2) good at painting, drawing, or producing beautiful things 艺术精湛的；有艺术才华的",
                 example:
-                  "His friends are all artistic &mdash; they're painters, musicians, dancers, and writers.",
+                  "His friends are all artistic — they're painters, musicians, dancers, and writers.",
               },
             ],
           },
@@ -11627,7 +11627,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e68e6bd77149492aff3582305539b7f86113382b_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌɪntərˈ&aelig;kt/ 【vi.】",
+            partOfSpeech: "/ˌɪntərˈækt/ 【vi.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -11645,7 +11645,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e144fdac19a457739b98987b169b5c6d5049f370_96k.mp3#duration=1.7&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌɪntərˈ&aelig;ktɪv/ 【a.】",
+            partOfSpeech: "/ˌɪntərˈæktɪv/ 【a.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -11817,7 +11817,7 @@ book3[6] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/b00f97db0c2e965bebcf31a23362e48f9b09d7ec_96k.mp3#duration=1.8&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌiːv s&aelig;n ˈləʊrɔːn/",
+            partOfSpeech: "/ˌiːv sæn ˈləʊrɔːn/",
             explanations_and_examples: [
               {
                 explanation: "伊夫.罗兰（法国时装设计师）",
@@ -12005,7 +12005,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/2024348b4f230aeab83eba7c7545011a202518c5_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/əˈb&aelig;ndən/ 【vt.】",
+            partOfSpeech: "/əˈbændən/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -12029,7 +12029,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a627ae7c5d42683e225f07cffc38c48e774bf864_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/əˈb&aelig;ndənmənt/ 【n.】",
+            partOfSpeech: "/əˈbændənmənt/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[U] a complete surrender of inhibitions 放任；放纵",
@@ -12139,7 +12139,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/0b03f47dc2c8a27763c25f1b3004bf4a71cea06e_96k.mp3#duration=1.3&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈsp&aelig;rəʊ/ 【n.】",
+            partOfSpeech: "/ˈspærəʊ/ 【n.】",
             explanations_and_examples: [
               {
                 explanation: "[C]麻雀",
@@ -12187,7 +12187,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/677e5bffef2a6ca6176e4f397c0f731db52f8d8a_96k.mp3#duration=1.2&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/p&aelig;tʃ/ 【n.】",
+            partOfSpeech: "/pætʃ/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -12515,7 +12515,7 @@ book3[7] = [
                 explanation:
                   "[C, usu. sing.] the regular movement of blood as the heart pumps it round the body 脉搏",
                 example:
-                  "The doctor said he was in danger &mdash; his breathing was shallow and his pulse was weak.",
+                  "The doctor said he was in danger — his breathing was shallow and his pulse was weak.",
               },
             ],
           },
@@ -12533,7 +12533,7 @@ book3[7] = [
                 explanation:
                   "very wrong, immoral, or unfair 极端错误的；道德败坏的；极不公正的",
                 example:
-                  "I'd like to make a complaint &mdash; it's monstrous to charge that much for a hotel room.",
+                  "I'd like to make a complaint — it's monstrous to charge that much for a hotel room.",
               },
             ],
           },
@@ -12745,7 +12745,7 @@ book3[7] = [
               {
                 explanation: "2) suffering from a fever 发烧的；发热的",
                 example:
-                  "You ought to be careful about this kind of feverish cold &mdash; it often kicks back.",
+                  "You ought to be careful about this kind of feverish cold — it often kicks back.",
               },
             ],
           },
@@ -12835,7 +12835,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/e744bebd7900d4c1cc3781a6c904ea33007ac4f4_96k.mp3#duration=1.4&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈl&aelig;tʃˌkiː/【n.】",
+            partOfSpeech: "/ˈlætʃˌkiː/【n.】",
             explanations_and_examples: [
               {
                 explanation: "[C] （房子或公寓大门的）碰锁钥匙",
@@ -12944,7 +12944,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/07aaf4d14efc3dd48a0804b2b1f7da7af46108b5_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/kr&aelig;mp/ 【vt.】",
+            partOfSpeech: "/kræmp/ 【vt.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -13178,7 +13178,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/f606352d6fffc7bfd2756602b5ec0e879fb1e69b_96k.mp3#duration=1.6&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˌtr&aelig;sfəˈmeɪʃn/ 【n.】",
+            partOfSpeech: "/ˌtræsfəˈmeɪʃn/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
@@ -14005,7 +14005,7 @@ book3[7] = [
                 explanation:
                   "2) toward the inside or center of sth. 向内的；向中心的",
                 example:
-                  "The car was not severely damaged &mdash; only the middle of the car door was bent inward.",
+                  "The car was not severely damaged — only the middle of the car door was bent inward.",
               },
             ],
           },
@@ -14159,7 +14159,7 @@ book3[7] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/a02dda622447d0c5352ffa662639a9aca9106b17_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/ˈm&aelig;lərd/",
+            partOfSpeech: "/ˈmælərd/",
             explanations_and_examples: [
               {
                 explanation: "马拉德（人名)",

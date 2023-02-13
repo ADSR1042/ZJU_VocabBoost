@@ -26,10 +26,11 @@ book2[0] = [
               "word": "Mandarin",
               "pee": [
                   {
-                      "partOfSpeech": "/'m&aelig;ndərɪn/【n.】;",
+                      "partOfSpeech": "/'mændərɪn/【n.】;",
                       "explanations_and_examples": [
                           {
-                              "explanation": "[U] 普通话"
+                              "explanation": "[U] 普通话",
+                                "example": "",
                           }
                       ]
                   }
@@ -145,7 +146,7 @@ book2[0] = [
               "word": "booth",
               "pee": [
                   {
-                      "partOfSpeech": "/buː&eth;/【n.】;",
+                      "partOfSpeech": "/buːð/【n.】;",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] a small enclosed box-like space that a person can go into 小隔间",
@@ -239,7 +240,7 @@ book2[0] = [
               "word": "growth",
               "pee": [
                   {
-                      "partOfSpeech": "/grəʊ&theta;/【n.】 [U, sing.]",
+                      "partOfSpeech": "/grəʊθ/【n.】 [U, sing.]",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) an increase in the value of goods or services produced and sold by a business or a country 增长；发展",
@@ -360,8 +361,9 @@ book2[0] = [
                       "partOfSpeech": "【n.】;",
                       "explanations_and_examples": [
                           {
-                              "explanation": "[U] (virtual reality) an environment produced by a computer that looks and seems real to the person experiencing it （计算机构筑的）虚拟现实"
-                          }
+                              "explanation": "[U] (virtual reality) an environment produced by a computer that looks and seems real to the person experiencing it （计算机构筑的）虚拟现实",
+                                "example": ""
+                            }
                       ]
                   }
               ],
@@ -450,7 +452,7 @@ book2[0] = [
               "word": "massive",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈm&aelig;sɪv/【a.】",
+                      "partOfSpeech": "/ˈmæsɪv/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "very large in size, amount, or number 巨大的；可观的；大量的",
@@ -465,7 +467,7 @@ book2[0] = [
               "word": "per capita",
               "pee": [
                   {
-                      "partOfSpeech": "/pə ˈk&aelig;pɪtə/【a.】",
+                      "partOfSpeech": "/pə ˈkæpɪtə/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "(fml.) used to describe the average amount of sth. in a particular place, calculated according to the number;of people who live there 人均的；平均每人的",
@@ -480,11 +482,11 @@ book2[0] = [
               "word": "lag",
               "pee": [
                   {
-                      "partOfSpeech": "/l&aelig;g/【vi.】",
+                      "partOfSpeech": "/læg/【vi.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "move or develop more slowly than others 落后；拖后",
-                              "example": "He's lagging behind &mdash; we'd better wait for him to catch us up."
+                              "example": "He's lagging behind — we'd better wait for him to catch us up."
                           }
                       ]
                   }
@@ -733,7 +735,7 @@ book2[0] = [
                         },
                         {
                             "explanation": "2) sb. / sth. that is very unusual because of a rare quality or ability that they have 非凡的人（事物）；奇才；奇事",
-                            "example": "The Beatles were a phenomenon &mdash; nobody had heard anything like them before. "
+                            "example": "The Beatles were a phenomenon — nobody had heard anything like them before. "
                         }
                     ]
                 }
@@ -842,7 +844,7 @@ book2[0] = [
             "word": "per annum",
             "pee": [
                 {
-                    "partOfSpeech": "/pər ˈ&aelig;nəm/【ad.】 ",
+                    "partOfSpeech": "/pər ˈænəm/【ad.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "(abbr. p.a.) (fml.) for each year 每年",
@@ -872,10 +874,10 @@ book2[0] = [
             "word": "capacity",
             "pee": [
                 {
-                    "partOfSpeech": "/kəˈp&aelig;səti/【n.】 [C, U]",
+                    "partOfSpeech": "/kəˈpæsəti/【n.】 [C, U]",
                     "explanations_and_examples": [
                         {
-                            "explanation": "1) sb.&rsquo;s ability to do sth. 能力；才能",
+                            "explanation": "1) sb.’s ability to do sth. 能力；才能",
                             "example": "They are worried about their capacity to invest for the future."
                         },
                         {
@@ -1019,7 +1021,7 @@ book2[0] = [
             "word": "navigate",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈn&aelig;vɪˌgeɪt/【v.】",
+                    "partOfSpeech": "/ˈnævɪˌgeɪt/【v.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "1) understand or deal with sth. difficult 理解，应付（困难复杂的情况）",
@@ -1038,7 +1040,7 @@ book2[0] = [
             "word": "attribute",
             "pee": [
                 {
-                    "partOfSpeech": "/əˈtrɪbju:t/【vt.】 (~ &hellip; to &hellip;)",
+                    "partOfSpeech": "/əˈtrɪbju:t/【vt.】 (~ … to …)",
                     "explanations_and_examples": [
                         {
                             "explanation": "1) believe or say that sb. / sth. has a particular quality 认为...具有...的特征",
@@ -1057,7 +1059,7 @@ book2[0] = [
             "word": "savvy",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈs&aelig;vi/【a.】;",
+                    "partOfSpeech": "/ˈsævi/【a.】;",
                     "explanations_and_examples": [
                         {
                             "explanation": "(infml.) knowing a lot about sth. and able to make good judgments about it 有见识的；在行的",
@@ -1184,7 +1186,7 @@ book2[0] = [
             "word": "aspiration",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌ&aelig;spɪˈreɪʃn/【n.】;",
+                    "partOfSpeech": "/ˌæspɪˈreɪʃn/【n.】;",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C, usu. pl., U] a strong desire to have or achieve sth. 强烈愿望；志向；抱负",
@@ -1199,7 +1201,7 @@ book2[0] = [
             "word": "furthermore",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈfɜː&eth;əmɔː/【ad.】 ",
+                    "partOfSpeech": "/ˈfɜːðəmɔː/【ad.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "(fml.) in addition to what has already been said 此外；而且；不仅如此；更有甚者",
@@ -1410,7 +1412,7 @@ book2[0] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/27de0f3f09463e35e0bbcf0d299705a3ff5a2d22_96k.mp3#duration=2.0&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌs&aelig;n frənˈsɪskəʊ/;",
+                      "partOfSpeech": "/ˌsæn frənˈsɪskəʊ/;",
                       "explanations_and_examples": [
                           {
                               "explanation": "旧金山（美国城市，位于加利福尼亚州）"
@@ -1504,7 +1506,7 @@ book2[1] = [
               "word": "passionate",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈp&aelig;ʃ(ə)nət/【a.】;",
+                      "partOfSpeech": "/ˈpæʃ(ə)nət/【a.】;",
                       "explanations_and_examples": [
                           {
                               "explanation": "having or showing strong feelings of love or of anger, etc. 感情强烈的；热情的",
@@ -1778,7 +1780,7 @@ book2[1] = [
               "word": "scramble",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈskr&aelig;mbl/【vi.】;",
+                      "partOfSpeech": "/ˈskræmbl/【vi.】;",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) struggle or compete with other people to get or reach sth. 争夺；抢夺",
@@ -1896,7 +1898,7 @@ book2[1] = [
               "word": "Spanish",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈsp&aelig;nɪʃ/【n.】;",
+                      "partOfSpeech": "/ˈspænɪʃ/【n.】;",
                       "explanations_and_examples": [
                           {
                               "explanation": "(the ~) [pl.] 西班牙人",
@@ -2024,7 +2026,7 @@ book2[1] = [
               "word": "packet",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈp&aelig;kɪt/【n.】 ",
+                      "partOfSpeech": "/ˈpækɪt/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] (BrE) a small paper or cardboard container in which goods are packed for selling （装商品的）小包，小袋，小盒",
@@ -2068,7 +2070,7 @@ book2[1] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "confuse sb. or make them feel slightly anxious because they do not understand sth. 使困惑；使迷惑",
-                              "example": "The findings of the survey puzzled me &mdash; they were not at all what I would have expected."
+                              "example": "The findings of the survey puzzled me — they were not at all what I would have expected."
                           }
                       ]
                   },
@@ -2076,7 +2078,8 @@ book2[1] = [
                       "partOfSpeech": "【n.】",
                       "explanations_and_examples": [
                           {
-                              "explanation": "[C] 拼图游戏；拼图玩具"
+                              "explanation": "[C] 拼图游戏；拼图玩具",
+                              "example": ""
                           }
                       ]
                   }
@@ -2140,7 +2143,7 @@ book2[1] = [
             "word": "attraction",
             "pee": [
                 {
-                    "partOfSpeech": "/əˈtr&aelig;kʃn/【n.】 ",
+                    "partOfSpeech": "/əˈtrækʃn/【n.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "1) [C] sth. interesting or enjoyable to see or do 吸引人之物；有魅力之物；诱惑物",
@@ -2219,7 +2222,7 @@ book2[1] = [
             "word": "standardization",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌst&aelig;dədaɪˈzeɪʃn/【n.】",
+                    "partOfSpeech": "/ˌstædədaɪˈzeɪʃn/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[U] (BrE also standardisation) the process of making things of the same type all have the same basic features 标准化",
@@ -2264,7 +2267,7 @@ book2[1] = [
             "word": "gadget",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈg&aelig;dʒɪt/【n.】",
+                    "partOfSpeech": "/ˈgædʒɪt/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C] a small device or machine with a particular purpose 小器具；小玩意儿",
@@ -2325,7 +2328,7 @@ book2[1] = [
                     "partOfSpeech": "n.",
                     "explanations_and_examples": [
                         {
-                            "explanation": "[C] sb. who has no importance or influence, or who does not have the ability to think deeply &mdash; used to show disapproval 微不足道的人，无足轻重的人，思想浅薄的人（含贬义）",
+                            "explanation": "[C] sb. who has no importance or influence, or who does not have the ability to think deeply — used to show disapproval 微不足道的人，无足轻重的人，思想浅薄的人（含贬义）",
                             "example": " Brian considered Sam a lightweight, a real amateur."
                         }
                     ]
@@ -2621,7 +2624,7 @@ book2[1] = [
       "name": "Phrases and expressions",
       "children": [
           {
-              "word": "no more &hellip; than",
+              "word": "no more 	… than",
               "pee": [
                   {
                       "explanations_and_examples": [
@@ -2843,7 +2846,7 @@ book2[1] = [
                       "partOfSpeech": "/ˌkəʊpənˈheɪgən/",
                       "explanations_and_examples": [
                           {
-                              "explanation": "哥本哈根（丹麦首都）"
+                              "explanation": "哥本哈根（丹麦首都）",
                           }
                       ]
                   }
@@ -2868,7 +2871,7 @@ book2[1] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/98bab732cdc99efe922f2b829f76ea4152b4a026_96k.mp3#duration=2.0&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈne&eth;ələndz/",
+                      "partOfSpeech": "/ˈneðələndz/",
                       "explanations_and_examples": [
                           {
                               "explanation": "荷兰（欧洲国家）"
@@ -2910,7 +2913,7 @@ book2[1] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b9433ab7c25a95649d8f495002c41fb4a74b8c2c_96k.mp3#duration=1.8&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈkəʊd&aelig;k/",
+                    "partOfSpeech": "/ˈkəʊdæk/",
                     "explanations_and_examples": [
                         {
                             "explanation": "柯达（相机品牌）"
@@ -2964,7 +2967,7 @@ book2[1] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0633635ddbd008767f9296bbc14f8cd6507b2e9a_96k.mp3#duration=2.3&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈsɒnt&aelig;g/",
+                    "partOfSpeech": "/ˈsɒntæg/",
                     "explanations_and_examples": [
                         {
                             "explanation": "苏珊・桑塔格（美国作家）"
@@ -3027,30 +3030,25 @@ book2[2] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/53e557ac4692a43efb15bb9a98ae68cc11383d6f_96k.mp3#duration=1.6&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/drɪp/【vi.】",
+                      "partOfSpeech": "/drɪp/",
                       "explanations_and_examples": [
                           {
-                              "explanation": "fall in drops （液体）滴下，沥下",
+                              "explanation": "[vi.]fall in drops （液体）滴下，沥下",
                               "example": "She was hot and sweat dripped into her eyes."
-                          }
+                          },
+                          {
+                            "explanation": "[v.]let liquid fall in drops 滴（水）；滴下（液体）",
+                            "example": "Her boots were muddy and her hair was dripping. "
+                            }
                       ]
                   },
-                  {
-                      "partOfSpeech": "v. ",
-                      "explanations_and_examples": [
-                          {
-                              "explanation": "let liquid fall in drops 滴（水）；滴下（液体）",
-                              "example": "Her boots were muddy and her hair was dripping. "
-                          }
-                      ]
-                  }
               ]
           },
           {
               "word": "breathtaking",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈbre&theta;ˌteɪkɪŋ/【a.】",
+                      "partOfSpeech": "/ˈbreθˌteɪkɪŋ/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) breathless 使人喘不过气来的",
@@ -3099,7 +3097,7 @@ book2[2] = [
               "word": "parallel",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈp&aelig;rəlel/【a.】 ",
+                      "partOfSpeech": "/ˈpærəlel/【a.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) (fml.) similar and happening at the same time 相似的；同时发生的",
@@ -3118,7 +3116,7 @@ book2[2] = [
               "word": "unparalleled",
               "pee": [
                   {
-                      "partOfSpeech": "/ʌnˈp&aelig;rəleld/【a.】 ",
+                      "partOfSpeech": "/ʌnˈpærəleld/【a.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "(fml.) bigger, better, or worse than anything else 无比的；无双的；空前的",
@@ -3137,7 +3135,7 @@ book2[2] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "1) not pleasant and not sensitive to people's feelings伤人的；不顾他人感受的",
-                              "example": "She spoke with brutal honesty &mdash; I was too old for the job."
+                              "example": "She spoke with brutal honesty — I was too old for the job."
                           },
                           {
                               "explanation": "2) very cruel and violent 野蛮的；凶残的",
@@ -3289,7 +3287,7 @@ book2[2] = [
                       ]
                   },
                   {
-                      "partOfSpeech": "ad. &amp; prep.",
+                      "partOfSpeech": "ad. & prep.",
                       "explanations_and_examples": [
                           {
                               "explanation": "next to the side of sth. 在（...）旁边",
@@ -3319,7 +3317,7 @@ book2[2] = [
               "word": "distraction",
               "pee": [
                   {
-                      "partOfSpeech": "/dɪˈstr&aelig;kʃn/【n.】",
+                      "partOfSpeech": "/dɪˈstrækʃn/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) [C] a pleasant activity 娱乐；消遣",
@@ -3415,7 +3413,7 @@ book2[2] = [
               "word": "foreshadow",
               "pee": [
                   {
-                      "partOfSpeech": "/fɔːˈʃ&aelig;dəʊ/【vt.】",
+                      "partOfSpeech": "/fɔːˈʃædəʊ/【vt.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "show or say that sth. will happen in the future 预示；是...预兆",
@@ -3434,7 +3432,7 @@ book2[2] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "1) (on / from the sidelines) not taking part in an activity even though you want to or should do 置身事外；袖手旁观；当旁观者",
-                              "example": "You can't stay on the sidelines for ever; it&rsquo;s time you got involved."
+                              "example": "You can't stay on the sidelines for ever; it’s time you got involved."
                           },
                           {
                               "explanation": "[C] an activity that you do as well as your main job or business, in order to earn more money 副业； 兼职",
@@ -3488,7 +3486,7 @@ book2[2] = [
               "word": "tackle",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈt&aelig;kl/【vt.】",
+                      "partOfSpeech": "/ˈtækl/【vt.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "try to deal with a difficult problem 处理，对付（难题）",
@@ -3559,8 +3557,8 @@ book2[2] = [
                       "partOfSpeech": "/splɪt/【n.】",
                       "explanations_and_examples": [
                           {
-                              "explanation": "[C] (infml.) the end of a marriage or relationship &mdash; used esp. in newspapers and magazines 离婚，分手（尤作报刊用语）",
-                              "example": "She seems to be getting over her recent split with her fianc&eacute;. "
+                              "explanation": "[C] (infml.) the end of a marriage or relationship — used esp. in newspapers and magazines 离婚，分手（尤作报刊用语）",
+                              "example": "She seems to be getting over her recent split with her fiancé . "
                           }
                       ]
                   },
@@ -3580,7 +3578,7 @@ book2[2] = [
               "word": "crack",
               "pee": [
                   {
-                      "partOfSpeech": "/kr&aelig;k/【v.】 ",
+                      "partOfSpeech": "/kræk/【v.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "break or make sth. break, either so that it gets lines on its surface, or so that it breaks into pieces （使）破裂；（使）裂开",
@@ -3595,7 +3593,7 @@ book2[2] = [
               "word": "cracked",
               "pee": [
                   {
-                      "partOfSpeech": "/kr&aelig;kt/【a.】 ",
+                      "partOfSpeech": "/krækt/【a.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "having one or more lines on the surface because it is damaged but not completely broken 有裂缝的； 有裂痕的",
@@ -3767,7 +3765,7 @@ book2[2] = [
                     "explanations_and_examples": [
                         {
                             "explanation": "1) the state of being weak or uncertain, and likely to become worse under pressure （形式）脆弱，不稳定",
-                            "example": " The collapse of the bank is an reminder of the fragility of the world&rsquo;s banking system."
+                            "example": " The collapse of the bank is an reminder of the fragility of the world’s banking system."
                         },
                         {
                             "explanation": "2) the state of being easily broken or damaged 脆弱；易碎；易损坏",
@@ -3884,7 +3882,7 @@ book2[2] = [
             "word": "wealthy",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈwel&theta;i/【a.】",
+                    "partOfSpeech": "/ˈwelθi/【a.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "1) (the ~) [pl.] people who have a lot of money, possessions, etc. 有钱人；富人",
@@ -3903,7 +3901,7 @@ book2[2] = [
             "word": "automatic",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌɔːtəˈm&aelig;tɪk/【a.】",
+                    "partOfSpeech": "/ˌɔːtəˈmætɪk/【a.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "(of a device or process) working by itself with little or no direct human control （装置或流程）自动的",
@@ -4038,7 +4036,7 @@ book2[2] = [
             "word": "duality",
             "pee": [
                 {
-                    "partOfSpeech": "/dju:ˈ&aelig;ləti/【n.】 ",
+                    "partOfSpeech": "/dju:ˈæləti/【n.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "[U] (fml.) the state of having two of sth. or two parts 双重性",
@@ -4233,7 +4231,7 @@ book2[2] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "for only sb. to have or use; not shared 独有；专用",
-                              "example": "I'm going out, so you&rsquo;ll have the place to yourself. "
+                              "example": "I'm going out, so you’ll have the place to yourself. "
                           }
                       ]
                   }
@@ -4445,7 +4443,7 @@ book2[3] = [
               "word": "myth",
               "pee": [
                   {
-                      "partOfSpeech": "/mɪ&theta;/【n.】",
+                      "partOfSpeech": "/mɪθ/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C, U] an idea or story that many people believe, but which is not true （许多人相信的）错误观念 , 荒诞说法",
@@ -4532,7 +4530,8 @@ book2[3] = [
                       "partOfSpeech": "n.",
                       "explanations_and_examples": [
                           {
-                              "explanation": "[C]（植物的）茎，梗，柄"
+                              "explanation": "[C]（植物的）茎，梗，柄",
+                                "example": ""
                           }
                       ]
                   }
@@ -4708,7 +4707,7 @@ book2[3] = [
               "word": "acquisition",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌ&aelig;kwɪˈzɪʃn/【n.】",
+                      "partOfSpeech": "/ˌækwɪˈzɪʃn/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) [C] sth. that you buy or obtain, often to add to things that you already have 购置物；获得物",
@@ -4772,7 +4771,7 @@ book2[3] = [
               "word": "anthropologist",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌ&aelig;n&theta;rəˈpɒlədʒɪst/【n.】",
+                      "partOfSpeech": "/ˌænθrəˈpɒlədʒɪst/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] a person who studies anthropology 人类学家",
@@ -4787,7 +4786,7 @@ book2[3] = [
               "word": "similarity",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌsɪməˈl&aelig;rəti/【n.】",
+                      "partOfSpeech": "/ˌsɪməˈlærəti/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C, U] the state of being almost the same, or a particular way in which sth. is almost the same 相似性；类似性；相似处；相似点",
@@ -4802,7 +4801,7 @@ book2[3] = [
               "word": "ancestor",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈ&aelig;nsestə/【n.】",
+                      "partOfSpeech": "/ˈænsestə/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] a member of your family who lived a long time ago 祖先；祖宗",
@@ -4817,7 +4816,7 @@ book2[3] = [
               "word": "ancestral",
               "pee": [
                   {
-                      "partOfSpeech": "/&aelig;nˈsestrəl/【a.】",
+                      "partOfSpeech": "/ænˈsestrəl/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "of, relating to, or inherited from an ancestor 祖先的",
@@ -5100,7 +5099,7 @@ book2[3] = [
             "word": "analyze",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈ&aelig;nəˌlaɪz/【vt.】 ",
+                    "partOfSpeech": "/ˈænəˌlaɪz/【vt.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "(BrE analyse) examine or think about sth. carefully, in order to understand it 分析；剖析",
@@ -5442,7 +5441,7 @@ book2[3] = [
                   {
                       "explanations_and_examples": [
                           {
-                              "explanation": "(also in &hellip;terms) used to show what aspects of a subject you are talking about or how you are thinking about it 谈及；就...而言；在...方面；从...方面来说",
+                              "explanation": "(also in … terms) used to show what aspects of a subject you are talking about or how you are thinking about it 谈及；就...而言；在...方面；从...方面来说",
                               "example": " It's a mistake to think of Florida only in terms of its tourist attractions."
                           }
                       ]
@@ -5670,7 +5669,7 @@ book2[4] = [
               "word": "therapy",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈ&theta;erəpi/【n.】 ",
+                      "partOfSpeech": "/ˈθerəpi/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C, U] a treatment that helps sb. feel better, grow stronger, etc., esp. after an illness 治疗；疗法",
@@ -5754,7 +5753,7 @@ book2[4] = [
               "word": "companionship",
               "pee": [
                   {
-                      "partOfSpeech": "/kəmˈp&aelig;njənʃɪp/【n.】 ",
+                      "partOfSpeech": "/kəmˈpænjənʃɪp/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[U] when you are with sb. you enjoy being with, and are not alone 友谊；友好交往",
@@ -5814,7 +5813,7 @@ book2[4] = [
               "word": "paradoxically",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌp&aelig;rəˈdɒksɪkli/【ad.】",
+                      "partOfSpeech": "/ˌpærəˈdɒksɪkli/【ad.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "in a way that is surprising because it is the opposite of what you would expect 自相矛盾地；反常地",
@@ -5868,7 +5867,7 @@ book2[4] = [
               "word": "universality",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌju:nɪvɜːˈs&aelig;ləti/【n.】 ",
+                      "partOfSpeech": "/ˌju:nɪvɜːˈsæləti/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[U] the quality or state of being true or suitable in every situation 普遍性；通用性",
@@ -5937,7 +5936,7 @@ book2[4] = [
               "word": "empathetic",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈempəˌ&theta;etɪk/【a.】",
+                      "partOfSpeech": "/ˈempəˌθetɪk/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "(also empathic) having the ability to understand sb. else's feelings or emotions 同情的；共鸣的",
@@ -5986,7 +5985,7 @@ book2[4] = [
               "word": "bibliotherapist",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌbɪblɪəˈ&theta;erəpɪst/【n.】",
+                      "partOfSpeech": "/ˌbɪblɪəˈθerəpɪst/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] 阅读治疗专家",
@@ -6080,7 +6079,7 @@ book2[4] = [
               "word": "transient",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈtr&aelig;nziənt/【a.】",
+                      "partOfSpeech": "/ˈtrænziənt/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "(fml.) continuing only for a short time 短暂的；转瞬即逝的；一时的",
@@ -6095,7 +6094,7 @@ book2[4] = [
               "word": "transience",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈtr&aelig;nziəns/【n.】 ",
+                      "partOfSpeech": "/ˈtrænziəns/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[U] the state of continuing only for a short time 短暂；转瞬即逝",
@@ -6179,7 +6178,7 @@ book2[4] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/e6de81148a12554c96b258039124aeb99552ff2b_96k.mp3#duration=2.2&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈn&aelig;rətɪv/【n.】 ",
+                      "partOfSpeech": "/ˈnærətɪv/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) [U] (fml.) the act, process, or skill of telling a story 叙述；叙述技巧",
@@ -6213,7 +6212,7 @@ book2[4] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/90be5242972c8a235951a8d4c7387b99a9a03113_96k.mp3#duration=2.4&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/tr&aelig;nsˈfɔːm/【vi.】",
+                      "partOfSpeech": "/trænsˈfɔːm/【vi.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "undergo a change in appearance, form, or character 改观；变形；转化",
@@ -6241,7 +6240,7 @@ book2[4] = [
                     "explanations_and_examples": [
                         {
                             "explanation": "1) greatly loved or treasured by sb. 珍爱的；心爱的",
-                            "example": "Look after my daughter &mdash; she's very precious to me."
+                            "example": "Look after my daughter — she's very precious to me."
                         },
                         {
                             "explanation": "2) valuable and important and not to be wasted or used without care 宝贵的",
@@ -6323,7 +6322,7 @@ book2[4] = [
             "word": "henceforth",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌhensˈfɔː&theta;/【ad.】",
+                    "partOfSpeech": "/ˌhensˈfɔːθ/【ad.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "(also henceforward) (fml.) from this time on 从今以后；今后；从现在起",
@@ -6398,7 +6397,7 @@ book2[4] = [
             "word": "tap",
             "pee": [
                 {
-                    "partOfSpeech": "/t&aelig;p/【v.】 ",
+                    "partOfSpeech": "/tæp/【v.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "hit sb. / sth. quickly and lightly 轻敲；轻拍；轻叩",
@@ -6451,7 +6450,7 @@ book2[4] = [
             "word": "savage",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈs&aelig;vɪdʒ/【vt.】",
+                    "partOfSpeech": "/ˈsævɪdʒ/【vt.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "attack or treat brutally 攻击；残害",
@@ -6544,7 +6543,7 @@ book2[4] = [
             "word": "chatter",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈtʃ&aelig;tə/【vi.】",
+                    "partOfSpeech": "/ˈtʃætə/【vi.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "(also chatter away / on) talk quickly in a friendly way without stopping, esp. about things that are not serious or important 唠叨；喋喋不休",
@@ -6604,7 +6603,7 @@ book2[4] = [
             "word": "dash",
             "pee": [
                 {
-                    "partOfSpeech": "/d&aelig;ʃ/【n.】",
+                    "partOfSpeech": "/dæʃ/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C] 破折号",
@@ -6628,7 +6627,7 @@ book2[4] = [
             "word": "bracket",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈbr&aelig;kIt/【n.】",
+                    "partOfSpeech": "/ˈbrækIt/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C, usu. pl.] (AmE parenthesis) 圆括弧；圆括号",
@@ -6738,11 +6737,11 @@ book2[4] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0bb0d909ef86362f76aa8d5da95edd7e326556b4_96k.mp3#duration=2.0&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌ&aelig;mbɪˈgju:əti/【n.】",
+                    "partOfSpeech": "/ˌæmbɪˈgju:əti/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "the state of being unclear, confusing, or not certain, or things that produce this effect 模棱两可；不明确（的事物）",
-                            "example": "There was an element of ambiguity in the president&rsquo;s reply. "
+                            "example": "There was an element of ambiguity in the president's reply. "
                         }
                     ]
                 }
@@ -6753,7 +6752,7 @@ book2[4] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/91bfb5e31b1acd627a65202f7b2712793b56507f_96k.mp3#duration=1.3&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈb&aelig;riə/【n.】",
+                    "partOfSpeech": "/ˈbæriə/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C] a rule, problem, etc. that prevents people from doing sth., or limits what they can do 障碍；壁垒",
@@ -6836,7 +6835,7 @@ book2[4] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/12a4a1a1866ffe76daaef3767346355fe9c73ef8_96k.mp3#duration=1.6&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/əˈd&aelig;ptəbl/【a.】 ",
+                    "partOfSpeech": "/əˈdæptəbl/【a.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "able to change in order to be successful in new and different situations 能适应的；适应性强的",
@@ -6917,7 +6916,7 @@ book2[4] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "(also one after another) if a series of events or actions happen one after another, each one happens soon after the previous one 一个接一个地；接二连三地",
-                              "example": "Ever since we moved here it&rsquo;s been one problem after the other."
+                              "example": "Ever since we moved here it's been one problem after the other."
                           }
                       ]
                   }
@@ -7101,10 +7100,10 @@ book2[4] = [
             "word": "Angus Stevenson",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌ&aelig;ŋgəs ˌsti:v(ə)ns(ə)n/",
+                    "partOfSpeech": "/ˌæŋgəs ˌsti:v(ə)ns(ə)n/",
                     "explanations_and_examples": [
                         {
-                            "explanation": "安格斯・史蒂文森（&ldquo;牛津英语词典&rdquo;系列主编）"
+                            "explanation": "安格斯・史蒂文森（'牛津英语词典'系列主编）"
                         }
                     ]
                 }
@@ -7138,7 +7137,7 @@ book2[5] = [
               "word": "ham",
               "pee": [
                   {
-                      "partOfSpeech": "/h&aelig;m/【n.】",
+                      "partOfSpeech": "/hæm/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C, U] 火腿（肉）",
@@ -7413,7 +7412,7 @@ book2[5] = [
               "word": "canned",
               "pee": [
                   {
-                      "partOfSpeech": "/k&aelig;nd/【a.】 ",
+                      "partOfSpeech": "/kænd/【a.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "(of food) preserved in a tin （食物）罐装的",
@@ -7443,7 +7442,7 @@ book2[5] = [
               "word": "popularity",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈpɒpjʊˈl&aelig;rəti/【n.】",
+                      "partOfSpeech": "/ˈpɒpjʊˈlærəti/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "the state of being liked, enjoyed, or supported by a large number of people 流行；受欢迎",
@@ -7473,7 +7472,7 @@ book2[5] = [
               "word": "scrap",
               "pee": [
                   {
-                      "partOfSpeech": "/skr&aelig;p/【n.】 ",
+                      "partOfSpeech": "/skræp/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) (~s) [pl.] food left after a meal 残羹剩饭",
@@ -7567,7 +7566,7 @@ book2[5] = [
               "word": "triangle",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈtraɪ&aelig;ŋgl/【n.】",
+                      "partOfSpeech": "/ˈtraɪæŋgl/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] 三角形；三角形物体",
@@ -7582,7 +7581,7 @@ book2[5] = [
               "word": "toothpick",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈtu:&theta;ˌpɪk/【n.】 ",
+                      "partOfSpeech": "/ˈtu:θˌpɪk/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] 牙签",
@@ -7831,11 +7830,11 @@ book2[5] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/24b7f65a28a06878dac571424180dcbc1333d7f6_96k.mp3#duration=1.9&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈkl&aelig;sɪk/【a.】 ",
+                      "partOfSpeech": "/ˈklæsɪk/【a.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) of a very typical and well-known kind 典型的",
-                              "example": "Too many job hunters make the classic mistakeof thinking only about what&rsquo;s in it for them."
+                              "example": "Too many job hunters make the classic mistakeof thinking only about what's in it for them."
                           },
                           {
                               "explanation": "2) of the highest quality or class and esp. serving as a model 一流的；经典的",
@@ -7880,7 +7879,7 @@ book2[5] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7ce4b7d62493e66f4378f2faff84246c0821d91b_96k.mp3#duration=1.4&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/k&aelig;nˈti:n/ n.",
+                      "partOfSpeech": "/kænˈti:n/ n.",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] (esp. BrE) （工厂、学校等的） 食堂，餐厅"
@@ -7908,7 +7907,7 @@ book2[5] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/8f84bda3ccef1307b2ba54a9cea2affc451645da_96k.mp3#duration=1.7&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/eksˈp&aelig;t/【n.】 ",
+                      "partOfSpeech": "/eksˈpæt/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] (infml.) a person living in a foreign country 居住在国外的人；侨民",
@@ -7926,8 +7925,8 @@ book2[5] = [
                     "partOfSpeech": "/kənˈfeʃn/【n.】",
                     "explanations_and_examples": [
                         {
-                            "explanation": "[C, U] the act of admitting one&rsquo;s crimes, faults, etc. 承认；坦白",
-                            "example": "I have a confession to make &mdash; I scraped (擦坏) your car when I was parking mine."
+                            "explanation": "[C, U] the act of admitting one's crimes, faults, etc. 承认；坦白",
+                            "example": "I have a confession to make — I scraped (擦坏) your car when I was parking mine."
                         }
                     ]
                 }
@@ -8012,7 +8011,7 @@ book2[5] = [
             "word": "challenging",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈtʃ&aelig;lɪndʒɪŋ/【a.】 ",
+                    "partOfSpeech": "/ˈtʃælɪndʒɪŋ/【a.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "difficult in an interesting or enjoyable way 富有挑战性的",
@@ -8027,7 +8026,7 @@ book2[5] = [
             "word": "calculus",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈk&aelig;lkjʊləs/【n.】",
+                    "partOfSpeech": "/ˈkælkjʊləs/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[U] 微积分",
@@ -8207,7 +8206,7 @@ book2[5] = [
             "word": "wrap",
             "pee": [
                 {
-                    "partOfSpeech": "/r&aelig;p/【vt.】",
+                    "partOfSpeech": "/ræp/【vt.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "(also ~ up) put paper or cloth over sth. to cover it （用纸或布）包，裹（某物）",
@@ -8222,7 +8221,7 @@ book2[5] = [
             "word": "wrapper",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈr&aelig;pə/【n.】 ",
+                    "partOfSpeech": "/ˈræpə/【n.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C] the piece of paper or plastic that covers sth. when it is sold （商品的）包装纸（塑料）",
@@ -8409,7 +8408,7 @@ book2[5] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/6d99e462d802e8d62bc64d0f0a709f74d650df95_96k.mp3#duration=1.6&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ɔːˈg&aelig;nɪk/【a.】 ",
+                    "partOfSpeech": "/ɔːˈgænɪk/【a.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "relating to farming or gardening methods of growing food without using artificial chemicals, or produced or grown by these methods 不使用化肥的；有机的； 绿色的",
@@ -8602,7 +8601,7 @@ book2[5] = [
                       "explanations_and_examples": [
                           {
                               "explanation": "if you start sth. from scratch, you begin it without using anything that existed or was prepared before 从头做起；从零开始",
-                              "example": "It's completely ruined, so we&rsquo;ll have to start from scratch."
+                              "example": "It's completely ruined, so we'll have to start from scratch."
                           }
                       ]
                   }
@@ -8745,7 +8744,7 @@ book2[5] = [
                     "explanations_and_examples": [
                         {
                             "explanation": "recognize sb. / sth. in a group of people or things 分辨出；辨认出",
-                            "example": "Steven describes himself as \"a regular guy &mdash; you couldn't pick me out of a crowd.\""
+                            "example": "Steven describes himself as \"a regular guy — you couldn't pick me out of a crowd.\""
                         }
                     ]
                 }
@@ -8888,7 +8887,7 @@ book2[5] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3bc8b7eee5edf77c76031df43498a6f44a6a6bc9_96k.mp3#duration=2.0&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈfri:dˌm&aelig;n/",
+                      "partOfSpeech": "/ˈfri:dˌmæn/",
                       "explanations_and_examples": [
                           {
                               "explanation": "保罗・弗里德曼（人名）"
@@ -8970,7 +8969,7 @@ book2[5] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5affecbb1dcc7e4980ae8abb15572b6e7f3e0753_96k.mp3#duration=2.2&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌm&aelig;səˈtʃu:sɪts/",
+                      "partOfSpeech": "/ˌmæsəˈtʃu:sɪts/",
                       "explanations_and_examples": [
                           {
                               "explanation": "马萨诸塞州（位于美国东北部）"
@@ -8998,7 +8997,7 @@ book2[5] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/ebee9582ce171c950988210452230cf80402503c_96k.mp3#duration=3.6&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/v&aelig;nˈku:və/",
+                      "partOfSpeech": "/vænˈku:və/",
                       "explanations_and_examples": [
                           {
                               "explanation": "温哥华岛大学（加拿大大学，位于不列颠哥伦比亚省）"
@@ -9038,7 +9037,7 @@ book2[5] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5c44427900bb8a62cea6a8193ca9033b813b8330_96k.mp3#duration=1.9&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌ&aelig;pəˈleɪtʃiə/",
+                    "partOfSpeech": "/ˌæpəˈleɪtʃiə/",
                     "explanations_and_examples": [
                         {
                             "explanation": "阿巴拉契亚（美国东部地区）"
@@ -9073,7 +9072,7 @@ book2[6] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/bc478cc39f65a1b0e361142ef9eb376d8b6ebf9e_96k.mp3#duration=1.2&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈk&aelig;bɪn/【n.】 ",
+                      "partOfSpeech": "/ˈkæbɪn/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] （尤指建于林中或山上的）小木屋",
@@ -9186,7 +9185,7 @@ book2[6] = [
               "word": "rhythm",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈrɪ&eth;əm/【n.】 [C, U] ",
+                      "partOfSpeech": "/ˈrɪðəm/【n.】 [C, U] ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) a regular pattern of changes 规则变化；节律模式；节奏",
@@ -9415,7 +9414,7 @@ book2[6] = [
               "word": "habitat",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈh&aelig;bɪˌt&aelig;t/【n.】 ",
+                      "partOfSpeech": "/ˈhæbɪˌtæt/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C, U] the natural home of a plant or animal （动植物的）生活环境；（动物的）栖息地",
@@ -9460,7 +9459,7 @@ book2[6] = [
               "word": "collapse",
               "pee": [
                   {
-                      "partOfSpeech": "/kəˈl&aelig;ps/【vi.】 ",
+                      "partOfSpeech": "/kəˈlæps/【vi.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) suddenly fail or become too weak to continue 突然失败；垮掉；崩溃",
@@ -9543,7 +9542,7 @@ book2[6] = [
               "word": "invaluable",
               "pee": [
                   {
-                      "partOfSpeech": "/ɪnˈv&aelig;ljuəbl/【a.】",
+                      "partOfSpeech": "/ɪnˈvæljuəbl/【a.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "extremely useful 极有价值的",
@@ -9589,7 +9588,7 @@ book2[6] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0df0e00c9e400de97c82aa75cf5887c8379fcd4a_96k.mp3#duration=1.4&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈbl&aelig;ŋkɪt/【n.】 ",
+                      "partOfSpeech": "/ˈblæŋkɪt/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) [sing.] a thick covering or area of sth. 厚（的覆盖）层",
@@ -9637,7 +9636,7 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/e89ca8acc657dd319dfbb418bbbbe65121bb41d6_96k.mp3#duration=1.6&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈs&aelig;mən/【n.】 ",
+                    "partOfSpeech": "/ˈsæmən/【n.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C, U] (pl. salmon) 鲑鱼（肉）；三文鱼（肉）；大麻哈鱼（肉）",
@@ -9651,7 +9650,7 @@ book2[6] = [
             "word": "pal",
             "pee": [
                 {
-                    "partOfSpeech": "/p&aelig;l/【n.】 ",
+                    "partOfSpeech": "/pæl/【n.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C] (infml.) a close friend 密友；好友",
@@ -9735,7 +9734,7 @@ book2[6] = [
             "word": "magnetic",
             "pee": [
                 {
-                    "partOfSpeech": "/m&aelig;gˈnetɪk/【a.】",
+                    "partOfSpeech": "/mægˈnetɪk/【a.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "concerning or produced by magnetism 磁的；磁性的",
@@ -9750,7 +9749,7 @@ book2[6] = [
             "word": "alas",
             "pee": [
                 {
-                    "partOfSpeech": "/əˈl&aelig;s/【ad.】 ",
+                    "partOfSpeech": "/əˈlæs/【ad.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "(fml.) used when mentioning a fact that you wish was not true 不幸地 （表示但愿并非如此）",
@@ -9810,7 +9809,7 @@ book2[6] = [
             "word": "Omega-3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌəʊmɪgə ˈ&theta;ri:/【n.】 ",
+                    "partOfSpeech": "/ˌəʊmɪgə ˈθri:/【n.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "[U] 奥米伽3（一组多元不饱和脂肪酸）",
@@ -9879,7 +9878,7 @@ book2[6] = [
             "word": "backfire",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌb&aelig;kˈfaɪə/【vi.】 ",
+                    "partOfSpeech": "/ˌbækˈfaɪə/【vi.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "(of a plan or action) have the opposite effect to the one you intended （计划或行动）发生意外，产生事与愿违的结果",
@@ -9909,7 +9908,7 @@ book2[6] = [
             "word": "thrive",
             "pee": [
                 {
-                    "partOfSpeech": "/&theta;raɪv/【vi.】",
+                    "partOfSpeech": "/θraɪv/【vi.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "become very strong and healthy or very successful 茁壮成长；兴旺；欣欣向荣",
@@ -9969,7 +9968,7 @@ book2[6] = [
             "word": "fattiness",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈf&aelig;tInəs/【n.】",
+                    "partOfSpeech": "/ˈfætInəs/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[U] the state of containing a lot of fat 富含脂肪",
@@ -10090,7 +10089,7 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/03f73e80da778e5df6e95aba008a88ae0d0ea473_96k.mp3#duration=1.7&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌ&aelig;vəˈkɑːdəʊ/【n.】",
+                    "partOfSpeech": "/ˌævəˈkɑːdəʊ/【n.】",
                     "explanations_and_examples": [
                         {
                             "explanation": "[C] (BrE also avocado pear) (pl. avocados) 鳄梨；牛油果"
@@ -10119,10 +10118,11 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/665d4047f8d7c8166330d4f38a8771f36c5cc02c_96k.mp3#duration=1.9&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌ&aelig;ntibaɪˈɒtɪk/【n.】",
+                    "partOfSpeech": "/ˌæntibaɪˈɒtɪk/【n.】",
                     "explanations_and_examples": [
                         {
-                            "explanation": "[C, usu. pl.] 抗生素"
+                            "explanation": "[C, usu. pl.] 抗生素",
+                            "example": "",
                         }
                     ]
                 }
@@ -10136,7 +10136,8 @@ book2[6] = [
                     "partOfSpeech": "【n.】",
                     "explanations_and_examples": [
                         {
-                            "example": "[C] 毒素（尤指细菌产生的致病物质）"
+                            "explanation": "[C] 毒素 （尤指细菌产生的致病物质）",
+                            "example": "",
                         }
                     ]
                 }
@@ -10162,7 +10163,7 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/efa96dfdc9c95b9649dedeba40aa049a3542baa7_96k.mp3#duration=1.5&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈfr&aelig;dʒaɪl/【a.】 ",
+                    "partOfSpeech": "/ˈfrædʒaɪl/【a.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "weak or uncertain, and likely to become worse under pressure 脆弱的",
@@ -10216,7 +10217,7 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a7b73550b9e1d9d657662094da76efc8acccdec3_96k.mp3#duration=1.4&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈ&theta;retn/【vt.】 ",
+                    "partOfSpeech": "/ˈθretn/【vt.】 ",
                     "explanations_and_examples": [
                         {
                             "explanation": "1) be likely to harm or destroy sth. 威胁到；危及",
@@ -10457,7 +10458,7 @@ book2[6] = [
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/46350111e95a84894e6183e571beaffd5be23d7a_96k.mp3#duration=1.8&t=.mp3",
               "pee": [
                   {
-                      "partOfSpeech": "/ˌv&aelig;n ˈgɒf/",
+                      "partOfSpeech": "/ˌvæn ˈgɒf/",
                       "explanations_and_examples": [
                           {
                               "explanation": "文森特・凡・高 （荷兰画家）"
@@ -10540,7 +10541,7 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b583010024deab42e17a879d5eb61fd756035ac2_96k.mp3#duration=1.5&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˌsk&aelig;ndɪˈneIviə/",
+                    "partOfSpeech": "/ˌskændɪˈneIviə/",
                     "explanations_and_examples": [
                         {
                             "explanation": "斯堪的纳维亚（欧洲西北部文化区，包括挪威、瑞典和丹麦，有时也包括冰岛、芬兰和法罗群岛）"
@@ -10568,7 +10569,7 @@ book2[6] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/426e34df13d6fa3cb240719da39039480ee1c4c2_96k.mp3#duration=1.9&t=.mp3",
             "pee": [
                 {
-                    "partOfSpeech": "/ˈsk&aelig;dʒɪt/",
+                    "partOfSpeech": "/ˈskædʒɪt/",
                     "explanations_and_examples": [
                         {
                             "example": "斯卡吉特河（位于北美洲，流经加拿大和美国）"
@@ -10728,7 +10729,7 @@ book2[7] = [
               "word": "evaluate",
               "pee": [
                   {
-                      "partOfSpeech": "/ɪˈv&aelig;ljuˌeɪt/【vt.】 ",
+                      "partOfSpeech": "/ɪˈvæljuˌeɪt/【vt.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "judge how good, useful, or successful sth. is 评估； 评价",
@@ -10743,7 +10744,7 @@ book2[7] = [
               "word": "algorithm",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈ&aelig;lgəˌrɪ&eth;(ə)m/【n.】",
+                      "partOfSpeech": "/ˈælgəˌrɪð(ə)m/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C] (technical) 演算法；计算程序",
@@ -10818,7 +10819,7 @@ book2[7] = [
               "word": "calculate",
               "pee": [
                   {
-                      "partOfSpeech": "/ˈk&aelig;lkjʊˌleɪt/【vt.】 ",
+                      "partOfSpeech": "/ˈkælkjʊˌleɪt/【vt.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "1) guess sth. using as many facts as you can find 预测；估计",
@@ -10837,7 +10838,7 @@ book2[7] = [
               "word": "analysis",
               "pee": [
                   {
-                      "partOfSpeech": "/əˈn&aelig;ləsɪs/【n.】",
+                      "partOfSpeech": "/əˈnæləsɪs/【n.】",
                       "explanations_and_examples": [
                           {
                               "explanation": "[C, U] a careful examination of sth. in order to understand it better （对事物的）分析",
@@ -10935,7 +10936,7 @@ book2[7] = [
               "word": "peculiarity",
               "pee": [
                   {
-                      "partOfSpeech": "/pɪˌkju:liˈ&aelig;rəti/【n.】 ",
+                      "partOfSpeech": "/pɪˌkju:liˈærəti/【n.】 ",
                       "explanations_and_examples": [
                           {
                               "explanation": "[U] sth. that is a feature of only one particular place, person, situation, etc. （某地方、某人或某情况等的）特点，独特性",
@@ -11060,7 +11061,7 @@ book2[7] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a03fd94eb84581a379a7912b3d603e796814b3b3_96k.mp3#duration=1.6&t=.mp3",
             "pee": [
               {
-                "partOfSpeech": "/ˈr&aelig;ʃn(ə)l/【a.】",
+                "partOfSpeech": "/ˈræʃn(ə)l/【a.】",
                 "explanations_and_examples": [
                   {
                     "explanation": "rational thoughts, decisions, etc. are based on reasons rather than emotions （想法、决定等）合理的，基于理性的",
@@ -11248,7 +11249,7 @@ book2[7] = [
             "word": "thiourea",
             "pee": [
               {
-                "partOfSpeech": "/ˌ&theta;aɪəʊˈjʊərɪə/【 n.】",
+                "partOfSpeech": "/ˌθaɪəʊˈjʊərɪə/【 n.】",
                 "explanations_and_examples": [
                   { "explanation": "[U] 硫脲", "example": "" }
                 ]
@@ -11309,7 +11310,7 @@ book2[7] = [
                 "explanations_and_examples": [
                   {
                     "explanation": "fair, practical, and sensible 有道理的；合情合理的",
-                    "example": "Be reasonable &mdash; you can't expect her to do all the work on her own!"
+                    "example": "Be reasonable — you can't expect her to do all the work on her own!"
                   }
                 ]
               }
@@ -11433,7 +11434,7 @@ book2[7] = [
             "word": "attractive",
             "pee": [
               {
-                "partOfSpeech": "/əˈtr&aelig;ktɪv/【a.】",
+                "partOfSpeech": "/əˈtræktɪv/【a.】",
                 "explanations_and_examples": [
                   {
                     "explanation": "very pleasing in appearance or sound 好看的；好听的；有吸引力的",
@@ -11512,7 +11513,7 @@ book2[7] = [
                 "partOfSpeech": "/ˈɒfˌsprɪŋ/【n.】",
                 "explanations_and_examples": [
                   {
-                    "explanation": "[C] (pl. offspring) sb.'s child or children &mdash; often used humorously （某人的）子女，子孙，后代（常为幽默用法）",
+                    "explanation": "[C] (pl. offspring) sb.'s child or children — often used humorously （某人的）子女，子孙，后代（常为幽默用法）",
                     "example": " Tom's sister came over on Saturday with all her offspring."
                   }
                 ]
@@ -11528,7 +11529,7 @@ book2[7] = [
                 "explanations_and_examples": [
                   {
                     "explanation": "[U] a lack of interest 无兴趣",
-                    "example": "The exception to Tom&rsquo;s disinterest in social issues was education."
+                    "example": "The exception to Tom's disinterest in social issues was education."
                   }
                 ]
               }
@@ -11584,7 +11585,7 @@ book2[7] = [
                 "partOfSpeech": "/sleɪv/【n.】 [C]",
                 "explanations_and_examples": [
                   {
-                    "explanation": "1) (be a ~ of / to sth.) be so strongly influenced by sth. that you cannot make your own decisions &mdash; used to show disapproval 成为某事物的奴隶，完全受某事物控制（含贬义）",
+                    "explanation": "1) (be a ~ of / to sth.) be so strongly influenced by sth. that you cannot make your own decisions — used to show disapproval 成为某事物的奴隶，完全受某事物控制（含贬义）",
                     "example": "How can she not see that she has become a slave of fashion? "
                   },
                   {
@@ -11600,7 +11601,7 @@ book2[7] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/4debddfcde817bd8a99fd8611817ae262fa3d500_96k.mp3#duration=2.0&t=.mp3",
             "pee": [
               {
-                "partOfSpeech": "/m&aelig;gˈnɪfɪsnt/【a.】",
+                "partOfSpeech": "/mægˈnɪfɪsnt/【a.】",
                 "explanations_and_examples": [
                   {
                     "explanation": "extremely attractive and impressive; deserving praise 壮丽的；宏伟的；值得赞扬的",
@@ -11615,23 +11616,19 @@ book2[7] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3bce984f36188c068dd320bc2e2ebe9f47db39ab_96k.mp3#duration=1.5&t=.mp3",
             "pee": [
               {
-                "partOfSpeech": "/ˈremədi/【vt.】",
+                "partOfSpeech": "/ˈremədi/",
                 "explanations_and_examples": [
                   {
-                    "explanation": "deal with a problem or improve a bad situation 解决；补救；纠正；改善",
+                    "explanation": "[vt.] 1) deal with a problem or improve a bad situation 解决；补救；纠正；改善",
                     "example": "To remedy the situation, the water must be chemically treated. "
-                  }
-                ]
-              },
-              {
-                "partOfSpeech": "【n.】",
-                "explanations_and_examples": [
+                  },
                   {
-                    "explanation": "[C] a way of dealing with a problem or making a bad situation better （问题的）解决方式；（糟糕状况的）补救方法",
+                    "explanation": "[n.][C] 2) a way of dealing with a problem or making a bad situation better （问题的）解决方式；（糟糕状况的）补救方法",
                     "example": "There is no simple remedy for unemployment."
                   }
+
                 ]
-              }
+              },
             ]
           },
           {
@@ -11639,7 +11636,7 @@ book2[7] = [
             "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/915c1594e49730faa605b5a96b7002145c302422_96k.mp3#duration=1.4&t=.mp3",
             "pee": [
               {
-                "partOfSpeech": "/kəmˈp&aelig;ʃn/【n.】",
+                "partOfSpeech": "/kəmˈpæʃn/【n.】",
                 "explanations_and_examples": [
                   {
                     "explanation": "[U] a strong feeling of sympathy for sb. who is suffering, and a desire to help them 怜悯；同情",
@@ -11943,7 +11940,7 @@ book2[7] = [
                 "explanations_and_examples": [
                   {
                     "explanation": "used to say sth. is impossible for sb. to control 无法控制",
-                    "example": "There was nothing we could do about it &mdash; the situation was beyond our control."
+                    "example": "There was nothing we could do about it — the situation was beyond our control."
                   }
                 ]
               }
@@ -12039,7 +12036,7 @@ book2[7] = [
               ]
           },
           {
-              "word": "Beyonc&eacute;",
+              "word": "Beyoncé ",
               "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/6e0527ff4fd68f0132d939673c171835169b4fda_96k.mp3#duration=1.4&t=.mp3",
               "pee": [
                   {
