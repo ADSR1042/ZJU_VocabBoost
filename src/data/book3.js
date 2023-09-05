@@ -867,7 +867,7 @@ book3[0] = [
           "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_3+20220218/resource/audio/3a18df1ac96563675902e76d6b94120016a598d2_96k.mp3#duration=1.1&t=.mp3",
         pee: [
           {
-            partOfSpeech: "/dʌl/ 【n.】",
+            partOfSpeech: "/slʌm/ 【n.】",
             explanations_and_examples: [
               {
                 explanation:
