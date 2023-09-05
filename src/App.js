@@ -4,9 +4,6 @@ import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
-// import book1 from "./data/book1";
-// import book2 from "./data/book2";
-// import book3 from "./data/book3";
 import { Setting } from "./Setting";
 import { Progressline } from "./Progressline";
 import { getUnitLength, getWord, loadData } from "./utils/data";
@@ -54,9 +51,6 @@ const App = () => {
   const [inputValue, setInputValue] = useState("");
   const [history, setHistory] = useState([]);
   const [isDataReady, setIsDataReady] = useState(false);
-  // book[0] = book1;
-  // book[1] = book2;
-  // book[2] = book3;
   const initalization = () => {
     // console.log("initalization now!");
     // console.log(settings);
@@ -66,45 +60,47 @@ const App = () => {
     setAlertVisible(false);
     let temp = [];
     switch (settings.mode) {
+      //顺序模式
       case "0":
+        //根据设置中的单元选择初始化索引list
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
             for (
               let j = 0;
-              j < getUnitLength(settings.book * 1, i); 
-              // book[settings.book * 1][i][0].children.length;
+              j < getUnitLength(settings.book * 1, i);
               j++
             ) {
-              // console.log(book[settings.book * 1][i][0]);
               temp.push({ unit: i, lesson: j });
             }
           }
         }
-        // temp.push({ unit: 0, lesson: 0 });
         setList(temp);
+        //返回初始化索引list
         return temp;
+      //随机模式
       case "1":
+        //根据设置中的单元选择初始化索引list
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
             for (
               let j = 0;
-              j < getUnitLength(settings.book * 1, i); 
-              // book[settings.book * 1][i][0].children.length;
+              j < getUnitLength(settings.book * 1, i);
               j++
             ) {
               temp.push({ unit: i, lesson: j });
             }
           }
         }
-
+        //打乱list
         for (let i = temp.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [temp[i], temp[j]] = [temp[j], temp[i]];
         }
-        // console.log(temp);
+        //返回初始化索引list
         setList(temp);
         return temp;
       default:
+        console.error("模式错误:未知的模式");
         break;
     }
   };
@@ -115,18 +111,13 @@ const App = () => {
     if (initlist !== undefined && settings.showFirstLetter) {
       //为了防止setState异步导致list未更新
       setInputValue(
-        // book[settings.book * 1][initlist[temp].unit][0].children[
-        //   initlist[temp].lesson
-        // ].word[0]
-        getWord(settings.book*1,list[temp].unit,list[temp].lesson).word[0]
+        getWord(settings.book * 1, list[temp].unit, list[temp].lesson).word[0]
       );
       return;
     }
     if (settings.showFirstLetter)
       setInputValue(
-        // book[settings.book * 1][list[temp].unit][0].children[list[temp].lesson]
-        //   .word[0]
-        getWord(settings.book*1,list[temp].unit,list[temp].lesson).word[0]
+        getWord(settings.book * 1, list[temp].unit, list[temp].lesson).word[0]
       );
     else setInputValue("");
   };
@@ -156,10 +147,11 @@ const App = () => {
       next();
       showFirstLetterfunc();
     } else {
-      let key = getWord(settings.book * 1,list[current].unit,list[current].lesson).word;
-        // book[settings.book * 1][list[current].unit][0].children[
-        //   list[current].lesson
-        // ].word;
+      let key = getWord(
+        settings.book * 1,
+        list[current].unit,
+        list[current].lesson
+      ).word;
       if (answerCheck(answer, key)) {
         setAlertState("success");
         setAlertMessage("Correct!");
@@ -176,10 +168,7 @@ const App = () => {
         );
         setAlertVisible(true);
         updateHistory(
-          getWord(settings.book * 1,list[current].unit,list[current].lesson)
-          // book[settings.book * 1][list[current].unit][0].children[
-          //   list[current].lesson
-          // ]
+          getWord(settings.book * 1, list[current].unit, list[current].lesson)
         );
       }
       setCheck(true);
@@ -266,9 +255,19 @@ const App = () => {
                   icon={<UnorderedListOutlined size={"large"} />}
                   size={"large"}
                 ></Button>
-                <Button onClick={() => console.log(getWord(settings.book * 1,list[current].unit,list[current].lesson))}>
+                {/* <Button
+                  onClick={() =>
+                    console.log(
+                      getWord(
+                        settings.book * 1,
+                        list[current].unit,
+                        list[current].lesson
+                      )
+                    )
+                  }
+                >
                   测试
-                </Button>
+                </Button> */}
               </div>,
             ]}
           />
@@ -293,10 +292,11 @@ const App = () => {
                 inital={inital}
                 showPronounce={settings.showPronounce}
                 data={
-                  // book[settings.book * 1][list[current].unit][0].children[
-                  //   list[current].lesson
-                  // ]
-                  getWord(settings.book * 1,list[current].unit,list[current].lesson)
+                  getWord(
+                    settings.book * 1,
+                    list[current].unit,
+                    list[current].lesson
+                  )
                 }
               />
               <div style={{ display: "flex", justifyContent: "center" }}>
@@ -382,13 +382,23 @@ const App = () => {
               </div>
             </div>
           </Content>
-          {/* <History /> */}
           <Footer
             style={{
               textAlign: "center",
             }}
           >
             ZJU EVA
+            <div
+              style={{
+                fontStyle: "italic",
+                textDecoration: "underline",
+                fontSize: "12px",
+                cursor: "pointer",
+              }}
+              onClick={() => window.open("https://a.zjueva.net")}
+            >
+              🔥浙江大学学生E志者协会火热纳新中!
+            </div>
           </Footer>
         </Layout>
       </div>
