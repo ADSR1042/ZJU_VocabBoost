@@ -4,11 +4,12 @@ import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
 import { UnorderedListOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
-import book1 from "./data/book1";
-import book2 from "./data/book2";
-import book3 from "./data/book3";
+// import book1 from "./data/book1";
+// import book2 from "./data/book2";
+// import book3 from "./data/book3";
 import { Setting } from "./Setting";
 import { Progressline } from "./Progressline";
+import { getUnitLength, getWord, loadData } from "./utils/data";
 // import History from "./History";
 import Record from "./Record";
 const { Content, Footer } = Layout;
@@ -37,7 +38,7 @@ const AlertHideCSS = {
 const defaultIput = { target: { value: "" } };
 
 const App = () => {
-  let book = [];
+  // let book = [];
   const [check, setCheck] = useState(false);
   const [list, setList] = useState([
     { unit: 0, lesson: 0 },
@@ -52,9 +53,10 @@ const App = () => {
   const [alertVisible, setAlertVisible] = useState(true);
   const [inputValue, setInputValue] = useState("");
   const [history, setHistory] = useState([]);
-  book[0] = book1;
-  book[1] = book2;
-  book[2] = book3;
+  const [isDataReady, setIsDataReady] = useState(false);
+  // book[0] = book1;
+  // book[1] = book2;
+  // book[2] = book3;
   const initalization = () => {
     // console.log("initalization now!");
     // console.log(settings);
@@ -69,9 +71,11 @@ const App = () => {
           if (settings.units[i]) {
             for (
               let j = 0;
-              j < book[settings.book * 1][i][0].children.length;
+              j < getUnitLength(settings.book * 1, i); 
+              // book[settings.book * 1][i][0].children.length;
               j++
             ) {
+              // console.log(book[settings.book * 1][i][0]);
               temp.push({ unit: i, lesson: j });
             }
           }
@@ -84,7 +88,8 @@ const App = () => {
           if (settings.units[i]) {
             for (
               let j = 0;
-              j < book[settings.book * 1][i][0].children.length;
+              j < getUnitLength(settings.book * 1, i); 
+              // book[settings.book * 1][i][0].children.length;
               j++
             ) {
               temp.push({ unit: i, lesson: j });
@@ -110,16 +115,18 @@ const App = () => {
     if (initlist !== undefined && settings.showFirstLetter) {
       //为了防止setState异步导致list未更新
       setInputValue(
-        book[settings.book * 1][initlist[temp].unit][0].children[
-          initlist[temp].lesson
-        ].word[0]
+        // book[settings.book * 1][initlist[temp].unit][0].children[
+        //   initlist[temp].lesson
+        // ].word[0]
+        getWord(settings.book*1,list[temp].unit,list[temp].lesson).word[0]
       );
       return;
     }
     if (settings.showFirstLetter)
       setInputValue(
-        book[settings.book * 1][list[temp].unit][0].children[list[temp].lesson]
-          .word[0]
+        // book[settings.book * 1][list[temp].unit][0].children[list[temp].lesson]
+        //   .word[0]
+        getWord(settings.book*1,list[temp].unit,list[temp].lesson).word[0]
       );
     else setInputValue("");
   };
@@ -149,10 +156,10 @@ const App = () => {
       next();
       showFirstLetterfunc();
     } else {
-      let key =
-        book[settings.book * 1][list[current].unit][0].children[
-          list[current].lesson
-        ].word;
+      let key = getWord(settings.book * 1,list[current].unit,list[current].lesson).word;
+        // book[settings.book * 1][list[current].unit][0].children[
+        //   list[current].lesson
+        // ].word;
       if (answerCheck(answer, key)) {
         setAlertState("success");
         setAlertMessage("Correct!");
@@ -169,9 +176,10 @@ const App = () => {
         );
         setAlertVisible(true);
         updateHistory(
-          book[settings.book * 1][list[current].unit][0].children[
-            list[current].lesson
-          ]
+          getWord(settings.book * 1,list[current].unit,list[current].lesson)
+          // book[settings.book * 1][list[current].unit][0].children[
+          //   list[current].lesson
+          // ]
         );
       }
       setCheck(true);
@@ -220,8 +228,19 @@ const App = () => {
   };
   //listen when showSettings change
   useEffect(() => {
+    if (!isDataReady) {
+      // console.log("load data");
+      message.loading("正在加载数据", 0);
+      loadData().then((data) => {
+        message.destroy();
+        setIsDataReady(true);
+        //数据加载失败也会报 success 之后修
+        message.success("数据加载完成");
+      });
+    }
     if (showSettings === false && inital === true) setInputValue(""); //用于清除 更改设置之后的输入框内容
   }, [showSettings]);
+
   //listen when settings.showFirstLetter change
   // useEffect(() => {
   //   if(settings.showFirstLetter === true) setInputValue();
@@ -236,7 +255,7 @@ const App = () => {
             title="大英默写器"
             subTitle="仅供学习 请勿商用"
             extra={[
-              <div key = "extra">
+              <div key="extra">
                 <Record key="record" data={history} setHistory={setHistory} />
                 <Button
                   type="text"
@@ -247,6 +266,9 @@ const App = () => {
                   icon={<UnorderedListOutlined size={"large"} />}
                   size={"large"}
                 ></Button>
+                <Button onClick={() => console.log(getWord(settings.book * 1,list[current].unit,list[current].lesson))}>
+                  测试
+                </Button>
               </div>,
             ]}
           />
@@ -271,9 +293,10 @@ const App = () => {
                 inital={inital}
                 showPronounce={settings.showPronounce}
                 data={
-                  book[settings.book * 1][list[current].unit][0].children[
-                    list[current].lesson
-                  ]
+                  // book[settings.book * 1][list[current].unit][0].children[
+                  //   list[current].lesson
+                  // ]
+                  getWord(settings.book * 1,list[current].unit,list[current].lesson)
                 }
               />
               <div style={{ display: "flex", justifyContent: "center" }}>

@@ -7,6 +7,7 @@ export const Contactme = () => {
     }}>
       <span>有问题/bug反馈?</span>
       <a href="mailto:ADSR1042@gmail.com" type="email">联系作者</a>
+      <div>Special Thanks To 非牛顿流体 </div>
     </div>
   );
 };
