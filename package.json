@@ -5,7 +5,7 @@
     "main": "build/electron.js",
     "homepage": "./",
     "dependencies": {
-        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/jest-dom": "^6.1.3",
         "@testing-library/react": "^13.2.0",
         "@testing-library/user-event": "^13.5.0",
         "antd": "^4.20.16",
