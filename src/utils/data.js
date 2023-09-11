@@ -14,6 +14,7 @@ export const loadData = async () => {
 };
 const defaultword = {
   word: "default",
+  "tag":["dafault"],
   audio:
     "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_1+202008/resource/audio/46376caddb24d2f3dd7f9ef3d2d760e9cde0bf31_96k.mp3#duration=1.5&t=.mp3",
   pee: [
@@ -68,3 +69,21 @@ export const getUnitLength = (bookId, unit) => {
     return data[bookId][unit][0].children.length;
 
 };
+//判断此单词是否与要求tag匹配
+export const TagMatch = (bookId, unit, wordId,tag)=>{
+    if(tag==="default"){
+      return true;
+    }
+    let word = getWord(bookId,unit,wordId);
+    switch (tag) {
+      case "default":
+        return true;
+      case "CET4" :
+        return word.tag.includes("CET4");
+      case "CET6" :
+        return word.tag.includes("CET6");
+      default :
+        console.error("tag错误");
+        return false;
+    }
+}

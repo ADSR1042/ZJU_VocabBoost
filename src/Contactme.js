@@ -10,6 +10,7 @@ export const Contactme = () => {
       <a href="mailto:ADSR1042@gmail.com" type="email">
         联系作者
       </a>
+      <div>Special Thanks to 非牛顿流体 & BymE </div>
     </div>
   );
 };

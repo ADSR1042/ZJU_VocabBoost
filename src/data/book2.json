@@ -6,6 +6,7 @@
         {
           "word": "announcement",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7bfe943ea44ce0c0207e6071d6d2046e8967bb7c_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ə'naʊnsmənt/【n.】",
@@ -24,6 +25,7 @@
         },
         {
           "word": "Mandarin",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/'mændərɪn/【n.】;",
@@ -39,6 +41,7 @@
         },
         {
           "word": "prosperity",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/prɒ'sperəti/【n.】;",
@@ -54,6 +57,7 @@
         },
         {
           "word": "urbanize",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/'ɜːbəˌnaɪz/【vt.】",
@@ -69,6 +73,7 @@
         },
         {
           "word": "large-scale",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/'lɑːdʒ ˌskeɪl/【a.】",
@@ -84,6 +89,7 @@
         },
         {
           "word": "mechanized",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/'mekəˌnaɪzd/【a.】",
@@ -99,6 +105,7 @@
         },
         {
           "word": "numerous",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/'njuːmərəs/【a.】",
@@ -114,6 +121,7 @@
         },
         {
           "word": "exhausting",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪgˈzɔːstɪŋ/【a.】",
@@ -129,6 +137,7 @@
         },
         {
           "word": "soundproof",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsaʊndˌpruːf/【a.】",
@@ -144,6 +153,7 @@
         },
         {
           "word": "booth",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/buːð/【n.】;",
@@ -159,6 +169,7 @@
         },
         {
           "word": "marvelous",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɑːvələs/【a.】",
@@ -174,6 +185,7 @@
         },
         {
           "word": "gorgeous",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈgɔːdʒəs/【a.】",
@@ -189,6 +201,7 @@
         },
         {
           "word": "decoration",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌdekəˈreɪʃn/【n.】;",
@@ -204,6 +217,7 @@
         },
         {
           "word": "incredible",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈkredəbl/【a.】】",
@@ -223,6 +237,7 @@
         },
         {
           "word": "exclusively",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪkˈskluːsɪvli/【ad.】",
@@ -238,6 +253,7 @@
         },
         {
           "word": "growth",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/grəʊθ/【n.】 [U, sing.]",
@@ -257,6 +273,7 @@
         },
         {
           "word": "entrepreneur",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɒntrəprəˈnɜː/【n.】;",
@@ -272,6 +289,7 @@
         },
         {
           "word": "skyline",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈskaɪˌlaɪn/【n.】;",
@@ -287,6 +305,7 @@
         },
         {
           "word": "highway",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhaɪˌweɪ/【n.】;",
@@ -302,6 +321,7 @@
         },
         {
           "word": "joint venture",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌdʒɔɪnt ˈventʃə/【n.】;",
@@ -317,6 +337,7 @@
         },
         {
           "word": "high-end",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈhaɪ ˌend/【a.】",
@@ -332,6 +353,7 @@
         },
         {
           "word": "drone",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/drəʊn/【n.】;",
@@ -356,6 +378,7 @@
         },
         {
           "word": "VR",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "【n.】;",
@@ -371,6 +394,7 @@
         },
         {
           "word": "headset",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈhedˌset/【n.】 [C]",
@@ -390,6 +414,7 @@
         },
         {
           "word": "perception",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/pəˈsepʃn/【n.】;",
@@ -405,6 +430,7 @@
         },
         {
           "word": "implementation",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪmplɪmənˈteɪʃn/【n.】",
@@ -420,6 +446,7 @@
         },
         {
           "word": "innovative",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɪnəʊˌveɪtɪv/【a.】",
@@ -435,6 +462,7 @@
         },
         {
           "word": "reliance",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈlaɪəns/【n.】;",
@@ -450,6 +478,7 @@
         },
         {
           "word": "massive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈmæsɪv/【a.】",
@@ -465,6 +494,7 @@
         },
         {
           "word": "per capita",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/pə ˈkæpɪtə/【a.】",
@@ -480,6 +510,7 @@
         },
         {
           "word": "lag",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/læg/【vi.】",
@@ -495,6 +526,7 @@
         },
         {
           "word": "undoubtedly",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ʌnˈdaʊtɪdli/【ad.】",
@@ -510,6 +542,7 @@
         },
         {
           "word": "impoverished",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ɪmˈpɒvərɪʃt/【a.】",
@@ -525,6 +558,7 @@
         },
         {
           "word": "vow",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/vaʊ/【vt.】",
@@ -550,6 +584,7 @@
         {
           "word": "eradicate",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7c8e7d52763d71fb089f6d73938e8701aebd77d4_96k.mp3#duration=2.4&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "【vt.】",
@@ -564,6 +599,7 @@
         },
         {
           "word": "poverty",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɒvəti/【n.】",
@@ -579,6 +615,7 @@
         },
         {
           "word": "charming",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈtʃɑːmɪŋ/【a.】",
@@ -594,6 +631,7 @@
         },
         {
           "word": "quiz",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kwɪz/【vt.】",
@@ -618,6 +656,7 @@
         },
         {
           "word": "trace",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/treɪs/【vt.】",
@@ -637,6 +676,7 @@
         },
         {
           "word": "yawn",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/jɔːn/【vi.】",
@@ -657,6 +697,7 @@
         {
           "word": "millennial",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/8969a8e33c3ad3cc8f7a0fd21c015ad3e8d45b46_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/mɪˈleniəl/【n.】;[C, usu. pl.]",
@@ -671,6 +712,7 @@
         },
         {
           "word": "reminisce",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌremɪˈnɪs/【vi.】 ",
@@ -686,6 +728,7 @@
         },
         {
           "word": "regretfully",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈgretf(ə)li/【ad.】 ",
@@ -701,6 +744,7 @@
         },
         {
           "word": "remark",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈmɑːk/【v.】",
@@ -725,6 +769,7 @@
         },
         {
           "word": "phenomenon",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/fəˈnɒmɪnən/【n.】;[C] (pl. phenomena)",
@@ -744,6 +789,7 @@
         },
         {
           "word": "outpouring",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈaʊtˌpɔːrɪŋ/【n.】;[C]",
@@ -763,6 +809,7 @@
         },
         {
           "word": "spontaneous",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/spɒnˈteɪniəs/【a.】 ",
@@ -778,6 +825,7 @@
         },
         {
           "word": "amazement",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈmeɪzmənt/【n.】;",
@@ -793,6 +841,7 @@
         },
         {
           "word": "evolve",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈvɒlv/【v.】 ",
@@ -812,6 +861,7 @@
         },
         {
           "word": "hardship",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhɑːdʃɪp/【n.】;",
@@ -827,6 +877,7 @@
         },
         {
           "word": "downturn",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈdaʊnˌtɜːn/【n.】;",
@@ -842,6 +893,7 @@
         },
         {
           "word": "per annum",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/pər ˈænəm/【ad.】 ",
@@ -857,6 +909,7 @@
         },
         {
           "word": "sole",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/səʊl/【a.】 ",
@@ -872,6 +925,7 @@
         },
         {
           "word": "capacity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kəˈpæsəti/【n.】 [C, U]",
@@ -891,6 +945,7 @@
         },
         {
           "word": "youngster",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈjʌŋstə/【n.】;",
@@ -906,6 +961,7 @@
         },
         {
           "word": "sophisticated",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/səˈfɪstɪˌkeɪtɪd/【a.】 ",
@@ -921,6 +977,7 @@
         },
         {
           "word": "lifestyle",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈlaɪfˌstail/【n.】;",
@@ -936,6 +993,7 @@
         },
         {
           "word": "individualistic",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪndɪˌvɪdʒuəˈlɪstɪk/【a.】 ",
@@ -955,6 +1013,7 @@
         },
         {
           "word": "entrepreneurial",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɒntrəprəˈnɜːriəl/【a.】",
@@ -970,6 +1029,7 @@
         },
         {
           "word": "confident",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkɒnfɪd(ə)nt/【a.】 ",
@@ -989,6 +1049,7 @@
         },
         {
           "word": "considerable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsɪd(ə)rəbl/【a.】 ",
@@ -1004,6 +1065,7 @@
         },
         {
           "word": "daunting",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈdɔːntɪŋ/【a.】 ",
@@ -1019,6 +1081,7 @@
         },
         {
           "word": "navigate",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈnævɪˌgeɪt/【v.】",
@@ -1038,6 +1101,7 @@
         },
         {
           "word": "attribute",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈtrɪbju:t/【vt.】 (~ … to …)",
@@ -1057,6 +1121,7 @@
         },
         {
           "word": "savvy",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsævi/【a.】;",
@@ -1081,6 +1146,7 @@
         },
         {
           "word": "progressive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/prəʊˈgresɪv/【a.】",
@@ -1096,6 +1162,7 @@
         },
         {
           "word": "deem",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/di:m/【vt.】 ",
@@ -1111,6 +1178,7 @@
         },
         {
           "word": "self-centered",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌself ˈsentəd/【a.】 ",
@@ -1126,6 +1194,7 @@
         },
         {
           "word": "entitled",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈtaɪtld/【a.】",
@@ -1141,6 +1210,7 @@
         },
         {
           "word": "consumption",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsʌmpʃn/【n.】 [U]",
@@ -1160,6 +1230,7 @@
         },
         {
           "word": "forecast",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈfɔːkɑːst/【vt.】 ",
@@ -1184,6 +1255,7 @@
         },
         {
           "word": "aspiration",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˌæspɪˈreɪʃn/【n.】;",
@@ -1199,6 +1271,7 @@
         },
         {
           "word": "furthermore",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈfɜːðəmɔː/【ad.】 ",
@@ -1214,6 +1287,7 @@
         },
         {
           "word": "e-commerce",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌi: ˈkɒmɜːs/【n.】;",
@@ -1229,6 +1303,7 @@
         },
         {
           "word": "trendy",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈtrendi/【a.】 ",
@@ -1244,6 +1319,7 @@
         },
         {
           "word": "craze",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kreɪz/【n.】;",
@@ -1474,6 +1550,7 @@
         {
           "word": "roam",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/d7c2d0b3055e91c416d6e240ebc450b54fdeb791_96k.mp3#duration=2.4&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/rəʊm/【v.】;",
@@ -1488,6 +1565,7 @@
         },
         {
           "word": "wander",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/'wɒndə/【v.】;",
@@ -1503,6 +1581,7 @@
         },
         {
           "word": "passionate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpæʃ(ə)nət/【a.】;",
@@ -1518,6 +1597,7 @@
         },
         {
           "word": "dockside",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈdɒkˌsaɪd/【n.】",
@@ -1533,6 +1613,7 @@
         },
         {
           "word": "reunion",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ri:ˈju:niən/【n.】 ",
@@ -1552,6 +1633,7 @@
         },
         {
           "word": "stern",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/stɜːn/【a.】 ",
@@ -1567,6 +1649,7 @@
         },
         {
           "word": "fretful",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/'fretfl/【a.】 ",
@@ -1586,6 +1669,7 @@
         },
         {
           "word": "refugee",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˌrefjʊˈdʒi:/【n.】 ",
@@ -1601,6 +1685,7 @@
         },
         {
           "word": "overloaded",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌəʊvəˈləʊdɪd/【a.】 ",
@@ -1616,6 +1701,7 @@
         },
         {
           "word": "lifeboat",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈlaɪfˌbəʊt/【n.】;[C]",
@@ -1635,6 +1721,7 @@
         },
         {
           "word": "singular",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsɪŋgjʊlə/【a.】",
@@ -1654,6 +1741,7 @@
         },
         {
           "word": "double-decker",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌdʌbl ˈdekə/【n.】",
@@ -1669,6 +1757,7 @@
         },
         {
           "word": "windmill",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈwIndˌmɪl/【n.】;",
@@ -1684,6 +1773,7 @@
         },
         {
           "word": "sidewalk",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsaɪdˌwɔːk/【n.】 ",
@@ -1699,6 +1789,7 @@
         },
         {
           "word": "grasp",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/grɑːsp/【n.】",
@@ -1723,6 +1814,7 @@
         },
         {
           "word": "queue",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kjuː/【vi.】 ",
@@ -1747,6 +1839,7 @@
         },
         {
           "word": "wherever",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/werˈevə/【ad.】",
@@ -1762,6 +1855,7 @@
         },
         {
           "word": "orderly",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɔːdəli/【a.】;",
@@ -1777,6 +1871,7 @@
         },
         {
           "word": "scramble",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈskræmbl/【vi.】;",
@@ -1796,6 +1891,7 @@
         },
         {
           "word": "aboard",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈbɔːd/【ad.】;",
@@ -1820,6 +1916,7 @@
         },
         {
           "word": "upside down",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌʌpsaɪd ˈdaʊn/【ad.】;",
@@ -1835,6 +1932,7 @@
         },
         {
           "word": "impulse",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɪmpʌls/【n.】 ",
@@ -1850,6 +1948,7 @@
         },
         {
           "word": "bounce",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/baʊns/【v.】;",
@@ -1865,6 +1964,7 @@
         },
         {
           "word": "humour",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhju:mə/【n.】;",
@@ -1880,6 +1980,7 @@
         },
         {
           "word": "Swiss",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/swɪs/【n.】;",
@@ -1895,6 +1996,7 @@
         },
         {
           "word": "Spanish",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈspænɪʃ/【n.】;",
@@ -1910,6 +2012,7 @@
         },
         {
           "word": "excite",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪkˈsaɪt/【vt.】",
@@ -1929,6 +2032,7 @@
         },
         {
           "word": "childlike",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtʃaɪldˌlaɪk/【a.】 ",
@@ -1944,6 +2048,7 @@
         },
         {
           "word": "ignorant",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɪgnərənt/【a.】;",
@@ -1959,6 +2064,7 @@
         },
         {
           "word": "reliably",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈlaɪəbli/【ad.】 ",
@@ -1974,6 +2080,7 @@
         },
         {
           "word": "endanger",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈdeɪndʒə/【vt.】",
@@ -1989,6 +2096,7 @@
         },
         {
           "word": "existence",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪgˈzɪst(ə)ns/【n.】 ",
@@ -2008,6 +2116,7 @@
         },
         {
           "word": "chambermaid",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtʃeɪmbəˌmeɪd/【n.】 ",
@@ -2023,6 +2132,7 @@
         },
         {
           "word": "packet",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpækɪt/【n.】 ",
@@ -2038,6 +2148,7 @@
         },
         {
           "word": "sniff",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/snɪf/【v.】 ",
@@ -2063,6 +2174,7 @@
         {
           "word": "puzzle",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3ae3cbc91af8c9c2483f9ac9fc09897e8bab96d2_96k.mp3#duration=2.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpʌzl/【vt.】",
@@ -2086,6 +2198,7 @@
         },
         {
           "word": "charm",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/tʃɑːm/【vt.】",
@@ -2111,6 +2224,7 @@
         {
           "word": "selfie",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/c4282186e7ee6a626ad2819d32d46731c9807316_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈselfi/【n.】",
@@ -2125,6 +2239,7 @@
         },
         {
           "word": "flit",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/flɪt/【vi.】 ",
@@ -2140,6 +2255,7 @@
         },
         {
           "word": "attraction",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈtrækʃn/【n.】 ",
@@ -2159,6 +2275,7 @@
         },
         {
           "word": "script",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/skrɪpt/【n.】",
@@ -2174,6 +2291,7 @@
         },
         {
           "word": "countless",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkaʊntləs/【a.】",
@@ -2189,6 +2307,7 @@
         },
         {
           "word": "photography",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/fəˈtɒgrəfi/【n.】",
@@ -2204,6 +2323,7 @@
         },
         {
           "word": "frame",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/freɪm/【n.】 ",
@@ -2219,6 +2339,7 @@
         },
         {
           "word": "standardization",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌstædədaɪˈzeɪʃn/【n.】",
@@ -2234,6 +2355,7 @@
         },
         {
           "word": "guidebook",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈgaɪdˌbʊk/【n.】 ",
@@ -2249,6 +2371,7 @@
         },
         {
           "word": "picturesque",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌpɪktʃəˈresk/【a.】",
@@ -2264,6 +2387,7 @@
         },
         {
           "word": "gadget",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈgædʒɪt/【n.】",
@@ -2279,6 +2403,7 @@
         },
         {
           "word": "clumsy",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈklʌmzi/【a.】",
@@ -2298,6 +2423,7 @@
         },
         {
           "word": "time-consuming",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtaɪm kənˌsju:mɪŋ/【a.】 ",
@@ -2313,6 +2439,7 @@
         },
         {
           "word": "lightweight",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈlaɪtˌweɪt/【a.】",
@@ -2337,6 +2464,7 @@
         },
         {
           "word": "foolproof",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈfu:lˌpru:f/【a.】",
@@ -2352,6 +2480,7 @@
         },
         {
           "word": "identical",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/aɪˈdentɪkl/【a.】 ",
@@ -2367,6 +2496,7 @@
         },
         {
           "word": "unknown",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ʌnˈnəʊn/【a.】",
@@ -2382,6 +2512,7 @@
         },
         {
           "word": "obscurity",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/əbˈskjʊərəti/【n.】 ",
@@ -2397,6 +2528,7 @@
         },
         {
           "word": "circular",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsɜːkjʊlə/【a.】",
@@ -2416,6 +2548,7 @@
         },
         {
           "word": "popularization",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɒpjʊləraɪˈzeɪʃn/【n.】 ",
@@ -2431,6 +2564,7 @@
         },
         {
           "word": "lookalike",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈlʊkəˌlaɪk/【a.】 ",
@@ -2446,6 +2580,7 @@
         },
         {
           "word": "possess",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/pəˈzes/【vt.】(not in progressive)",
@@ -2465,6 +2600,7 @@
         },
         {
           "word": "photogenic",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌfəʊtəʊˈdʒenɪk/【a.】",
@@ -2480,6 +2616,7 @@
         },
         {
           "word": "souvenir",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌsu:vəˈnɪə/【n.】",
@@ -2495,6 +2632,7 @@
         },
         {
           "word": "partial",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɑːʃl/【a.】",
@@ -2514,6 +2652,7 @@
         },
         {
           "word": "impartial",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/Imˈpɑːʃl/【a.】",
@@ -2529,6 +2668,7 @@
         },
         {
           "word": "superficial",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌsu:pəˈfɪʃl/【a.】 ",
@@ -2544,6 +2684,7 @@
         },
         {
           "word": "sustain",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/səˈsteIn/【vt.】 ",
@@ -2559,6 +2700,7 @@
         },
         {
           "word": "sustained",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/səˈsteɪnd/【a.】",
@@ -2574,6 +2716,7 @@
         },
         {
           "word": "delight",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈlaɪt/【n.】",
@@ -2589,6 +2732,7 @@
         },
         {
           "word": "ivy",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈaɪvi/【n.】 ",
@@ -2604,6 +2748,7 @@
         },
         {
           "word": "soak",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/səʊk/【v.】",
@@ -3027,6 +3172,7 @@
         {
           "word": "drip",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/53e557ac4692a43efb15bb9a98ae68cc11383d6f_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/drɪp/",
@@ -3045,6 +3191,7 @@
         },
         {
           "word": "breathtaking",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈbreθˌteɪkɪŋ/【a.】",
@@ -3064,6 +3211,7 @@
         },
         {
           "word": "fulfillment",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/fʊɪˈfɪlmənt/【n.】",
@@ -3079,6 +3227,7 @@
         },
         {
           "word": "joyful",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈdʒɔːɪfl/【a.】 ",
@@ -3094,6 +3243,7 @@
         },
         {
           "word": "parallel",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpærəlel/【a.】 ",
@@ -3113,6 +3263,7 @@
         },
         {
           "word": "unparalleled",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ʌnˈpærəleld/【a.】 ",
@@ -3128,6 +3279,7 @@
         },
         {
           "word": "brutal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈbru:tl/【a.】 ",
@@ -3147,6 +3299,7 @@
         },
         {
           "word": "honesty",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɒnɪsti/【n.】 ",
@@ -3162,6 +3315,7 @@
         },
         {
           "word": "unbearable",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/unˈbeərəbl/【a.】 ",
@@ -3177,6 +3331,7 @@
         },
         {
           "word": "tease",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ti:z/【v.】",
@@ -3192,6 +3347,7 @@
         },
         {
           "word": "taunt",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/tɔːnt/【vt.】",
@@ -3207,6 +3363,7 @@
         },
         {
           "word": "tempt",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/tempt/【vt.】",
@@ -3226,6 +3383,7 @@
         },
         {
           "word": "loyal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈlɔːɪəl/【a.】",
@@ -3241,6 +3399,7 @@
         },
         {
           "word": "resist",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈzɪst/【v.】 ",
@@ -3256,6 +3415,7 @@
         },
         {
           "word": "celebration",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌseləˈbreɪʃn/【n.】 ",
@@ -3275,6 +3435,7 @@
         },
         {
           "word": "alongside",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈlɒŋˌsaɪd/prep. ",
@@ -3299,6 +3460,7 @@
         },
         {
           "word": "addiction",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈdɪkʃn/【n.】",
@@ -3314,6 +3476,7 @@
         },
         {
           "word": "distraction",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈstrækʃn/【n.】",
@@ -3333,6 +3496,7 @@
         },
         {
           "word": "sunrise",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsʌnˌraɪz/【n.】",
@@ -3352,6 +3516,7 @@
         },
         {
           "word": "graciously",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈgreɪʃəsli/【ad.】",
@@ -3367,6 +3532,7 @@
         },
         {
           "word": "weaken",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈwi:kən/【v.】",
@@ -3386,6 +3552,7 @@
         },
         {
           "word": "bump",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/bʌmp/【n.】 ",
@@ -3410,6 +3577,7 @@
         },
         {
           "word": "foreshadow",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/fɔːˈʃædəʊ/【vt.】",
@@ -3425,6 +3593,7 @@
         },
         {
           "word": "sideline",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsaɪdˌlaɪn/【n.】",
@@ -3444,6 +3613,7 @@
         },
         {
           "word": "permanently",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɜːmənəntli/【ad.】",
@@ -3459,6 +3629,7 @@
         },
         {
           "word": "shrink",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ʃrɪŋk/(shrank, shrunk)vi.",
@@ -3483,6 +3654,7 @@
         },
         {
           "word": "tackle",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈtækl/【vt.】",
@@ -3498,6 +3670,7 @@
         },
         {
           "word": "prospect",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈprɒspekt/【n.】 ",
@@ -3513,6 +3686,7 @@
         },
         {
           "word": "curve",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kɜːv/【n.】[C]",
@@ -3532,6 +3706,7 @@
         },
         {
           "word": "hurdle",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈhɜːdl/【n.】[C]",
@@ -3551,6 +3726,7 @@
         },
         {
           "word": "split",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/splɪt/【n.】",
@@ -3575,6 +3751,7 @@
         },
         {
           "word": "crack",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kræk/【v.】 ",
@@ -3590,6 +3767,7 @@
         },
         {
           "word": "cracked",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/krækt/【a.】 ",
@@ -3606,6 +3784,7 @@
         {
           "word": "hike",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3697b0c8d1fd144d82e2f37349e9a265406a374a_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/haɪk/【v.】",
@@ -3629,6 +3808,7 @@
         },
         {
           "word": "botany",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈbɒt(ə)ni/【n.】 ",
@@ -3644,6 +3824,7 @@
         },
         {
           "word": "safekeeping",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌseɪfˈki:pɪŋ/【n.】",
@@ -3659,6 +3840,7 @@
         },
         {
           "word": "hobbyist",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈhɒbiɪst/【n.】",
@@ -3674,6 +3856,7 @@
         },
         {
           "word": "pine needle",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpaɪn ˌni:dl/【n.】",
@@ -3689,6 +3872,7 @@
         },
         {
           "word": "weave",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/wi:v/【v.】(wove, woven)",
@@ -3704,6 +3888,7 @@
         },
         {
           "word": "merge",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/mɜːdʒ/【vi.】 ",
@@ -3728,6 +3913,7 @@
         },
         {
           "word": "indistinguishable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪndɪˈstɪŋgwɪʃəbl/【a.】",
@@ -3743,6 +3929,7 @@
         },
         {
           "word": "productivity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌprɒdʌkˈtɪvəti/【n.】",
@@ -3758,6 +3945,7 @@
         },
         {
           "word": "fragility",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/frəˈdʒɪləti/【n.】[U]",
@@ -3777,6 +3965,7 @@
         },
         {
           "word": "accessible",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əkˈsesəbl/【a.】",
@@ -3796,6 +3985,7 @@
         },
         {
           "word": "corporation",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌkɔːpəˈreɪʃn/【n.】",
@@ -3811,6 +4001,7 @@
         },
         {
           "word": "disposable",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈspəʊzəbl/【a.】",
@@ -3830,6 +4021,7 @@
         },
         {
           "word": "amusement park",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/əˈmju:zmənt ˌpɑːk/【n.】",
@@ -3845,6 +4037,7 @@
         },
         {
           "word": "emerge",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈmɜːdʒ/【vi.】",
@@ -3864,6 +4057,7 @@
         },
         {
           "word": "privilege",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈprɪvəlɪdʒ/【n.】 ",
@@ -3879,6 +4073,7 @@
         },
         {
           "word": "wealthy",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈwelθi/【a.】",
@@ -3898,6 +4093,7 @@
         },
         {
           "word": "automatic",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɔːtəˈmætɪk/【a.】",
@@ -3913,6 +4109,7 @@
         },
         {
           "word": "unrest",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ʌnˈrest/【n.】",
@@ -3928,6 +4125,7 @@
         },
         {
           "word": "shortage",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈʃɔːtɪdʒ/【n.】",
@@ -3943,6 +4141,7 @@
         },
         {
           "word": "recession",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈseʃn/【n.】 ",
@@ -3958,6 +4157,7 @@
         },
         {
           "word": "discontented",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌdɪskənˈtentɪd/【a.】",
@@ -3973,6 +4173,7 @@
         },
         {
           "word": "enjoyable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈdʒɔːɪəbl/【a.】",
@@ -3988,6 +4189,7 @@
         },
         {
           "word": "inevitable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈevɪtəbl/【a.】",
@@ -4003,6 +4205,7 @@
         },
         {
           "word": "equate",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈkweɪt/【vt.】",
@@ -4018,6 +4221,7 @@
         },
         {
           "word": "dual",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈdju:əl/【a.】",
@@ -4033,6 +4237,7 @@
         },
         {
           "word": "duality",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/dju:ˈæləti/【n.】 ",
@@ -4048,6 +4253,7 @@
         },
         {
           "word": "utopian",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ju:ˈtəʊpiən/【a.】 ",
@@ -4063,6 +4269,7 @@
         },
         {
           "word": "side hustle",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsaɪd ˌhʌsl/【n.】",
@@ -4078,6 +4285,7 @@
         },
         {
           "word": "regarding",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈgɑːdɪŋ/prep.",
@@ -4093,6 +4301,7 @@
         },
         {
           "word": "boundary",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈbaʊnd(ə)ri/【n.】[C]",
@@ -4112,6 +4321,7 @@
         },
         {
           "word": "sake",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/seɪk/【n.】",
@@ -4127,6 +4337,7 @@
         },
         {
           "word": "meditative",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmedɪtətɪv/【a.】",
@@ -4146,6 +4357,7 @@
         },
         {
           "word": "paycheck",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpeɪtʃek/【n.】",
@@ -4161,6 +4373,7 @@
         },
         {
           "word": "ruin",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈru:ɪn/【vt.】",
@@ -4176,6 +4389,7 @@
         },
         {
           "word": "purity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpjʊərəti/【n.】",
@@ -4192,6 +4406,7 @@
         {
           "word": "enhance",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/16535a54ed9a902004fde8bf2aa7766d8e0da246_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈhɑːns/【vt.】>",
@@ -4426,6 +4641,7 @@
         {
           "word": "generalization",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a7ecb4df34630da6a4942efd6382913670592243_96k.mp3#duration=2.8&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌdʒen(ə)rəlaɪˈzeɪʃn/【n.】",
@@ -4440,6 +4656,7 @@
         },
         {
           "word": "myth",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/mɪθ/【n.】",
@@ -4455,6 +4672,7 @@
         },
         {
           "word": "spouse",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/spaʊs/【n.】",
@@ -4470,6 +4688,7 @@
         },
         {
           "word": "spousal",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈspaʊzl/【a.】",
@@ -4485,6 +4704,7 @@
         },
         {
           "word": "frustrated",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/frʌˈstreɪtɪd/【a.】",
@@ -4500,6 +4720,7 @@
         },
         {
           "word": "validity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/vəˈlɪdəti/【n.】 ",
@@ -4515,6 +4736,7 @@
         },
         {
           "word": "stem",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/stem/【vi.】 ",
@@ -4539,6 +4761,7 @@
         },
         {
           "word": "forage",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈfɒrɪdʒ/【vi.】 ",
@@ -4554,6 +4777,7 @@
         },
         {
           "word": "millennium",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/mɪˈleniə/【n.】 ",
@@ -4569,6 +4793,7 @@
         },
         {
           "word": "instinctive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈstɪŋktɪv/【a.】",
@@ -4584,6 +4809,7 @@
         },
         {
           "word": "mode",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/məʊd/【n.】",
@@ -4599,6 +4825,7 @@
         },
         {
           "word": "nutrition",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/nju:ˈtrɪʃn/【n.】",
@@ -4614,6 +4841,7 @@
         },
         {
           "word": "nutritious",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/nju:ˈtrɪəs/【a.】",
@@ -4629,6 +4857,7 @@
         },
         {
           "word": "edible",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈedɪbl/【a.】 ",
@@ -4644,6 +4873,7 @@
         },
         {
           "word": "discard",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈkɑːd/【vt.】 ",
@@ -4659,6 +4889,7 @@
         },
         {
           "word": "laden",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈleɪdn/【a.】 ",
@@ -4674,6 +4905,7 @@
         },
         {
           "word": "heritage",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈherɪtɪdʒ/【n.】",
@@ -4689,6 +4921,7 @@
         },
         {
           "word": "prehistoric",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌpri: ˈhɪˈstɒrɪk/【a.】",
@@ -4704,6 +4937,7 @@
         },
         {
           "word": "acquisition",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌækwɪˈzɪʃn/【n.】",
@@ -4723,6 +4957,7 @@
         },
         {
           "word": "humid",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈhju:mɪd/【a.】",
@@ -4738,6 +4973,7 @@
         },
         {
           "word": "trait",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/treɪt/【n.】",
@@ -4753,6 +4989,7 @@
         },
         {
           "word": "tendency",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈtendənsi/【n.】 ",
@@ -4768,6 +5005,7 @@
         },
         {
           "word": "anthropologist",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌænθrəˈpɒlədʒɪst/【n.】",
@@ -4783,6 +5021,7 @@
         },
         {
           "word": "similarity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌsɪməˈlærəti/【n.】",
@@ -4798,6 +5037,7 @@
         },
         {
           "word": "ancestor",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈænsestə/【n.】",
@@ -4813,6 +5053,7 @@
         },
         {
           "word": "ancestral",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ænˈsestrəl/【a.】",
@@ -4828,6 +5069,7 @@
         },
         {
           "word": "inclined",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈklaɪnd/【a.】",
@@ -4843,6 +5085,7 @@
         },
         {
           "word": "extended",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪkˈstendɪd/【a.】",
@@ -4858,6 +5101,7 @@
         },
         {
           "word": "empirical",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ɪmˈpɪrɪkl/【a.】",
@@ -4873,6 +5117,7 @@
         },
         {
           "word": "justification",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌdʒʌstɪfɪˈkeɪʃn/【n.】 ",
@@ -4888,6 +5133,7 @@
         },
         {
           "word": "inherit",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈherɪt/【vt.】",
@@ -4912,6 +5158,7 @@
         },
         {
           "word": "sensible",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsensəbl/【a.】 ",
@@ -4928,6 +5175,7 @@
         {
           "word": "stereotype",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/6101fbeca4537109d72e53a751268710743655d8_96k.mp3#duration=2.4&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈsteriəˌtaɪp/【n.】",
@@ -4942,6 +5190,7 @@
         },
         {
           "word": "prominence",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈprɒmɪnəns/【n.】 ",
@@ -4957,6 +5206,7 @@
         },
         {
           "word": "sentiment",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈsentɪmənt/【n.】 ",
@@ -4976,6 +5226,7 @@
         },
         {
           "word": "feminine",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈfemənɪn/",
@@ -4991,6 +5242,7 @@
         },
         {
           "word": "literary",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈlɪt(ə)rəri/【a.】",
@@ -5006,6 +5258,7 @@
         },
         {
           "word": "maternal",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/məˈtɜːnl/【a.】",
@@ -5021,6 +5274,7 @@
         },
         {
           "word": "excessively",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪkˈsesɪvli/【ad.】",
@@ -5036,6 +5290,7 @@
         },
         {
           "word": "gender",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈdʒendə/【n.】",
@@ -5051,6 +5306,7 @@
         },
         {
           "word": "inequality",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪnɪˈkwɒləti/【n.】 ",
@@ -5066,6 +5322,7 @@
         },
         {
           "word": "bias",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈbaɪəs/【n.】",
@@ -5081,6 +5338,7 @@
         },
         {
           "word": "publication",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌpʌblɪˈkeɪʃn/【n.】",
@@ -5096,6 +5354,7 @@
         },
         {
           "word": "analyze",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈænəˌlaɪz/【vt.】 ",
@@ -5111,6 +5370,7 @@
         },
         {
           "word": "identify",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/aɪˈdentɪˌfaɪ/【vt.】 ",
@@ -5126,6 +5386,7 @@
         },
         {
           "word": "confirmation",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌkɒnfəˈmeɪʃn/【n.】",
@@ -5141,6 +5402,7 @@
         },
         {
           "word": "predictable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/prɪˈdɪktəbl/【a.】",
@@ -5156,6 +5418,7 @@
         },
         {
           "word": "startling",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈstɑːtlɪŋ/【a.】 ",
@@ -5171,6 +5434,7 @@
         },
         {
           "word": "distinctive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈstɪŋktɪv/【a.】",
@@ -5186,6 +5450,7 @@
         },
         {
           "word": "periodical",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌpɪəriˈɒdɪkl/【n.】 ",
@@ -5201,6 +5466,7 @@
         },
         {
           "word": "concerted",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsɔːtɪd/【a.】",
@@ -5216,6 +5482,7 @@
         },
         {
           "word": "discourse",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈdɪskɔːs/【n.】 ",
@@ -5231,6 +5498,7 @@
         },
         {
           "word": "quantitative",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkwɒntɪtətɪv/【a.】 ",
@@ -5246,6 +5514,7 @@
         },
         {
           "word": "representation",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌreprɪzenˈteɪʃn/【n.】 ",
@@ -5261,6 +5530,7 @@
         },
         {
           "word": "trivial",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈtrɪviəl/【a.】",
@@ -5276,6 +5546,7 @@
         },
         {
           "word": "noticeable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈnəʊtɪsəbl/【a.】",
@@ -5291,6 +5562,7 @@
         },
         {
           "word": "disguise",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈgaɪz/【vt.】",
@@ -5310,6 +5582,7 @@
         },
         {
           "word": "unconscious",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ʌnˈkɒnʃəs/【a.】",
@@ -5329,6 +5602,7 @@
         },
         {
           "word": "publisher",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpʌblɪʃə/【n.】 ",
@@ -5344,6 +5618,7 @@
         },
         {
           "word": "pursue",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/pəˈsju:/【vt.】 ",
@@ -5359,6 +5634,7 @@
         },
         {
           "word": "discrimination",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˌskrɪmɪˈneɪʃn/【n.】",
@@ -5374,6 +5650,7 @@
         },
         {
           "word": "enduring",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈdjʊərɪŋ/【a.】",
@@ -5618,6 +5895,7 @@
         {
           "word": "console",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3fd77bb5d9243c940c2482daa5ea933dc91ef1a4_96k.mp3#duration=3.0&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsəʊl/【vt.】",
@@ -5632,6 +5910,7 @@
         },
         {
           "word": "heal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/hiːl/【v.】",
@@ -5651,6 +5930,7 @@
         },
         {
           "word": "coincidence",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/kəʊˈɪnsɪd(ə)ns/【n.】",
@@ -5666,6 +5946,7 @@
         },
         {
           "word": "therapy",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈθerəpi/【n.】 ",
@@ -5681,6 +5962,7 @@
         },
         {
           "word": "propose",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/prəˈpəʊz/【vt.】",
@@ -5696,6 +5978,7 @@
         },
         {
           "word": "fleeting",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈfli:tɪŋ/【a.】 ",
@@ -5711,6 +5994,7 @@
         },
         {
           "word": "betrayal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/bɪˈtreɪəl/【n.】 ",
@@ -5726,6 +6010,7 @@
         },
         {
           "word": "endure",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/Inˈdjʊə/【vi.】 ",
@@ -5750,6 +6035,7 @@
         },
         {
           "word": "companionship",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kəmˈpænjənʃɪp/【n.】 ",
@@ -5765,6 +6051,7 @@
         },
         {
           "word": "insight",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɪnsaɪt/【n.】",
@@ -5780,6 +6067,7 @@
         },
         {
           "word": "narrator",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/nəˈreɪtə/【n.】",
@@ -5795,6 +6083,7 @@
         },
         {
           "word": "monologue",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɒnəˌlɒg/【n.】",
@@ -5810,6 +6099,7 @@
         },
         {
           "word": "paradoxically",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌpærəˈdɒksɪkli/【ad.】",
@@ -5825,6 +6115,7 @@
         },
         {
           "word": "interior",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈtɪəriə/【a.】 ",
@@ -5849,6 +6140,7 @@
         },
         {
           "word": "universal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌju:nɪˈvɜːsl/【a.】 ",
@@ -5864,6 +6156,7 @@
         },
         {
           "word": "universality",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌju:nɪvɜːˈsæləti/【n.】 ",
@@ -5879,6 +6172,7 @@
         },
         {
           "word": "timelessness",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtaɪmləsnəs/【n.】",
@@ -5894,6 +6188,7 @@
         },
         {
           "word": "subconscious",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌsʌbˈkɒnʃəs/【a.】",
@@ -5909,6 +6204,7 @@
         },
         {
           "word": "ease",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/iːz/【v.】",
@@ -5933,6 +6229,7 @@
         },
         {
           "word": "empathetic",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈempəˌθetɪk/【a.】",
@@ -5948,6 +6245,7 @@
         },
         {
           "word": "mild",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/maɪld/【a.】",
@@ -5967,6 +6265,7 @@
         },
         {
           "word": "symptom",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsɪmptəm/【n.】 ",
@@ -5982,6 +6281,7 @@
         },
         {
           "word": "bibliotherapist",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌbɪblɪəˈθerəpɪst/【n.】",
@@ -5997,6 +6297,7 @@
         },
         {
           "word": "continually",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈtɪnjʊəli/",
@@ -6016,6 +6317,7 @@
         },
         {
           "word": "grieve",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/griːv/【v.】",
@@ -6031,6 +6333,7 @@
         },
         {
           "word": "plot",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/plɒt/【n.】",
@@ -6046,6 +6349,7 @@
         },
         {
           "word": "fictional",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈfɪkʃnəl/【a.】",
@@ -6061,6 +6365,7 @@
         },
         {
           "word": "retirement",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈtaɪəmənt/【n.】 ",
@@ -6076,6 +6381,7 @@
         },
         {
           "word": "transient",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈtrænziənt/【a.】",
@@ -6091,6 +6397,7 @@
         },
         {
           "word": "transience",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtrænziəns/【n.】 ",
@@ -6106,6 +6413,7 @@
         },
         {
           "word": "messy",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈmesi/【a.】",
@@ -6125,6 +6433,7 @@
         },
         {
           "word": "grief",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/gri:f/【n.】 ",
@@ -6141,6 +6450,7 @@
         {
           "word": "despair",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/26b90eb7d480508e5734334c36be97452c60292e_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈspeə/【n.】",
@@ -6156,6 +6466,7 @@
         {
           "word": "memoir",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/cc651b44c8afdc6ae2614826668a0a386e3b4b2d_96k.mp3#duration=2.3&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmemˌwɑː/【n.】 [C]",
@@ -6175,6 +6486,7 @@
         {
           "word": "narrative",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/e6de81148a12554c96b258039124aeb99552ff2b_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈnærətɪv/【n.】 ",
@@ -6194,6 +6506,7 @@
         {
           "word": "optimistic",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/15000c904137f04273e80455ecfa973122139124_96k.mp3#duration=2.6&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɒptɪˈmɪstɪk/【a.】 ",
@@ -6209,6 +6522,7 @@
         {
           "word": "transform",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/90be5242972c8a235951a8d4c7387b99a9a03113_96k.mp3#duration=2.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/trænsˈfɔːm/【vi.】",
@@ -6233,6 +6547,7 @@
         {
           "word": "precious",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5d8bee34fe59f525b0f30d2783dfbe13a07ac047_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpreʃəs/【a.】 ",
@@ -6251,6 +6566,7 @@
         },
         {
           "word": "voyage",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈvɔːɪɪdʒ/【n.】 [C] ",
@@ -6270,6 +6586,7 @@
         },
         {
           "word": "edition",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈdɪʃn/【n.】 [C] ",
@@ -6289,6 +6606,7 @@
         },
         {
           "word": "hyphen",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhaɪfn/【n.】",
@@ -6304,6 +6622,7 @@
         },
         {
           "word": "pigeonhole",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɪdʒ(ə)nˌhəʊl/【n.】",
@@ -6319,6 +6638,7 @@
         },
         {
           "word": "henceforth",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˌhensˈfɔːθ/【ad.】",
@@ -6334,6 +6654,7 @@
         },
         {
           "word": "pot belly",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɒtˌbeli/【n.】",
@@ -6349,6 +6670,7 @@
         },
         {
           "word": "betray",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/bɪˈtreɪ/【vt.】 ",
@@ -6364,6 +6686,7 @@
         },
         {
           "word": "unacceptable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌʌnəkˈseptəbl/【a.】 ",
@@ -6379,6 +6702,7 @@
         },
         {
           "word": "millisecond",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɪlɪˌsekənd/【n.】 ",
@@ -6394,6 +6718,7 @@
         },
         {
           "word": "tap",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/tæp/【v.】 ",
@@ -6417,6 +6742,7 @@
         },
         {
           "word": "texter",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtekstə/【n.】 ",
@@ -6432,6 +6758,7 @@
         },
         {
           "word": "punctuation",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌpʌŋktʃuˌeɪʃn/【n.】 ",
@@ -6447,6 +6774,7 @@
         },
         {
           "word": "savage",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈsævɪdʒ/【vt.】",
@@ -6471,6 +6799,7 @@
         },
         {
           "word": "rape",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/reɪp/【vt.】 ",
@@ -6486,6 +6815,7 @@
         },
         {
           "word": "quiver",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈkwɪvə/【n.】 ",
@@ -6510,6 +6840,7 @@
         },
         {
           "word": "ridicule",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈrɪdɪˌkju:l/【n.】 ",
@@ -6525,6 +6856,7 @@
         },
         {
           "word": "irritating",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈɪrɪˌteɪtɪŋ/【a.】 ",
@@ -6540,6 +6872,7 @@
         },
         {
           "word": "chatter",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtʃætə/【vi.】",
@@ -6555,6 +6888,7 @@
         },
         {
           "word": "smiley",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsmaɪli/【n.】 ",
@@ -6570,6 +6904,7 @@
         },
         {
           "word": "emoticon",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈməʊtɪˌkɒn/【n.】 ",
@@ -6585,6 +6920,7 @@
         },
         {
           "word": "colon",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkəʊlɒn/【n.】 ",
@@ -6600,6 +6936,7 @@
         },
         {
           "word": "dash",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dæʃ/【n.】",
@@ -6624,6 +6961,7 @@
         },
         {
           "word": "bracket",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈbrækIt/【n.】",
@@ -6639,6 +6977,7 @@
         },
         {
           "word": "abbreviation",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/əˌbri:viˈeɪʃn/【n.】 ",
@@ -6654,6 +6993,7 @@
         },
         {
           "word": "offensive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈfensɪv/【a.】",
@@ -6669,6 +7009,7 @@
         },
         {
           "word": "inoffensive",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪnəˈfensɪv/【a.】 ",
@@ -6684,6 +7025,7 @@
         },
         {
           "word": "increasingly",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈkri:sɪŋli/【ad.】 ",
@@ -6699,6 +7041,7 @@
         },
         {
           "word": "obscure",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/əbˈskjʊə/【a.】 ",
@@ -6718,6 +7061,7 @@
         },
         {
           "word": "recipient",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈsɪpiənt/【n.】",
@@ -6734,6 +7078,7 @@
         {
           "word": "ambiguity",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0bb0d909ef86362f76aa8d5da95edd7e326556b4_96k.mp3#duration=2.0&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˌæmbɪˈgju:əti/【n.】",
@@ -6749,6 +7094,7 @@
         {
           "word": "barrier",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/91bfb5e31b1acd627a65202f7b2712793b56507f_96k.mp3#duration=1.3&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈbæriə/【n.】",
@@ -6764,6 +7110,7 @@
         {
           "word": "humble",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/150157845d62c707ee34a21349ffbf8df2802540_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhʌmbl/【a.】 ",
@@ -6783,6 +7130,7 @@
         {
           "word": "complaint",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7d873c784da6ed13713e9cd48ee80ff52efd1675_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kəmˈpleɪnt/【n.】 ",
@@ -6802,6 +7150,7 @@
         {
           "word": "revolution",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/2890ac836ceafbc0b22e7c500b2fc9e481b84fb4_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌrevəˈlu:ʃn/【n.】",
@@ -6817,6 +7166,7 @@
         {
           "word": "globe",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/06bcfcb83388ced068b860e3a9465d81e9871666_96k.mp3#duration=1.3&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/gləʊb/【n.】 ",
@@ -6832,6 +7182,7 @@
         {
           "word": "adaptable",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/12a4a1a1866ffe76daaef3767346355fe9c73ef8_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/əˈdæptəbl/【a.】 ",
@@ -6847,6 +7198,7 @@
         {
           "word": "netspeak",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/69a21094c4feb92862232fb9b5efc4dd6e98de87_96k.mp3#duration=1.3&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈnetˌspi:k/【n.】",
@@ -6861,6 +7213,7 @@
         {
           "word": "ridiculous",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/693da5abb52bc3d970cfcd36b2d5ffa508abb5fd_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈdɪkjʊləs/【a.】 ",
@@ -6876,6 +7229,7 @@
         {
           "word": "ever-changing",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1fdbe092ce3c4271881982bec8c827348b55258e_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌevəˈtʃeɪndʒɪŋ/【a.】 ",
@@ -6891,6 +7245,7 @@
         {
           "word": "spoil",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/45f571903e29c5c77dab893ab7844145a7e94234_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/spɔɪl/【vt.】 (spoiled, spoiled; BrE also spoilt, spoilt)",
@@ -7120,6 +7475,7 @@
         {
           "word": "whole wheat",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/109afe510b393277dd9ecc4a05a4d466702ca6dc_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈhəʊl ˌwi:t/【a.】",
@@ -7134,6 +7490,7 @@
         },
         {
           "word": "ham",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/hæm/【n.】",
@@ -7149,6 +7506,7 @@
         },
         {
           "word": "grill",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/grɪl/【v.】",
@@ -7164,6 +7522,7 @@
         },
         {
           "word": "toast",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/təʊst/【vt.】 ",
@@ -7188,6 +7547,7 @@
         },
         {
           "word": "historian",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/hɪˈstɔːriən/【n.】 ",
@@ -7203,6 +7563,7 @@
         },
         {
           "word": "resourcefulness",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈzɔːsflnəs/【n.】 ",
@@ -7218,6 +7579,7 @@
         },
         {
           "word": "immigration",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪmɪˈgreɪʃn/【n.】",
@@ -7233,6 +7595,7 @@
         },
         {
           "word": "globalization",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌgləʊbəlaɪˈzeɪʃn/【n.】",
@@ -7248,6 +7611,7 @@
         },
         {
           "word": "tuna",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtju:nə/【n.】 ",
@@ -7263,6 +7627,7 @@
         },
         {
           "word": "originate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈrɪdʒəˌneɪt/【vi.】 ",
@@ -7278,6 +7643,7 @@
         },
         {
           "word": "conserve",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsɜːv/【vi.】",
@@ -7302,6 +7668,7 @@
         },
         {
           "word": "excess",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪkˈses/【n.】",
@@ -7317,6 +7684,7 @@
         },
         {
           "word": "leftover",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈleftˌəʊvə/【n.】",
@@ -7341,6 +7709,7 @@
         },
         {
           "word": "mayonnaise",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌmeɪəˈneɪz/【n.】",
@@ -7356,6 +7725,7 @@
         },
         {
           "word": "lettuce",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈletɪs/【n.】",
@@ -7371,6 +7741,7 @@
         },
         {
           "word": "convention",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈvenʃn/【n.】 ",
@@ -7390,6 +7761,7 @@
         },
         {
           "word": "turnover",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈtɜːnˌəʊvə/【n.】[U, sing.]",
@@ -7409,6 +7781,7 @@
         },
         {
           "word": "canned",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kænd/【a.】 ",
@@ -7424,6 +7797,7 @@
         },
         {
           "word": "downside",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈdaʊnˌsaɪd/【n.】",
@@ -7439,6 +7813,7 @@
         },
         {
           "word": "popularity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɒpjʊˈlærəti/【n.】",
@@ -7454,6 +7829,7 @@
         },
         {
           "word": "unintended",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌʌnɪnˈtendɪd/ a. ",
@@ -7469,6 +7845,7 @@
         },
         {
           "word": "scrap",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/skræp/【n.】 ",
@@ -7488,6 +7865,7 @@
         },
         {
           "word": "conscience",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkɒnʃ(ə)ns/【n.】",
@@ -7503,6 +7881,7 @@
         },
         {
           "word": "environmentalism",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˌvaɪrənˈmentlɪz(ə)m/【n.】",
@@ -7518,6 +7897,7 @@
         },
         {
           "word": "elite",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈli:t/【n.】",
@@ -7533,6 +7913,7 @@
         },
         {
           "word": "chafing dish",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtʃeɪfɪŋ ˌdɪʃ/【n.】",
@@ -7548,6 +7929,7 @@
         },
         {
           "word": "layer",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈleɪə/【n.】",
@@ -7563,6 +7945,7 @@
         },
         {
           "word": "triangle",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈtraɪæŋgl/【n.】",
@@ -7578,6 +7961,7 @@
         },
         {
           "word": "toothpick",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈtu:θˌpɪk/【n.】 ",
@@ -7593,6 +7977,7 @@
         },
         {
           "word": "combination",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌkɒmbɪˌneɪʃn/【n.】 ",
@@ -7612,6 +7997,7 @@
         },
         {
           "word": "elegance",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈelɪgəns/【n.】",
@@ -7628,6 +8014,7 @@
         {
           "word": "permanent",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5213eb902b703ed231283460f4a3df55ad8651e2_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɜːmənənt/ a. ",
@@ -7643,6 +8030,7 @@
         {
           "word": "cuisine",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7428c85074b790569cf56ed39752af964f47c5b4_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/kwɪˈzi:n/ n.[U]",
@@ -7662,6 +8050,7 @@
         {
           "word": "conservative",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/d5ad7321b16969d84e020e5eb1f4c0826d267981_96k.mp3#duration=2.1&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsɜːvətɪv/【a.】 ",
@@ -7677,6 +8066,7 @@
         {
           "word": "conservatism",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/db1e0459ec5d62481e69cc11e39bd993e62a1041_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/kənˈsɜːvəˌtɪz(ə)m/ n.",
@@ -7692,6 +8082,7 @@
         {
           "word": "loyalty",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7f76eb509e79360205196f6c01fdb114e7e06cff_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈlɔːɪəlti/【n.】",
@@ -7707,6 +8098,7 @@
         {
           "word": "dainty",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/d876afcceddb1bb71db32aa9a74578a468243dd0_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈdeɪnti/【a.】 ",
@@ -7722,6 +8114,7 @@
         {
           "word": "resign",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/288a7a8d12088b4e726105b8a46a0b1f647c6f3d_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈzaɪn/【v.】 ",
@@ -7737,6 +8130,7 @@
         {
           "word": "chow mein",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/be89b6add8689a9d446a25eef698b74bdc41a0fb_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌtʃaʊ ˈmeɪn/【n.】",
@@ -7751,6 +8145,7 @@
         {
           "word": "doctorate",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/868acc3af443a6a80d5737aa2979db0888d48ee4_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈdɒkt(ə)rət/【n.】 ",
@@ -7766,6 +8161,7 @@
         {
           "word": "mystery",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/45c8e56ac53cd15b88c6ed916a0c48f2c512a248_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɪst(ə)ri/【n.】 ",
@@ -7781,6 +8177,7 @@
         {
           "word": "specifically",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/10b366e7bd72282f932be4ec7bdea30aed9f3f90_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/spəˈsɪfɪkli/【ad.】 ",
@@ -7796,6 +8193,7 @@
         {
           "word": "bun",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/775e861d2ebdfe91fb20b009d08d3cd14567b1cc_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/bʌn/【n.】 [C]",
@@ -7813,6 +8211,7 @@
         {
           "word": "gravy",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/983d476276f88307c350c96559be95744f3fb735_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈgreɪvi/【n.】",
@@ -7827,6 +8226,7 @@
         {
           "word": "classic",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/24b7f65a28a06878dac571424180dcbc1333d7f6_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈklæsɪk/【a.】 ",
@@ -7846,6 +8246,7 @@
         {
           "word": "filling",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5a5b785d6f349bda65ad27bc89385e81c330d157_96k.mp3#duration=1.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈfɪlɪŋ/【a.】 ",
@@ -7861,6 +8262,7 @@
         {
           "word": "munch",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/be8e94317896b48381b93d9ff2d3522ed5f3b7b2_96k.mp3#duration=1.3&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/mʌntʃ/【v.】 ",
@@ -7876,6 +8278,7 @@
         {
           "word": "canteen",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/7ce4b7d62493e66f4378f2faff84246c0821d91b_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kænˈti:n/ n.",
@@ -7890,6 +8293,7 @@
         {
           "word": "dime",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/2ae68f27c0830ec376558755c271a913d9abcc95_96k.mp3#duration=2.1&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/daɪm/【n.】",
@@ -7904,6 +8308,7 @@
         {
           "word": "expat",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/8f84bda3ccef1307b2ba54a9cea2affc451645da_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/eksˈpæt/【n.】 ",
@@ -7919,6 +8324,7 @@
         {
           "word": "confession",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/157401f627bfa3c6a4a9ee24e81b8081d8907f69_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kənˈfeʃn/【n.】",
@@ -7933,6 +8339,7 @@
         },
         {
           "word": "devote",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈvəut/【vt.】 ",
@@ -7948,6 +8355,7 @@
         },
         {
           "word": "devoted",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈvəʊtɪd/【a.】 ",
@@ -7963,6 +8371,7 @@
         },
         {
           "word": "insatiable",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈseɪʃəbl/【a.】 ",
@@ -7978,6 +8387,7 @@
         },
         {
           "word": "craving",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈkreɪvɪŋ/【n.】",
@@ -7993,6 +8403,7 @@
         },
         {
           "word": "tropical",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈtrɒpɪkl/【a.】",
@@ -8008,6 +8419,7 @@
         },
         {
           "word": "challenging",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈtʃælɪndʒɪŋ/【a.】 ",
@@ -8023,6 +8435,7 @@
         },
         {
           "word": "calculus",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈkælkjʊləs/【n.】",
@@ -8038,6 +8451,7 @@
         },
         {
           "word": "adjust",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈdʒʌst/【v.】 ",
@@ -8053,6 +8467,7 @@
         },
         {
           "word": "dorm",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɔːm/【n.】 [C]",
@@ -8071,6 +8486,7 @@
         },
         {
           "word": "zucchini",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/zʊˈki:ni/【n.】",
@@ -8086,6 +8502,7 @@
         },
         {
           "word": "cucumber",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkju:ˌkʌmbə/【n.】 ",
@@ -8101,6 +8518,7 @@
         },
         {
           "word": "disposal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈspəʊzl/【n.】 [U]",
@@ -8120,6 +8538,7 @@
         },
         {
           "word": "peruse",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/pəˈru:z/【vt.】 ",
@@ -8139,6 +8558,7 @@
         },
         {
           "word": "grimly",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/grɪmli/【ad.】",
@@ -8158,6 +8578,7 @@
         },
         {
           "word": "mealy",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmi:li/a. ",
@@ -8173,6 +8594,7 @@
         },
         {
           "word": "pinkish",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɪŋkɪʃ/【a.】",
@@ -8188,6 +8610,7 @@
         },
         {
           "word": "iceberg lettuce",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌaɪsbɜːg ˈletɪs/【n.】 ",
@@ -8203,6 +8626,7 @@
         },
         {
           "word": "wrap",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ræp/【vt.】",
@@ -8218,6 +8642,7 @@
         },
         {
           "word": "wrapper",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈræpə/【n.】 ",
@@ -8233,6 +8658,7 @@
         },
         {
           "word": "peel",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/piːl/【n.】 ",
@@ -8257,6 +8683,7 @@
         },
         {
           "word": "unworldly",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ʌnˈwɜːldli/【a.】 ",
@@ -8276,6 +8703,7 @@
         },
         {
           "word": "cultured",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈkʌltʃəd/【a.】",
@@ -8291,6 +8719,7 @@
         },
         {
           "word": "realization",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌrɪəlaɪˈzeɪʃn/【n.】",
@@ -8306,6 +8735,7 @@
         },
         {
           "word": "grant",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/gra:nt/【vt.】",
@@ -8325,6 +8755,7 @@
         },
         {
           "word": "motivation",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌməʊtɪˈveɪʃn/【n.】 ",
@@ -8344,6 +8775,7 @@
         },
         {
           "word": "priority",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/praɪˈɒrəti/【n.】 ",
@@ -8359,6 +8791,7 @@
         },
         {
           "word": "golden",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈgəʊld(ə)n/【a.】 ",
@@ -8374,6 +8807,7 @@
         },
         {
           "word": "yolk",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/jəʊk/【n.】",
@@ -8389,6 +8823,7 @@
         },
         {
           "word": "crunch",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/krʌntʃ/【n.】",
@@ -8405,6 +8840,7 @@
         {
           "word": "organic",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/6d99e462d802e8d62bc64d0f0a709f74d650df95_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɔːˈgænɪk/【a.】 ",
@@ -8420,6 +8856,7 @@
         {
           "word": "free-range",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/08ecc3287f6664f77704e21d4221c543d21b198c_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌfri: ˈreɪndʒ/【a.】 ",
@@ -8435,6 +8872,7 @@
         {
           "word": "participate",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/1d8d2573cd854bfe0ec507b08f989a67f2d3064b_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/pɑːˈtɪsɪˌpeɪt/【vi.】 ",
@@ -8450,6 +8888,7 @@
         {
           "word": "melt",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/12d531c6129cfccf1d345ea0692daa795b1353bf_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/melt/【v.】 ",
@@ -8465,6 +8904,7 @@
         {
           "word": "sustenance",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/059f7eed82ef32fbdd373286c2b1826f9e008b7b_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsʌstənəns/【n.】",
@@ -8480,6 +8920,7 @@
         {
           "word": "profound",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/af69df80fa1b626e99eaef7841e94355428f1e87_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/prəˈfaʊnd/【a.】 ",
@@ -8495,6 +8936,7 @@
         {
           "word": "far-reaching",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/71262b15ae5e11e8764e368e0591717801de2c64_96k.mp3#duration=2.2&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌfɑːˈri:tʃɪŋ/【a.】 ",
@@ -8510,6 +8952,7 @@
         {
           "word": "grave",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/4c765ec2f27a9eddef00bc69f51d6102d0a6d247_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/greɪv/【a.】",
@@ -8534,6 +8977,7 @@
         {
           "word": "prediction",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/133fff77a52c1f4afe1ccae6b452495bcfb5266b_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/prɪˈdɪkʃn/【n.】",
@@ -9069,6 +9513,7 @@
         {
           "word": "cabin",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/bc478cc39f65a1b0e361142ef9eb376d8b6ebf9e_96k.mp3#duration=1.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkæbɪn/【n.】 ",
@@ -9083,6 +9528,7 @@
         },
         {
           "word": "meteor",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/miːtiə/【n.】 ",
@@ -9098,6 +9544,7 @@
         },
         {
           "word": "smoky",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": " /ˈsmaʊki/【a.】 ",
@@ -9113,6 +9560,7 @@
         },
         {
           "word": "trail",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/treɪl/【n.】 ",
@@ -9137,6 +9585,7 @@
         },
         {
           "word": "sugary",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈʃʊgəri/",
@@ -9152,6 +9601,7 @@
         },
         {
           "word": "winter solstice",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌwɪntə ˈsɒlstɪs/【n.】 ",
@@ -9167,6 +9617,7 @@
         },
         {
           "word": "irreplaceable",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪrɪˈpleɪsəbl/【a.】 ",
@@ -9182,6 +9633,7 @@
         },
         {
           "word": "rhythm",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈrɪðəm/【n.】 [C, U] ",
@@ -9201,6 +9653,7 @@
         },
         {
           "word": "nightfall",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/naɪtˌfɔːl/【n.】 ",
@@ -9216,6 +9669,7 @@
         },
         {
           "word": "artificial",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌɑːtɪˈfɪʃl/【a.】 ",
@@ -9231,6 +9685,7 @@
         },
         {
           "word": "night shift",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈnaɪt ˌʃɪft/【n.】",
@@ -9246,6 +9701,7 @@
         },
         {
           "word": "probable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈprɒbəbl/【a.】",
@@ -9261,6 +9717,7 @@
         },
         {
           "word": "reduction",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈdʌkʃn/【n.】 ",
@@ -9276,6 +9733,7 @@
         },
         {
           "word": "hormone",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈhɔːməʊn/【n.】 ",
@@ -9291,6 +9749,7 @@
         },
         {
           "word": "melatonin",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌmeləˈtəʊnɪn/【n.】 ",
@@ -9306,6 +9765,7 @@
         },
         {
           "word": "disorder",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈɔːdə/【n.】 ",
@@ -9321,6 +9781,7 @@
         },
         {
           "word": "diabetes",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌdaɪəˈbi:ti:z/【n.】 ",
@@ -9336,6 +9797,7 @@
         },
         {
           "word": "obesity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əʊˈbi:səti/【n.】 ",
@@ -9351,6 +9813,7 @@
         },
         {
           "word": "migrate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/maɪˈgreɪt/【vi.】 ",
@@ -9366,6 +9829,7 @@
         },
         {
           "word": "sea turtle",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈsi: ˌtɜːtl/【n.】 ",
@@ -9381,6 +9845,7 @@
         },
         {
           "word": "pest",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/pest/【n.】 ",
@@ -9396,6 +9861,7 @@
         },
         {
           "word": "bulldozer",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈbʊlˌdəʊzə/【n.】 ",
@@ -9411,6 +9877,7 @@
         },
         {
           "word": "habitat",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhæbɪˌtæt/【n.】 ",
@@ -9426,6 +9893,7 @@
         },
         {
           "word": "disrupt",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈrʌpt/【vt.】 ",
@@ -9441,6 +9909,7 @@
         },
         {
           "word": "ecosystem",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈi:kəʊˌsɪstəm/【n.】 ",
@@ -9456,6 +9925,7 @@
         },
         {
           "word": "collapse",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kəˈlæps/【vi.】 ",
@@ -9475,6 +9945,7 @@
         },
         {
           "word": "illuminate",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈlu:mɪˌneɪt/【vt.】",
@@ -9490,6 +9961,7 @@
         },
         {
           "word": "intimate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɪntɪmət/【a.】 ",
@@ -9509,6 +9981,7 @@
         },
         {
           "word": "flame",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/fleɪm/【n.】 ",
@@ -9524,6 +9997,7 @@
         },
         {
           "word": "solitude",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈsɒləˌtju:d/【n.】 ",
@@ -9539,6 +10013,7 @@
         },
         {
           "word": "invaluable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈvæljuəbl/【a.】",
@@ -9554,6 +10029,7 @@
         },
         {
           "word": "soulful",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsəʊlfl/【a.】 ",
@@ -9570,6 +10046,7 @@
         {
           "word": "starry",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/70e6f7b645434f3abcbe179da88e94bc05602478_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈstɑːri/【a.】 ",
@@ -9585,6 +10062,7 @@
         {
           "word": "blanket",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0df0e00c9e400de97c82aa75cf5887c8379fcd4a_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈblæŋkɪt/【n.】 ",
@@ -9603,6 +10081,7 @@
         {
           "word": "diminish",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/0a3dc2c21aa9e500daa2b908184e379c5bceb59f_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈmɪnɪʃ/【v.】 ",
@@ -9618,6 +10097,7 @@
         {
           "word": "monument",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/5d2c686c1dc2c93093440104ea3300a71c9f2523_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɒnjʊmənt/【n.】 ",
@@ -9633,6 +10113,7 @@
         {
           "word": "salmon",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/e89ca8acc657dd319dfbb418bbbbe65121bb41d6_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈsæmən/【n.】 ",
@@ -9647,6 +10128,7 @@
         },
         {
           "word": "pal",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/pæl/【n.】 ",
@@ -9662,6 +10144,7 @@
         },
         {
           "word": "skitter",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈskɪtə/【vi.】 ",
@@ -9677,6 +10160,7 @@
         },
         {
           "word": "windup",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈwaɪndʌp/【a.】",
@@ -9692,6 +10176,7 @@
         },
         {
           "word": "spray",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/spreɪ/【vi.】",
@@ -9716,6 +10201,7 @@
         },
         {
           "word": "flop",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/flɒp/【vi.】",
@@ -9731,6 +10217,7 @@
         },
         {
           "word": "magnetic",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/mægˈnetɪk/【a.】",
@@ -9746,6 +10233,7 @@
         },
         {
           "word": "alas",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/əˈlæs/【ad.】 ",
@@ -9761,6 +10249,7 @@
         },
         {
           "word": "rainbow trout",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈreɪnˌbəʊ ˌtraʊt/【n.】 ",
@@ -9776,6 +10265,7 @@
         },
         {
           "word": "exquisitely",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ɪkˈskwɪzɪtli/【ad.】 ",
@@ -9791,6 +10281,7 @@
         },
         {
           "word": "rocky",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌrɒki/【a.】 ",
@@ -9806,6 +10297,7 @@
         },
         {
           "word": "Omega-3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌəʊmɪgə ˈθri:/【n.】 ",
@@ -9821,6 +10313,7 @@
         },
         {
           "word": "staple",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsteɪpl/【n.】",
@@ -9836,6 +10329,7 @@
         },
         {
           "word": "spawn",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/spɔːn/【v.】 ",
@@ -9860,6 +10354,7 @@
         },
         {
           "word": "cod",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/kɒd/【n.】 ",
@@ -9875,6 +10370,7 @@
         },
         {
           "word": "backfire",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌbækˈfaɪə/【vi.】 ",
@@ -9890,6 +10386,7 @@
         },
         {
           "word": "coastal",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkəʊstl/【a.】 ",
@@ -9905,6 +10402,7 @@
         },
         {
           "word": "thrive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/θraɪv/【vi.】",
@@ -9920,6 +10418,7 @@
         },
         {
           "word": "abundance",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈbʌndəns/【n.】 ",
@@ -9935,6 +10434,7 @@
         },
         {
           "word": "blessing",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈblesɪŋ/【n.】 ",
@@ -9950,6 +10450,7 @@
         },
         {
           "word": "diner",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈdaɪnə/【n.】 ",
@@ -9965,6 +10466,7 @@
         },
         {
           "word": "fattiness",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈfætInəs/【n.】",
@@ -9980,6 +10482,7 @@
         },
         {
           "word": "moist",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/mɔɪst/【a.】",
@@ -9995,6 +10498,7 @@
         },
         {
           "word": "overcook",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌəʊvəˈkʊk/【vt.】 ",
@@ -10010,6 +10514,7 @@
         },
         {
           "word": "Norwegian",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/nɔːˈwi:dʒ(ə)n/【n.】",
@@ -10025,6 +10530,7 @@
         },
         {
           "word": "surplus",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈsɜːpləs/【n.】 ",
@@ -10040,6 +10546,7 @@
         },
         {
           "word": "incorporate",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈkɔːpəˌreɪt/【vt.】 ",
@@ -10055,6 +10562,7 @@
         },
         {
           "word": "flesh",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/fleʃ/【n.】",
@@ -10070,6 +10578,7 @@
         },
         {
           "word": "sushi",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈsu:ʃi/【n.】",
@@ -10086,6 +10595,7 @@
         {
           "word": "avocado",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/03f73e80da778e5df6e95aba008a88ae0d0ea473_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌævəˈkɑːdəʊ/【n.】",
@@ -10100,6 +10610,7 @@
         {
           "word": "marketing",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/8a437036e9b28a3f05fff881586ba18ff7d5698b_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɑːkɪtɪŋ/【n.】",
@@ -10115,6 +10626,7 @@
         {
           "word": "antibiotic",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/665d4047f8d7c8166330d4f38a8771f36c5cc02c_96k.mp3#duration=1.9&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˌæntibaɪˈɒtɪk/【n.】",
@@ -10130,6 +10642,7 @@
         {
           "word": "toxin",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3eb95ac311fe8a3a681eccceb8f1cb9707bd91e2_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "【n.】",
@@ -10145,6 +10658,7 @@
         {
           "word": "overtake",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/93584fb0c59f57848790adbaa225a031017a1edf_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌəʊvəˈteɪk/【v.】",
@@ -10160,6 +10674,7 @@
         {
           "word": "fragile",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/efa96dfdc9c95b9649dedeba40aa049a3542baa7_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈfrædʒaɪl/【a.】 ",
@@ -10175,6 +10690,7 @@
         {
           "word": "domesticated",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/c0b3e2614d64088473bda7ef420d8a670bf8a3e0_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/dəˈmestɪˌkeɪtɪd/【a.】 ",
@@ -10190,6 +10706,7 @@
         {
           "word": "breed",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b7d30045d977dfbdac96ae3e8bde14637c5c46a8_96k.mp3#duration=1.2&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/bri:d/【n.】",
@@ -10214,6 +10731,7 @@
         {
           "word": "threaten",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a7b73550b9e1d9d657662094da76efc8acccdec3_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈθretn/【vt.】 ",
@@ -10233,6 +10751,7 @@
         {
           "word": "joyride",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/fb08fca8b8fd1a9e1a244abe6f373d07482bd75b_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈdʒɔːɪraɪd/【n.】",
@@ -10588,6 +11107,7 @@
         {
           "word": "robotics",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/2ff79fd4b3812b10da018c7585f504fc6eeda42f_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/rəʊˈbɒtɪks/【n.】",
@@ -10602,6 +11122,7 @@
         },
         {
           "word": "yoga",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈjəʊgə/【n.】",
@@ -10617,6 +11138,7 @@
         },
         {
           "word": "AI",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "n.",
@@ -10632,6 +11154,7 @@
         },
         {
           "word": "eliminate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈlɪmɪˌneɪt/【vt.】 ",
@@ -10647,6 +11170,7 @@
         },
         {
           "word": "specialization",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌspeʃəlaɪˈzeɪʃn/【n.】[C, U] (BrE also specialisation)",
@@ -10666,6 +11190,7 @@
         },
         {
           "word": "routinize",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ru:ˈti:naɪz/【vt.】 ",
@@ -10681,6 +11206,7 @@
         },
         {
           "word": "automate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "vt.",
@@ -10696,6 +11222,7 @@
         },
         {
           "word": "DJ",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "n.",
@@ -10711,6 +11238,7 @@
         },
         {
           "word": "consequently",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkɒnsɪkwəntli/【ad.】",
@@ -10726,6 +11254,7 @@
         },
         {
           "word": "evaluate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ɪˈvæljuˌeɪt/【vt.】 ",
@@ -10741,6 +11270,7 @@
         },
         {
           "word": "algorithm",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈælgəˌrɪð(ə)m/【n.】",
@@ -10756,6 +11286,7 @@
         },
         {
           "word": "manipulate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/məˈnɪpjʊˌleɪt/【vt.】 ",
@@ -10771,6 +11302,7 @@
         },
         {
           "word": "mystical",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmɪstɪkl/【a.】",
@@ -10786,6 +11318,7 @@
         },
         {
           "word": "biochemical",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌbaɪəʊˈkemɪkl/【a.】 ",
@@ -10801,6 +11334,7 @@
         },
         {
           "word": "biometric",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌbaɪəʊˈmetrɪk/【a.】 ",
@@ -10816,6 +11350,7 @@
         },
         {
           "word": "calculate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈkælkjʊˌleɪt/【vt.】 ",
@@ -10835,6 +11370,7 @@
         },
         {
           "word": "analysis",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈnæləsɪs/【n.】",
@@ -10850,6 +11386,7 @@
         },
         {
           "word": "output",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈaʊtˌpʊt/【n.】[C, U]",
@@ -10869,6 +11406,7 @@
         },
         {
           "word": "tailor",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈteɪlə/【vt.】",
@@ -10884,6 +11422,7 @@
         },
         {
           "word": "echo",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈekəʊ/【vt./vi】",
@@ -10903,6 +11442,7 @@
         },
         {
           "word": "distress",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈstres/ n.",
@@ -10918,6 +11458,7 @@
         },
         {
           "word": "melody",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈmelədi/【n.】",
@@ -10933,6 +11474,7 @@
         },
         {
           "word": "peculiarity",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/pɪˌkju:liˈærəti/【n.】 ",
@@ -10948,6 +11490,7 @@
         },
         {
           "word": "dislike",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈlaɪk/【vt.】 ",
@@ -10963,6 +11506,7 @@
         },
         {
           "word": "oxytocin",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌɒksɪˈtəʊsɪn/【n.】",
@@ -10978,6 +11522,7 @@
         },
         {
           "word": "compose",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/kəmˈpəʊz/【v.】 ",
@@ -10997,6 +11542,7 @@
         },
         {
           "word": "personalized",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈpɜːsnəlaɪzd/【a.】 ",
@@ -11012,6 +11558,7 @@
         },
         {
           "word": "besides",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/bɪˈsaɪdz/prep. ",
@@ -11027,6 +11574,7 @@
         },
         {
           "word": "surpass",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/səˈpɑːs/【vt.】 ",
@@ -11042,6 +11590,7 @@
         },
         {
           "word": "outperform",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌaʊtpəˈfɔːm/【vt.】 ",
@@ -11058,6 +11607,7 @@
         {
           "word": "rational",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/a03fd94eb84581a379a7912b3d603e796814b3b3_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈræʃn(ə)l/【a.】",
@@ -11072,6 +11622,7 @@
         },
         {
           "word": "biological",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌbaɪəˈlɒdʒɪkl/【 a. 】",
@@ -11087,6 +11638,7 @@
         },
         {
           "word": "genetic",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dʒəˈnetɪk/【a.】",
@@ -11102,6 +11654,7 @@
         },
         {
           "word": "microbe",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈmaɪkrəʊb/【n.】",
@@ -11117,6 +11670,7 @@
         },
         {
           "word": "intuitively",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ɪnˈtju:ətɪvli/【ad. 】",
@@ -11132,6 +11686,7 @@
         },
         {
           "word": "willingly",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈwɪlɪŋli/【ad.】",
@@ -11147,6 +11702,7 @@
         },
         {
           "word": "broccoli",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈbrɒkəli/【 n.】",
@@ -11159,6 +11715,7 @@
         },
         {
           "word": "recoil",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈkɔɪl/【vi.】",
@@ -11174,6 +11731,7 @@
         },
         {
           "word": "horror",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈhɒrə/【n.】",
@@ -11189,6 +11747,7 @@
         },
         {
           "word": "distaste",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈteɪst/【n.】",
@@ -11204,6 +11763,7 @@
         },
         {
           "word": "variation",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌveərɪˈeɪʃn/【n.】",
@@ -11219,6 +11779,7 @@
         },
         {
           "word": "taste bud",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈteɪst ˌbʌd/【n.】",
@@ -11231,6 +11792,7 @@
         },
         {
           "word": "receptor",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈseptə/【 n. 】",
@@ -11246,6 +11808,7 @@
         },
         {
           "word": "thiourea",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌθaɪəʊˈjʊərɪə/【 n.】",
@@ -11258,6 +11821,7 @@
         },
         {
           "word": "plentiful",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈplentɪfl/【a. 】",
@@ -11273,6 +11837,7 @@
         },
         {
           "word": "DNA",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "【n.】",
@@ -11288,6 +11853,7 @@
         },
         {
           "word": "disgusting",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈgʌstɪŋ/【a.】",
@@ -11303,6 +11869,7 @@
         },
         {
           "word": "reasonable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈri:znəbl/【a.】",
@@ -11318,6 +11885,7 @@
         },
         {
           "word": "relieve",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈli:v/【vt.】",
@@ -11333,6 +11901,7 @@
         },
         {
           "word": "relieved",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/rɪˈli:vd/【a.】",
@@ -11348,6 +11917,7 @@
         },
         {
           "word": "innate",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˌɪˈneɪt/【a.】",
@@ -11363,6 +11933,7 @@
         },
         {
           "word": "desirable",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪˈzaɪrəbl/【a.】",
@@ -11382,6 +11953,7 @@
         },
         {
           "word": "mate",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/meɪt/【n.】",
@@ -11401,6 +11973,7 @@
         },
         {
           "word": "shapely",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/ˈʃeɪpli/【a.】",
@@ -11416,6 +11989,7 @@
         },
         {
           "word": "sparkling",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈspɑːklɪŋ/【a.】",
@@ -11431,6 +12005,7 @@
         },
         {
           "word": "attractive",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/əˈtræktɪv/【a.】",
@@ -11446,6 +12021,7 @@
         },
         {
           "word": "evolutionary",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌi:vəˈlu:ʃn(ə)ri/【a.】",
@@ -11461,6 +12037,7 @@
         },
         {
           "word": "virtually",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈvɜːtʃʊəli/【ad.】",
@@ -11476,6 +12053,7 @@
         },
         {
           "word": "reproduce",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˌri:prəˈdju:s/【v.】",
@@ -11491,6 +12069,7 @@
         },
         {
           "word": "parental",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/pəˈrentl/【a.】",
@@ -11506,6 +12085,7 @@
         },
         {
           "word": "offspring",
+          "tag":["default","CET6"],
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/b3dd2bb5f52410a46a935076ea500c65dd913324_96k.mp3#duration=1.3&t=.mp3",
           "pee": [
             {
@@ -11522,6 +12102,7 @@
         {
           "word": "disinterest",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/ef95aa30f858efd6c2d84c7f0d306afc41afe0f7_96k.mp3#duration=1.8&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈɪntrəst/【n.】",
@@ -11537,6 +12118,7 @@
         {
           "word": "organ",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/9837b7a7a21f91a42c4822d5efb3d994edb77638_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈɔːgən/【n.】",
@@ -11547,6 +12129,7 @@
         {
           "word": "disheartening",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/44ff797fadfc2a77600bb98387bdc3492f64464f_96k.mp3#duration=1.7&t=.mp3",
+          "tag":["default"],
           "pee": [
             {
               "partOfSpeech": "/dɪsˈhɑːtnɪŋ/【a. 】",
@@ -11562,6 +12145,7 @@
         {
           "word": "destined",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/ddc2ee668847edf2459c4f04db5281ef5526af1e_96k.mp3#duration=1.6&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/ˈdestɪnd/【a.】",
@@ -11577,6 +12161,7 @@
         {
           "word": "slave",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3f64cea2cc197e99656404367c1d2c6f84bd65d5_96k.mp3#duration=1.0&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/sleɪv/【n.】 [C]",
@@ -11596,6 +12181,7 @@
         {
           "word": "magnificent",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/4debddfcde817bd8a99fd8611817ae262fa3d500_96k.mp3#duration=2.0&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/mægˈnɪfɪsnt/【a.】",
@@ -11611,6 +12197,7 @@
         {
           "word": "remedy",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/3bce984f36188c068dd320bc2e2ebe9f47db39ab_96k.mp3#duration=1.5&t=.mp3",
+          "tag":["default","CET4"],
           "pee": [
             {
               "partOfSpeech": "/ˈremədi/",
@@ -11630,6 +12217,7 @@
         {
           "word": "compassion",
           "audio": "http://course.media.unipus.cn/edx/course-v1:Unipus+nce_4_rw_2+20200131/resource/audio/915c1594e49730faa605b5a96b7002145c302422_96k.mp3#duration=1.4&t=.mp3",
+          "tag":["default","CET6"],
           "pee": [
             {
               "partOfSpeech": "/kəmˈpæʃn/【n.】",

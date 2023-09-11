@@ -17,6 +17,19 @@ export const Setting = (props) => {
     { label: "顺序模式", value: "0" },
     { label: "随机模式", value: "1" },
   ];
+  const Tag = [
+    {
+      label: "全部",value: "default"
+    },
+    {
+      label: "CET4",value: "CET4"
+    },
+    {
+      label: "CET6",value: "CET6"
+    }
+
+
+  ]
   const Book = [
     { label: "book1", value: "0" },
     { label: "book2", value: "1" },
@@ -75,7 +88,8 @@ export const Setting = (props) => {
     if (
       a.mode === b.mode &&
       a.units.toString() === b.units.toString() &&
-      a.book === b.book
+      a.book === b.book &&
+      a.tag === b.tag
     ) {
       return true;
     }
@@ -235,6 +249,21 @@ export const Setting = (props) => {
             }}
           />
 
+          <Space size={"large"}>
+          <span>难度选择</span>
+          <Space direction="vertical">
+            <Radio.Group
+              defaultValue={props.settings.tag}
+              options={Tag}
+              optionType="button"
+              buttonStyle="solid"
+              onChange={(value) => {
+                console.log(value);
+                settings.tag = value.target.value;
+              }}
+            />
+          </Space>
+        </Space>
         <Space size={"large"}>
           <div
             style={{"width":"100px"}}
@@ -265,6 +294,17 @@ export const Setting = (props) => {
             defaultChecked={props.settings.showButton}
             onChange={(value) => {
               settings.showButton = value;
+            }}
+          />
+        </Space>
+        <Space size={"large"}>
+          <div
+            style={{"width":"100px"}}
+          >自动保存</div>
+          <Switch
+            defaultChecked={props.settings.autoSave}
+            onChange={(value) => {
+              settings.autoSave = value;
             }}
           />
         </Space>

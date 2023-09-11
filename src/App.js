@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
-import { UnorderedListOutlined ,SaveOutlined} from "@ant-design/icons";
+import { UnorderedListOutlined, SaveOutlined } from "@ant-design/icons";
 import { Interface } from "./Interface";
 import { Setting } from "./Setting";
 import { FloatButton } from "./FloatButton";
 import { Progressline } from "./Progressline";
-import { getUnitLength, getWord, loadData } from "./utils/data";
+import { TagMatch, getUnitLength, getWord, loadData } from "./utils/data";
 // import History from "./History";
 import Record from "./Record";
 const { Content, Footer } = Layout;
@@ -18,7 +18,7 @@ const defaultsettings = {
   showFirstLetter: false,
   showButton: true,
   units: [true, true, true, true, true, true, true, true],
-  tag: [],
+  tag: "default",
   autoSave: false,
 };
 const AlertShowCSS = {
@@ -70,12 +70,9 @@ const App = () => {
         console.time("init");
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
-            for (
-              let j = 0;
-              j < getUnitLength(settings.book * 1, i);
-              j++
-            ) {
-              console.log(getWord(settings.book * 1, i, j));
+            for (let j = 0; j < getUnitLength(settings.book * 1, i); j++) {
+              // 
+              if(TagMatch(settings.book * 1, i, j, settings.tag))
               temp.push({ unit: i, lesson: j });
             }
           }
@@ -90,11 +87,8 @@ const App = () => {
         //根据设置中的单元选择初始化索引list
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
-            for (
-              let j = 0;
-              j < getUnitLength(settings.book * 1, i);
-              j++
-            ) {
+            for (let j = 0; j < getUnitLength(settings.book * 1, i); j++) {
+              if(TagMatch(settings.book * 1, i, j, settings.tag))
               temp.push({ unit: i, lesson: j });
             }
           }
@@ -207,6 +201,7 @@ const App = () => {
         },
       });
     }
+    if(settings.autoSave) save();
   };
   const prev = () => {
     if (current > 0) {
@@ -217,24 +212,29 @@ const App = () => {
       return;
     }
     showFirstLetterfunc(undefined, current - 1);
+    if(settings.autoSave) save();
   };
   const updateHistory = (newdata) => {
     let temp = history;
     temp.push(newdata);
     setHistory(temp);
   };
-  const save = () =>{
+  const save = () => {
     //save all
     //构造数据
+    if (inital === true) {
+      message.error("请先开始检测");
+      return false;
+    }
     let savedata = {
       setting: settings,
       list: list,
       current: current,
-    }
+    };
     //保存数据
-    localStorage.setItem("savedata",JSON.stringify(savedata));
-    message.success("保存成功");
-  }
+    localStorage.setItem("savedata", JSON.stringify(savedata));
+    return true;
+  };
 
   // const loadsave = () =>{
   //   //load all
@@ -254,8 +254,6 @@ const App = () => {
   //   // console.log("load save",settings);
   //   message.success("读取成功");
   // }
-
-
 
   //listen when showSettings change
   useEffect(() => {
@@ -291,9 +289,11 @@ const App = () => {
                   type="text"
                   key="save"
                   onClick={() => {
-                    save();
+                    if (save()) {
+                      message.success("保存成功");
+                    }
                   }}
-                  icon={<SaveOutlined size="large"/>}
+                  icon={<SaveOutlined size="large" />}
                   size={"large"}
                 ></Button>
                 <Button
@@ -306,7 +306,7 @@ const App = () => {
                   size={"large"}
                 ></Button>
                 <Button
-                  onClick={()=>{
+                  onClick={() => {
                     console.log(current);
                     console.log(list);
                     console.log(settings);
@@ -339,13 +339,11 @@ const App = () => {
               <Interface
                 inital={inital}
                 showPronounce={settings.showPronounce}
-                data={
-                  getWord(
-                    settings.book * 1,
-                    list[current].unit,
-                    list[current].lesson
-                  )
-                }
+                data={getWord(
+                  settings.book * 1,
+                  list[current].unit,
+                  list[current].lesson
+                )}
               />
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Input
@@ -430,7 +428,7 @@ const App = () => {
               </div>
             </div>
           </Content>
-          <FloatButton data={history} setHistory={setHistory}/>
+          <FloatButton data={history} setHistory={setHistory} />
           <Footer
             style={{
               textAlign: "center",
@@ -444,7 +442,10 @@ const App = () => {
                 fontSize: "12px",
                 cursor: "pointer",
               }}
-              onClick={() => window.open("https://a.zjueva.net")}
+              onClick={() => {
+                save();
+                window.open("https://a.zjueva.net");
+              }}
             >
               🔥浙江大学学生E志者协会火热纳新中!
             </div>
