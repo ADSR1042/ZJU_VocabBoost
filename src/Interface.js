@@ -27,7 +27,7 @@ export const Interface = (props) => {
     <div style={{ textAlign: "left" }}>
       <h3>
         <big>
-          <b>{props.inital?"选中输入框后敲击回车开始检测":partOfSpeech}</b>
+          <b>{props.inital?"选中输入框后敲击回车开始检测":partOfSpeech?partOfSpeech:<span>&nbsp;</span>}</b>
           
         </big>
       </h3>

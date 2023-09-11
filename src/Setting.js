@@ -258,7 +258,6 @@ export const Setting = (props) => {
               optionType="button"
               buttonStyle="solid"
               onChange={(value) => {
-                console.log(value);
                 settings.tag = value.target.value;
               }}
             />

@@ -447,7 +447,7 @@ const App = () => {
                 window.open("https://a.zjueva.net");
               }}
             >
-              🔥浙江大学学生E志者协会火热纳新中!
+              {/* 🔥浙江大学学生E志者协会火热纳新中! */}
             </div>
           </Footer>
         </Layout>
