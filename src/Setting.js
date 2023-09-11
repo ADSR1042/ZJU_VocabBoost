@@ -197,6 +197,7 @@ export const Setting = (props) => {
       maskClosable={false}
       closable={false}
       destroyOnClose={true}
+      bodyStyle={{minHeight:"700px"}}
       extra={
         <Space>
           <Button type="primary" onClick={onClose}>
