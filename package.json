@@ -19,7 +19,7 @@
         "dev": "electron . --debug  | react-scripts start",
         "electronbuild": "electron-builder",
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "CI=false && react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "dist-win32": "electron-builder --win --ia32",

@@ -26,8 +26,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Disable CI
-        run: export CI=false 
-      - name: Build
         run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
