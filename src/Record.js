@@ -179,7 +179,7 @@ const Record = (props) => {
               ? window.innerWidth
               : window.innerWidth * 0.8,
         }}
-        placement={window.innerWidth < 600 ? "bottom" : "bottomLeft"}
+        placement={window.innerWidth < 600 ? "top" : "topRight"}
       >
         <Button type="text" icon={<FileTextOutlined />}></Button>
       </Popover>

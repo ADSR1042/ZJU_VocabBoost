@@ -8,6 +8,7 @@ import {
   Switch,
   Select,
   Modal,
+  message,
 } from "antd";
 import { GuideUser } from "./Guide";
 import { Contactme } from "./Contactme";
@@ -136,6 +137,42 @@ export const Setting = (props) => {
     }
   };
 
+  const loadLocalStore = () => {
+    let savedata = localStorage.getItem("savedata");
+    if (!savedata) {
+      message.error("本地进度不存在或已损坏 ");
+      return { setting: null, list: null, current: null };
+    }
+    savedata = JSON.parse(savedata);
+    let setting = savedata.setting;
+    let list = savedata.list;
+    let current = savedata.current;
+    // let setting = localStorage.getItem("setting");
+    // let list = localStorage.getItem("list");
+    // let current = localStorage.getItem("current");
+    if (setting && list && current) {
+      return { setting, list, current };
+    } else {
+      message.error("本地进度不存在或已损坏 ");
+      return { setting: null, list: null,  current: null };
+    }
+  };
+
+
+  const clearLocalStore = () => {
+    Modal.confirm({
+      title: "提示",
+      zIndex: 2000,
+      content: <>你即将清除本地保存的进度，确定要继续吗</>,
+      onOk: () => {
+        localStorage.setItem("savedata", JSON.stringify({}));
+        message.success("清除成功");
+      },
+      onCancel: () => {},
+    });
+    localStorage.setItem("savedata", "");
+  }
+
   return (
     <Drawer
       key={"settingDrawer"}
@@ -231,12 +268,37 @@ export const Setting = (props) => {
             }}
           />
         </Space>
+        <Space size={"large"}>
+          <Button
+            onClick={() => {
+              let { setting, list, current } = loadLocalStore();
+              console.log(setting, list,  current);
+              if (setting && list && current) {
+                props.setSettings(setting);
+                props.setList(list);
+                props.setCurrent(current);
+                props.setInital(false);
+                closeDrawer();
+              }
+            }}
+          >
+            加载之前的进度
+          </Button>
+        </Space>
+        <Space size={"large"}>
+        <Button
+          onClick={() => {
+            clearLocalStore();
+          }}
+        >
+          删除保存的进度
+        </Button>
+        </Space>
         <span
           style={{"color":"grey","fontSize":"13px"}}
         >*设置将会在点击上方确认按钮后生效</span>
         <GuideUser />
       </Space>
-      <Space size={"large"}></Space>
       <Contactme/>
     </Drawer>
   );

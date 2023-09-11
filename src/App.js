@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
-import { UnorderedListOutlined } from "@ant-design/icons";
+import { UnorderedListOutlined ,SaveOutlined} from "@ant-design/icons";
 import { Interface } from "./Interface";
 import { Setting } from "./Setting";
+import { FloatButton } from "./FloatButton";
 import { Progressline } from "./Progressline";
 import { getUnitLength, getWord, loadData } from "./utils/data";
 // import History from "./History";
@@ -17,6 +18,8 @@ const defaultsettings = {
   showFirstLetter: false,
   showButton: true,
   units: [true, true, true, true, true, true, true, true],
+  tag: [],
+  autoSave: false,
 };
 const AlertShowCSS = {
   top: "530px",
@@ -63,6 +66,8 @@ const App = () => {
       //顺序模式
       case "0":
         //根据设置中的单元选择初始化索引list
+        //计时
+        console.time("init");
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
             for (
@@ -70,10 +75,13 @@ const App = () => {
               j < getUnitLength(settings.book * 1, i);
               j++
             ) {
+              console.log(getWord(settings.book * 1, i, j));
               temp.push({ unit: i, lesson: j });
             }
           }
         }
+        //结束计时
+        console.timeEnd("init");
         setList(temp);
         //返回初始化索引list
         return temp;
@@ -215,6 +223,40 @@ const App = () => {
     temp.push(newdata);
     setHistory(temp);
   };
+  const save = () =>{
+    //save all
+    //构造数据
+    let savedata = {
+      setting: settings,
+      list: list,
+      current: current,
+    }
+    //保存数据
+    localStorage.setItem("savedata",JSON.stringify(savedata));
+    message.success("保存成功");
+  }
+
+  // const loadsave = () =>{
+  //   //load all
+  //   //读取数据
+  //   let savedata = JSON.parse(localStorage.getItem("savedata"));
+  //   if(savedata === null){
+  //     message.error("没有保存的数据");
+  //     return;
+  //   }
+  //   // console.log(savedata);
+  //   //设置数据
+  //   setSettings(savedata.settings);
+  //   setList(savedata.list);
+  //   setCurrent(savedata.current);
+  //   setShowSettings(false);
+  //   setInital(false);
+  //   // console.log("load save",settings);
+  //   message.success("读取成功");
+  // }
+
+
+
   //listen when showSettings change
   useEffect(() => {
     if (!isDataReady) {
@@ -245,7 +287,15 @@ const App = () => {
             subTitle="仅供学习 请勿商用"
             extra={[
               <div key="extra">
-                <Record key="record" data={history} setHistory={setHistory} />
+                <Button
+                  type="text"
+                  key="save"
+                  onClick={() => {
+                    save();
+                  }}
+                  icon={<SaveOutlined size="large"/>}
+                  size={"large"}
+                ></Button>
                 <Button
                   type="text"
                   key="setting"
@@ -255,19 +305,15 @@ const App = () => {
                   icon={<UnorderedListOutlined size={"large"} />}
                   size={"large"}
                 ></Button>
-                {/* <Button
-                  onClick={() =>
-                    console.log(
-                      getWord(
-                        settings.book * 1,
-                        list[current].unit,
-                        list[current].lesson
-                      )
-                    )
-                  }
+                <Button
+                  onClick={()=>{
+                    console.log(current);
+                    console.log(list);
+                    console.log(settings);
+                  }}
                 >
-                  测试
-                </Button> */}
+                  调试
+                </Button>
               </div>,
             ]}
           />
@@ -279,12 +325,14 @@ const App = () => {
             setSettings={(value) => {
               setSettings(value);
             }}
+            setList={setList}
+            setCurrent={setCurrent}
             showDrawer={showSettings}
             showDrawerfunc={setShowSettings}
           />
           <Content
             style={{
-              padding: "50px 50px 50px 50px",
+              padding: "50px 50px 20px 50px",
             }}
           >
             <div className="site-layout-content">
@@ -382,6 +430,7 @@ const App = () => {
               </div>
             </div>
           </Content>
+          <FloatButton data={history} setHistory={setHistory}/>
           <Footer
             style={{
               textAlign: "center",

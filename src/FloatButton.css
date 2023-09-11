@@ -1,0 +1,19 @@
+.FloatButton{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.FloatButton:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+}
