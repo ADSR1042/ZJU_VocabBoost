@@ -47,7 +47,7 @@
         ]
     },
     "devDependencies": {
-        "electron": "^19.0.3",
+        "electron": "^26.2.0",
         "electron-builder": "^23.0.3",
         "gh-pages": "^4.0.0"
     },
