@@ -48,7 +48,7 @@
     },
     "devDependencies": {
         "electron": "^19.0.3",
-        "electron-builder": "^23.0.3",
+        "electron-builder": "^24.6.4",
         "gh-pages": "^4.0.0"
     },
     "description": "一个用于大英背词检测的程序(适用新版新编大学英语)",
