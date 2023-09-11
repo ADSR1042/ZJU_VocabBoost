@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Layout, Button, Input, Alert, Modal, message, PageHeader } from "antd";
 // import { PageHeader } from "@ant-design/pro-layout";
-import { UnorderedListOutlined, SaveOutlined } from "@ant-design/icons";
+import { UnorderedListOutlined, SaveOutlined ,GithubOutlined} from "@ant-design/icons";
 import { Interface } from "./Interface";
 import { Setting } from "./Setting";
 import { FloatButton } from "./FloatButton";
@@ -71,9 +71,9 @@ const App = () => {
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
             for (let j = 0; j < getUnitLength(settings.book * 1, i); j++) {
-              // 
-              if(TagMatch(settings.book * 1, i, j, settings.tag))
-              temp.push({ unit: i, lesson: j });
+              //
+              if (TagMatch(settings.book * 1, i, j, settings.tag))
+                temp.push({ unit: i, lesson: j });
             }
           }
         }
@@ -88,8 +88,8 @@ const App = () => {
         for (let i = 0; i < 8; i++) {
           if (settings.units[i]) {
             for (let j = 0; j < getUnitLength(settings.book * 1, i); j++) {
-              if(TagMatch(settings.book * 1, i, j, settings.tag))
-              temp.push({ unit: i, lesson: j });
+              if (TagMatch(settings.book * 1, i, j, settings.tag))
+                temp.push({ unit: i, lesson: j });
             }
           }
         }
@@ -201,7 +201,7 @@ const App = () => {
         },
       });
     }
-    if(settings.autoSave) save();
+    if (settings.autoSave) save();
   };
   const prev = () => {
     if (current > 0) {
@@ -212,7 +212,7 @@ const App = () => {
       return;
     }
     showFirstLetterfunc(undefined, current - 1);
-    if(settings.autoSave) save();
+    if (settings.autoSave) save();
   };
   const updateHistory = (newdata) => {
     let temp = history;
@@ -236,24 +236,6 @@ const App = () => {
     return true;
   };
 
-  // const loadsave = () =>{
-  //   //load all
-  //   //读取数据
-  //   let savedata = JSON.parse(localStorage.getItem("savedata"));
-  //   if(savedata === null){
-  //     message.error("没有保存的数据");
-  //     return;
-  //   }
-  //   // console.log(savedata);
-  //   //设置数据
-  //   setSettings(savedata.settings);
-  //   setList(savedata.list);
-  //   setCurrent(savedata.current);
-  //   setShowSettings(false);
-  //   setInital(false);
-  //   // console.log("load save",settings);
-  //   message.success("读取成功");
-  // }
 
   //listen when showSettings change
   useEffect(() => {
@@ -305,15 +287,6 @@ const App = () => {
                   icon={<UnorderedListOutlined size={"large"} />}
                   size={"large"}
                 ></Button>
-                <Button
-                  onClick={() => {
-                    console.log(current);
-                    console.log(list);
-                    console.log(settings);
-                  }}
-                >
-                  调试
-                </Button>
               </div>,
             ]}
           />
@@ -434,6 +407,12 @@ const App = () => {
               textAlign: "center",
             }}
           >
+            <div style={{cursor:"pointer"}} onClick={()=>{
+              save();
+              window.open("https://github.com/ADSR1042/ZJU_VocabBoost")
+            }}>
+              <GithubOutlined />
+            </div>
             ZJU EVA
             <div
               style={{
