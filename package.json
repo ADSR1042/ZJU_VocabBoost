@@ -1,5 +1,5 @@
 {
-    "name": "sqtp2022",
+    "name": "zju_vocaboost",
     "version": "0.1.0",
     "private": true,
     "main": "build/electron.js",
@@ -58,7 +58,7 @@
         "url": "https://github.com/ADSR1042"
     },
     "build": {
-        "productName": "大英四默写器",
+        "productName": "大英默写器",
         "appId": "org.my-project.electron-react-antd",
         "directories": {
             "output": "dist"

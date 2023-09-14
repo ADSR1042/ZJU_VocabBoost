@@ -1,4 +1,3 @@
-import { message } from "antd";
 import datalist from "../data/dataConfig.json";
 let data = [];
 export const loadData = async () => {
@@ -53,7 +52,6 @@ export const getWord = (bookId, unit, wordId) => {
 };
 
 export const getUnitLength = (bookId, unit) => {
-    let result = 0;
     if (data.length === 0) {
         console.error("数据未加载完全时获取词汇");
         return defaultword;

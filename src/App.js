@@ -9,7 +9,6 @@ import { FloatButton } from "./FloatButton";
 import { Progressline } from "./Progressline";
 import { TagMatch, getUnitLength, getWord, loadData } from "./utils/data";
 // import History from "./History";
-import Record from "./Record";
 const { Content, Footer } = Layout;
 const defaultsettings = {
   book: "0",
@@ -250,7 +249,7 @@ const App = () => {
       });
     }
     if (showSettings === false && inital === true) setInputValue(""); //用于清除 更改设置之后的输入框内容
-  }, [showSettings]);
+  }, [showSettings,isDataReady,inital]);
 
   //listen when settings.showFirstLetter change
   // useEffect(() => {
@@ -305,7 +304,7 @@ const App = () => {
           />
           <Content
             style={{
-              padding: "50px 50px 20px 50px",
+              padding: "50px 50px 6px 50px",
             }}
           >
             <div className="site-layout-content">
@@ -317,6 +316,7 @@ const App = () => {
                   list[current].unit,
                   list[current].lesson
                 )}
+                book={settings.book}
               />
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Input
@@ -340,6 +340,10 @@ const App = () => {
                         break;
                       case "ArrowDown":
                         handlePressEnter(defaultIput);
+                        break;
+                      case "Alt":
+                        let player = document.getElementById("audio_player");
+                        if (player !== null) player.click();
                         break;
                       default:
                         break;
@@ -423,10 +427,10 @@ const App = () => {
               }}
               onClick={() => {
                 save();
-                window.open("https://a.zjueva.net");
+                window.open("https://mp.weixin.qq.com/s/H9DP3wERAAVlskDohom0xg");
               }}
             >
-              {/* 🔥浙江大学学生E志者协会火热纳新中! */}
+              🔥浙江大学学生E志者协会火热纳新中!
             </div>
           </Footer>
         </Layout>
