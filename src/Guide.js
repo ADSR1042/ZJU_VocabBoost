@@ -18,7 +18,7 @@ export const GuideUser = () => {
           </div>
           <br/>
           <div>
-            输入框内可以按下'Alt'键快捷发音
+            输入框内可以按下'Ctrl'键快捷发音
           </div>
           <br></br>
           <div>

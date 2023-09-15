@@ -341,7 +341,7 @@ const App = () => {
                       case "ArrowDown":
                         handlePressEnter(defaultIput);
                         break;
-                      case "Alt":
+                      case "Control":
                         let player = document.getElementById("audio_player");
                         if (player !== null) player.click();
                         break;
